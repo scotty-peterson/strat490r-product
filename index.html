@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dead Evening</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Auth Modal -->
+  <div id="auth-modal" class="modal-overlay hidden">
+    <div class="modal">
+      <button class="modal-close" onclick="closeAuthModal()">×</button>
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="signin" onclick="switchAuthTab('signin')">Sign In</button>
+        <button class="auth-tab" data-tab="signup" onclick="switchAuthTab('signup')">Sign Up</button>
+      </div>
+      <div id="signin-form" class="auth-form">
+        <h2>Welcome back</h2>
+        <input type="email" id="signin-email" placeholder="Email" autocomplete="email">
+        <input type="password" id="signin-password" placeholder="Password" autocomplete="current-password">
+        <button class="btn-primary" onclick="signIn()">Sign In</button>
+        <p id="signin-error" class="auth-error hidden"></p>
+      </div>
+      <div id="signup-form" class="auth-form hidden">
+        <h2>Create account</h2>
+        <input type="email" id="signup-email" placeholder="Email" autocomplete="email">
+        <input type="password" id="signup-password" placeholder="Password (min 6 chars)" autocomplete="new-password">
+        <button class="btn-primary" onclick="signUp()">Sign Up</button>
+        <p id="signup-error" class="auth-error hidden"></p>
+        <p id="signup-success" class="auth-success hidden">Check your email to confirm, then sign in!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- App -->
+  <div class="app">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <span class="logo-icon">🌙</span>
+        <div>
+          <h1 class="logo-title">The Dead Evening</h1>
+          <p class="logo-sub">Provo evenings, sorted.</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <div id="auth-signed-out" class="auth-state">
+          <button class="btn-ghost" onclick="openAuthModal()">Sign in</button>
+        </div>
+        <div id="auth-signed-in" class="auth-state hidden">
+          <span id="user-email" class="user-email"></span>
+          <button class="btn-ghost" onclick="signOut()">Sign out</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Nav -->
+    <nav class="tab-nav">
+      <button class="nav-btn active" data-view="browse" onclick="switchView('browse')">
+        ✦ Browse
+      </button>
+      <button class="nav-btn" data-view="saved" onclick="switchView('saved')">
+        ♡ Saved
+      </button>
+    </nav>
+
+    <!-- Browse View -->
+    <div id="browse-view" class="view">
+      <div class="filters">
+        <div class="filter-group">
+          <span class="filter-label">Energy</span>
+          <div class="filter-pills">
+            <button class="pill active" data-filter="energy" data-value="all" onclick="setFilter('energy','all',this)">All</button>
+            <button class="pill" data-filter="energy" data-value="low" onclick="setFilter('energy','low',this)">Low</button>
+            <button class="pill" data-filter="energy" data-value="medium" onclick="setFilter('energy','medium',this)">Med</button>
+            <button class="pill" data-filter="energy" data-value="high" onclick="setFilter('energy','high',this)">High</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Time</span>
+          <div class="filter-pills">
+            <button class="pill active" data-filter="time" data-value="all" onclick="setFilter('time','all',this)">All</button>
+            <button class="pill" data-filter="time" data-value="quick" onclick="setFilter('time','quick',this)">Quick</button>
+            <button class="pill" data-filter="time" data-value="hour" onclick="setFilter('time','hour',this)">~1 hr</button>
+            <button class="pill" data-filter="time" data-value="long" onclick="setFilter('time','long',this)">Long</button>
+          </div>
+        </div>
+      </div>
+      <div id="activities-grid" class="activities-grid">
+        <p class="loading">Finding your evening...</p>
+      </div>
+    </div>
+
+    <!-- Saved View -->
+    <div id="saved-view" class="view hidden">
+      <div id="saved-content"></div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "The Dead Evening",
+  "short_name": "Dead Evening",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0d15",
+  "theme_color": "#0f0d15",
+  "description": "Find reliable, time-appropriate things to do tonight."
+}

@@ -1,0 +1,4988 @@
+[
+  {
+    "id": "communal-farm-to-table",
+    "title": "Farm-to-Table Dinner at Communal",
+    "description": "Share a communal dining experience at one of Provo's most beloved restaurants on Center Street. The seasonal menu features locally sourced ingredients served family-style, making it perfect for couples who love trying a little of everything.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 60,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "fine-dining",
+      "downtown-provo",
+      "farm-to-table",
+      "date-night"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Communal",
+    "address": "102 N University Ave, Provo, UT 84601",
+    "proTip": "Make a reservation \u2014 this place fills up fast on weekends. Ask for a table by the window for the best ambiance."
+  },
+  {
+    "id": "black-sheep-cafe-navajo",
+    "title": "Navajo-Inspired Eats at Black Sheep Cafe",
+    "description": "Try a truly unique Provo dining experience featuring Navajo-inspired dishes like frybread tacos and juniper-rubbed meats. The intimate setting on Center Street creates a warm, conversation-friendly atmosphere for date night.",
+    "estimatedTimeMinutes": 75,
+    "timeRange": "120",
+    "estimatedCostDollars": 45,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "navajo-cuisine",
+      "downtown-provo",
+      "unique-dining",
+      "center-street"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Black Sheep Cafe",
+    "address": "19 N University Ave, Provo, UT 84601",
+    "proTip": "Start with the Navajo frybread appetizer \u2014 it's legendary. Pair it with one of their house-made sodas."
+  },
+  {
+    "id": "india-palace-feast",
+    "title": "Curry Night at India Palace",
+    "description": "Share platters of tikka masala, garlic naan, and samosas at Provo's go-to Indian spot. The lunch buffet is an incredible deal, but dinner lets you customize your spice levels and try their tandoori specialties.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 30,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "indian-food",
+      "buffet",
+      "south-provo",
+      "international"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "India Palace",
+    "address": "98 W Center St, Provo, UT 84601",
+    "proTip": "Hit the lunch buffet for the best value \u2014 you both eat for around $25 total and get to sample everything."
+  },
+  {
+    "id": "station-22-brunch",
+    "title": "Weekend Brunch at Station 22",
+    "description": "Enjoy trendy brunch vibes at Station 22 in the historic downtown Provo area. Their avocado toast, breakfast burritos, and specialty lattes make this the perfect low-key morning date.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 25,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "brunch",
+      "coffee",
+      "downtown-provo",
+      "weekend"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Station 22 Cafe",
+    "address": "22 W Center St, Provo, UT 84601",
+    "proTip": "Go early on Saturday mornings to beat the post-church crowd. Their seasonal drinks are always worth trying."
+  },
+  {
+    "id": "gurus-cafe-date",
+    "title": "Eclectic Dinner at Guru's Cafe",
+    "description": "Enjoy the funky, colorful atmosphere of Guru's on Center Street with their eclectic menu spanning Mediterranean wraps, Indian curry bowls, and hearty burgers. The laid-back vibe is perfect for a casual date night.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 22,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "eclectic",
+      "downtown-provo",
+      "casual-dining",
+      "center-street"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Guru's Cafe",
+    "address": "45 E Center St, Provo, UT 84606",
+    "proTip": "Try the Power Bowl if you want something healthy, or go for the Guru Burger if you're feeling indulgent."
+  },
+  {
+    "id": "cupbop-korean-bowls",
+    "title": "Korean BBQ Bowls at Cupbop",
+    "description": "Grab customizable Korean BBQ bowls loaded with your choice of protein, spice level, and toppings. It's fast, affordable, and packed with bold flavors that make for a fun, casual date.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "korean-food",
+      "quick-bite",
+      "affordable",
+      "spicy"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Cupbop",
+    "address": "1774 N University Pkwy, Provo, UT 84604",
+    "proTip": "Challenge each other to go one spice level higher than you normally would. The extra spicy is no joke."
+  },
+  {
+    "id": "waffle-love-dessert",
+    "title": "Gourmet Waffles at Waffle Love",
+    "description": "Split a Lehi loaded waffle topped with fresh strawberries and Biscoff cookie butter for a sweet date treat. Waffle Love's creative toppings and Belgian-style waffles make every visit feel like a celebration.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "waffles",
+      "dessert",
+      "sweet-treat",
+      "instagram-worthy"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Waffle Love",
+    "address": "1349 S State St, Orem, UT 84097",
+    "proTip": "Share one waffle \u2014 they're massive. The Lehi is the fan favorite for good reason."
+  },
+  {
+    "id": "jinya-ramen-date",
+    "title": "Cozy Ramen Night at Jinya",
+    "description": "Slurp steaming bowls of authentic tonkotsu ramen at Jinya in Orem. The rich, slow-simmered broth and customizable toppings make this the ultimate comfort food date, especially on cold Utah nights.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 30,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "ramen",
+      "japanese",
+      "comfort-food",
+      "orem"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Jinya Ramen Bar",
+    "address": "575 E University Pkwy, Orem, UT 84097",
+    "proTip": "Order the Tonkotsu Black and add the soft-boiled egg. Ask for extra noodles \u2014 they give you a refill for cheap."
+  },
+  {
+    "id": "betos-late-night-run",
+    "title": "Late-Night Burrito Run to Beto's",
+    "description": "Hit up Beto's for an oversized burrito that you can split on the hood of your car in the parking lot. This is the quintessential Provo late-night food experience and a rite of passage for local couples.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "mexican-food",
+      "late-night",
+      "cheap-eats",
+      "provo-classic"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Beto's Mexican Food",
+    "address": "1596 S State St, Orem, UT 84097",
+    "proTip": "The California burrito is the move. Go after 10pm for the authentic late-night Beto's experience."
+  },
+  {
+    "id": "crumbl-cookies-tasting",
+    "title": "Weekly Cookie Tasting at Crumbl",
+    "description": "Grab a box of Crumbl's rotating weekly flavors and do a couples cookie ranking at home or in the car. Since the flavors change every week, this is a date you can repeat endlessly without it getting old.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "cookies",
+      "dessert",
+      "ranking-game",
+      "sweet-treat"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Crumbl Cookies",
+    "address": "4801 N University Ave, Provo, UT 84604",
+    "proTip": "Buy the 4-pack and rank each flavor independently, then compare notes. It sparks surprisingly passionate debates."
+  },
+  {
+    "id": "handels-ice-cream-stroll",
+    "title": "Ice Cream Stroll with Handel's",
+    "description": "Pick up hand-dipped scoops at Handel's and take a leisurely walk together. Their homemade ice cream has dozens of rich flavors that taste like they came straight from a small-town parlor.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "30",
+    "estimatedCostDollars": 9,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "ice-cream",
+      "walking",
+      "dessert",
+      "summer"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Handel's Homemade Ice Cream",
+    "address": "4801 N University Ave Suite 100, Provo, UT 84604",
+    "proTip": "Try the Chocolate Pecan if you like nutty flavors. Ask for a sample before committing \u2014 they're generous with tastings."
+  },
+  {
+    "id": "boba-crawl-center-street",
+    "title": "Boba Crawl Down Center Street",
+    "description": "Hit up three different boba shops along Center Street and rate each one. Compare flavors, toppings, and vibes as you walk between spots hand-in-hand through downtown Provo.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "boba",
+      "downtown-provo",
+      "walking",
+      "food-crawl"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Center Street, Provo",
+    "proTip": "Start at the north end and work your way south so you end near the parking."
+  },
+  {
+    "id": "food-truck-roundup",
+    "title": "Food Truck Roundup Adventure",
+    "description": "Track down Provo's rotating food trucks and split a few different dishes from different vendors. Check social media for truck locations \u2014 they often cluster near the Startup Building or BYU campus.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "outdoor",
+    "category": "food-drink",
+    "tags": [
+      "food-trucks",
+      "street-food",
+      "adventurous",
+      "local"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Various locations, Provo",
+    "proTip": "Follow @provocityevents on Instagram for weekly food truck roundup locations and schedules."
+  },
+  {
+    "id": "bake-off-challenge",
+    "title": "Couples Bake-Off Challenge",
+    "description": "Pick a recipe neither of you has tried before and race to see who can make the better version. Set a timer, judge each other's creations, and enjoy the delicious (or hilarious) results together.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "baking",
+      "at-home",
+      "competition",
+      "creative"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Use only ingredients you already have for maximum chaos and creativity. Set a strict 45-minute time limit."
+  },
+  {
+    "id": "cooking-class-at-home",
+    "title": "YouTube Cooking Class at Home",
+    "description": "Pick a YouTube cooking tutorial for a cuisine you've never tried and follow along together. It's cheaper than a real cooking class and you can pause and rewind when things get messy.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "cooking",
+      "at-home",
+      "learning",
+      "international"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Try making homemade pasta or sushi rolls \u2014 they're impressive but surprisingly doable with a good tutorial."
+  },
+  {
+    "id": "mystery-ingredient-challenge",
+    "title": "Mystery Ingredient Cooking Challenge",
+    "description": "Each person picks three random ingredients from the fridge and the other has to make a dish using all of them. It's a hilarious at-home Chopped episode that always produces unexpected results.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "cooking-challenge",
+      "at-home",
+      "funny",
+      "competition"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Set a 30-minute timer to keep it exciting. Judge on presentation, taste, and creativity."
+  },
+  {
+    "id": "international-grocery-tour",
+    "title": "International Grocery Store Tour",
+    "description": "Explore the Asian or Latin grocery stores around Provo and pick out snacks or ingredients you've never tried before. Then head home and taste-test everything together for a mini food adventure.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "international",
+      "grocery",
+      "snack-tasting",
+      "adventurous"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "East West Market",
+    "address": "465 N Freedom Blvd, Provo, UT 84601",
+    "proTip": "Set a budget of $10 each and see who can find the most interesting or weird snack. Bonus points for something neither of you can read the label on."
+  },
+  {
+    "id": "coffee-shop-hopping",
+    "title": "Provo Coffee Shop Hop",
+    "description": "Visit three of Provo's best coffee and hot chocolate spots in one afternoon. Try a different specialty drink at each and rate the vibes, music, and seating at every stop.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 18,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "coffee",
+      "cafe-hopping",
+      "downtown-provo",
+      "drinks"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Various cafes, Downtown Provo",
+    "proTip": "Start at Rugged Grounds, then hit The Chocolate, and finish at a spot on Center Street. Bring a notebook to rate each one."
+  },
+  {
+    "id": "homemade-pizza-night",
+    "title": "Homemade Pizza Night",
+    "description": "Make pizza dough from scratch and set up a topping bar with whatever you have in the fridge. Each person creates their own pizza and you vote on whose turned out better while binge-watching something together.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "pizza",
+      "at-home",
+      "cooking",
+      "movie-night"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Let the dough rise for at least an hour for the best crust. Preheat your oven as hot as it goes for that crispy bottom."
+  },
+  {
+    "id": "dessert-sampler-crawl",
+    "title": "Dessert Sampler Crawl",
+    "description": "Hit up three dessert spots in one evening \u2014 start with Crumbl cookies, then Handel's ice cream, and finish with a churro from a food truck. Split everything so you don't go into a sugar coma.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "dessert-crawl",
+      "sweets",
+      "food-tour",
+      "walking"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Various, Provo/Orem",
+    "proTip": "Order one item at each stop and split it. You'll get to try more without overdoing it."
+  },
+  {
+    "id": "sushi-date-night",
+    "title": "Sushi Date Night",
+    "description": "Share a sushi boat or try an assorted roll platter at one of Provo's sushi spots. The shared plate format makes sushi naturally social and romantic as you try different pieces together.",
+    "estimatedTimeMinutes": 75,
+    "timeRange": "120",
+    "estimatedCostDollars": 40,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "sushi",
+      "japanese",
+      "date-night",
+      "seafood"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Sushi Burrito",
+    "address": "1283 N University Ave, Provo, UT 84604",
+    "proTip": "Order one adventurous roll you've never tried alongside your favorites. It makes the meal more fun."
+  },
+  {
+    "id": "taco-tuesday-tour",
+    "title": "Taco Tuesday Tour",
+    "description": "Hit two or three taco spots in Provo on a Tuesday for the best deals and freshest tortillas. Start on State Street where the authentic taquerias cluster together for easy walking.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 12,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "tacos",
+      "food-tour",
+      "mexican-food",
+      "tuesday-deal"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "State Street taquerias, Provo",
+    "proTip": "Get two tacos at each stop instead of a full meal. Al pastor and carne asada are the true tests of a good taqueria."
+  },
+  {
+    "id": "smoothie-bowl-date",
+    "title": "Smoothie Bowl Morning Date",
+    "description": "Start your morning together with colorful acai or pitaya smoothie bowls loaded with fresh fruit and granola. It's a healthy, low-key breakfast date that feels effortlessly trendy.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "smoothie-bowls",
+      "breakfast",
+      "healthy",
+      "morning-date"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Bowls and Rolls",
+    "address": "1283 N University Ave, Provo, UT 84604",
+    "proTip": "Go right when they open for the freshest ingredients and zero wait time."
+  },
+  {
+    "id": "fondue-night-home",
+    "title": "At-Home Fondue Night",
+    "description": "Melt chocolate or cheese in a pot on the stove and dip everything from strawberries and marshmallows to bread and pretzels. It's inherently romantic, interactive, and way cheaper than a fondue restaurant.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "fondue",
+      "at-home",
+      "romantic",
+      "chocolate"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Use a mix of milk and dark chocolate chips with a splash of heavy cream for the richest dipping sauce."
+  },
+  {
+    "id": "thai-food-adventure",
+    "title": "Thai Food Adventure",
+    "description": "Dive into a shared plate of pad thai, green curry, and mango sticky rice at one of Provo's Thai restaurants. The bold flavors and family-style portions make it great for adventurous couples.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 25,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "thai-food",
+      "international",
+      "spicy",
+      "dinner"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Savory Thai Kitchen",
+    "address": "116 W Center St, Provo, UT 84601",
+    "proTip": "Order one dish mild and one dish spicy so you can compare. Always get the mango sticky rice for dessert."
+  },
+  {
+    "id": "pizza-and-arcade",
+    "title": "Pizza and Arcade Night",
+    "description": "Grab slices of pizza and compete at arcade games for a nostalgic throwback date. The combination of good food and friendly competition creates an energy that's hard to beat.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "pizza",
+      "arcade",
+      "games",
+      "nostalgic"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Nickel City",
+    "address": "1515 S State St, Orem, UT 84097",
+    "proTip": "Nickel City games are literally a nickel each. Bring a couple bucks in nickels and you'll play for hours."
+  },
+  {
+    "id": "breakfast-for-dinner",
+    "title": "Breakfast-for-Dinner Date",
+    "description": "Hit up a breakfast joint in the evening for pancakes, eggs, and bacon when everyone else is eating dinner food. It's a playful twist that makes an ordinary meal feel like a mini rebellion.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 18,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "breakfast",
+      "diner",
+      "casual",
+      "comfort-food"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Joe's Cafe",
+    "address": "353 W Center St, Provo, UT 84601",
+    "proTip": "Go to a spot that serves breakfast all day. Order what you'd never order in the morning \u2014 it hits different at 7pm."
+  },
+  {
+    "id": "diy-charcuterie-board",
+    "title": "DIY Charcuterie Board Night",
+    "description": "Build a gorgeous charcuterie board together using premium cheeses, artisan crackers, seasonal fruit, and imported cured meats from a specialty grocery store. Put on some music, pour some sparkling cider, and enjoy your edible art.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 30,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "charcuterie",
+      "at-home",
+      "wine-night",
+      "creative"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Hit the Trader Joe's or Aldi cheese section for affordable variety. A wooden cutting board instantly makes everything look fancy."
+  },
+  {
+    "id": "provo-bakery-crawl",
+    "title": "Provo Bakery Crawl",
+    "description": "Visit two or three local bakeries and split pastries at each stop. From croissants to cinnamon rolls to empanadas, Provo's bakery scene has more variety than most people realize.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "adventurous"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "bakery",
+      "pastries",
+      "food-crawl",
+      "morning-date"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Various bakeries, Provo",
+    "proTip": "Start early \u2014 the best stuff sells out by noon. Provo Bakery on Freedom Blvd is a must-stop for their glazed donuts."
+  },
+  {
+    "id": "fancy-hot-chocolate",
+    "title": "Fancy Hot Chocolate Date",
+    "description": "Skip the Swiss Miss and treat yourselves to gourmet hot chocolate at The Chocolate in Orem. They make European-style drinking chocolate that's rich, thick, and perfect for cold Provo nights.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "30",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "hot-chocolate",
+      "winter",
+      "cozy",
+      "drinks"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "The Chocolate",
+    "address": "212 S State St, Orem, UT 84058",
+    "proTip": "Try the dark chocolate variety if you want something intense. Pair it with one of their fresh truffles."
+  },
+  {
+    "id": "steak-night-splurge",
+    "title": "Steak Night Splurge",
+    "description": "Treat yourselves to a proper steak dinner at one of Provo's upscale spots. Sometimes a date calls for white tablecloths, perfectly cooked ribeyes, and zero phone scrolling.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 75,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "steak",
+      "upscale",
+      "special-occasion",
+      "dinner"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Tucanos Brazilian Grill",
+    "address": "4801 N University Ave, Provo, UT 84604",
+    "proTip": "Don't fill up on the salad bar \u2014 pace yourself so you can enjoy all the meat options. Save room for the grilled pineapple."
+  },
+  {
+    "id": "midnight-diner-date",
+    "title": "Midnight Diner Date",
+    "description": "Find a late-night diner and order milkshakes and fries after everyone else has gone to bed. There's something magical about fluorescent-lit booths and empty parking lots at midnight.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "late-night",
+      "diner",
+      "milkshakes",
+      "nostalgic"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Denny's Provo",
+    "address": "1575 S State St, Orem, UT 84097",
+    "proTip": "Go after 11pm when it's nearly empty. Order breakfast food at midnight \u2014 it hits completely different."
+  },
+  {
+    "id": "italian-soda-bar",
+    "title": "DIY Italian Soda Bar",
+    "description": "Stock up on a variety of Torani syrup flavors, sparkling water, fresh fruit garnishes, and cream from the store and set up an elaborate Italian soda bar at home. Experiment with layered flavor combos and crown a winner.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 35,
+    "budgetTier": "splurge",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "food-drink",
+    "tags": [
+      "italian-soda",
+      "at-home",
+      "creative",
+      "drinks"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "At Home",
+    "proTip": "Raspberry, coconut, and peach are the classic combos. Add a splash of cream to make them extra smooth."
+  },
+  {
+    "id": "sunset-hike-rock-canyon",
+    "title": "Sunset Hike Through Rock Canyon",
+    "description": "Take in stunning views of Utah Valley as the sun dips behind the mountains. Rock Canyon offers well-maintained trails for all fitness levels with gorgeous golden hour light filtering through the canyon walls.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "adventurous",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "hiking",
+      "nature",
+      "scenic",
+      "east-provo"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Trailhead",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Go about 45 minutes before sunset for the best colors. Bring a jacket \u2014 it cools off fast once the sun drops."
+  },
+  {
+    "id": "y-mountain-hike",
+    "title": "Hike to the Y on Y Mountain",
+    "description": "Tackle the iconic switchback trail up to the massive white Y on the mountainside above BYU campus. The 1.2-mile climb is steep but the panoramic views of the entire valley at the top are totally worth the burn.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "hiking",
+      "iconic",
+      "byu",
+      "scenic"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Y Mountain Trailhead",
+    "address": "E 820 N, Provo, UT 84604",
+    "proTip": "Start early in the morning to avoid the afternoon heat and crowds. Bring more water than you think you need \u2014 the switchbacks are relentless."
+  },
+  {
+    "id": "bridal-veil-falls-visit",
+    "title": "Walk to Bridal Veil Falls",
+    "description": "Take the short, paved walk along the Provo River to the stunning 607-foot double cataract waterfall in Provo Canyon. The mist from the falls creates a refreshing microclimate that feels magical on warm days.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "waterfall",
+      "provo-canyon",
+      "easy-walk",
+      "scenic"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Bridal Veil Falls",
+    "address": "Bridal Veil Falls Rd, Provo, UT 84604",
+    "proTip": "Visit in spring when the snowmelt makes the falls absolutely thunderous. Bring a light rain jacket \u2014 you will get misty."
+  },
+  {
+    "id": "provo-canyon-scenic-drive",
+    "title": "Scenic Drive Through Provo Canyon",
+    "description": "Cruise through Provo Canyon with the windows down, following the winding road past towering cliffs and the Provo River. Stop at pulloffs for photos and keep going all the way to Sundance or Heber if you're feeling adventurous.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "scenic-drive",
+      "provo-canyon",
+      "road-trip",
+      "fall-foliage"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Provo Canyon (US-189)",
+    "proTip": "Peak fall colors hit in late September through mid-October. Go on a weekday to avoid traffic."
+  },
+  {
+    "id": "utah-lake-sunset",
+    "title": "Sunset at Utah Lake State Park",
+    "description": "Drive to Utah Lake State Park and watch the sun set over the water with the mountains framing the sky. Bring a blanket, sit on the shore, and enjoy one of the most underrated sunset spots in the valley.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "sunset",
+      "lake",
+      "relaxing",
+      "west-provo"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Utah Lake State Park",
+    "address": "4400 W Center St, Provo, UT 84601",
+    "proTip": "Bring mosquito spray in summer. Park near the marina for the widest unobstructed sunset views."
+  },
+  {
+    "id": "stargazing-squaw-peak",
+    "title": "Stargazing at Squaw Peak Overlook",
+    "description": "Drive up to Squaw Peak overlook for one of the best stargazing spots in Utah County. Bring a blanket, hot chocolate, and a star chart app on your phone for an incredibly romantic evening under the cosmos.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "stargazing",
+      "scenic",
+      "provo-canyon",
+      "night"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Squaw Peak Overlook",
+    "address": "Squaw Peak Rd, Provo, UT 84604",
+    "proTip": "Go on a clear night with a new moon for the best visibility. Bring extra blankets \u2014 it's always colder up there than you think."
+  },
+  {
+    "id": "hobble-creek-canyon-picnic",
+    "title": "Picnic in Hobble Creek Canyon",
+    "description": "Pack sandwiches, fruit, and drinks and head to one of the shaded picnic spots in Hobble Creek Canyon south of Springville. It's quieter and less crowded than Provo Canyon, making it feel like your own private escape.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "picnic",
+      "canyon",
+      "peaceful",
+      "springville"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Hobble Creek Canyon",
+    "address": "Hobble Creek Canyon Rd, Springville, UT 84663",
+    "proTip": "The Jolley's Ranch area has the best picnic tables and shade. Pack out all your trash \u2014 keep this hidden gem clean."
+  },
+  {
+    "id": "provo-river-trail-walk",
+    "title": "Walk Along the Provo River Trail",
+    "description": "Stroll hand-in-hand along the paved Provo River Parkway that stretches through the heart of the city. The trail follows the river through cottonwood trees, parks, and quiet stretches perfect for deep conversation.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "walking",
+      "river-trail",
+      "easy",
+      "year-round"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo River Parkway",
+    "address": "800 S University Ave, Provo, UT 84601",
+    "proTip": "Start near the BYU campus section for the most scenic and shaded portions of the trail."
+  },
+  {
+    "id": "timpanogos-cave-hike",
+    "title": "Timpanogos Cave National Monument Hike",
+    "description": "Hike the 1.5-mile trail up to the Timpanogos Cave system and take the guided tour through stunning underground formations. The cave stays a cool 45 degrees year-round, offering a refreshing escape from summer heat.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "cave",
+      "national-monument",
+      "hiking",
+      "guided-tour"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Timpanogos Cave National Monument",
+    "address": "2038 Alpine Loop Rd, American Fork, UT 84003",
+    "proTip": "Book tickets online in advance \u2014 they sell out fast in summer. The trail is steep so wear good shoes and bring water."
+  },
+  {
+    "id": "rock-canyon-picnic",
+    "title": "Picnic at Rock Canyon Park",
+    "description": "Lay out a blanket on the grass at Rock Canyon Park with views of the Wasatch Mountains towering above you. Pack simple snacks and enjoy the wide open space, playground sounds, and mountain breeze.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "picnic",
+      "park",
+      "mountain-views",
+      "relaxing"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Park",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "The east side of the park closest to the canyon mouth has the best mountain views and fewer people."
+  },
+  {
+    "id": "provo-river-fly-fishing",
+    "title": "Fly Fishing on the Provo River",
+    "description": "Try your hand at fly fishing together on the famous middle Provo River. Even if you don't catch anything, standing in a mountain river casting lines side by side is a peaceful and memorable experience.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 30,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "fishing",
+      "provo-river",
+      "peaceful",
+      "nature"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Middle Provo River",
+    "address": "Provo Canyon, US-189, Provo, UT",
+    "proTip": "Rent gear from a local fly shop in Provo Canyon. The shop employees will tell you exactly where the fish are biting."
+  },
+  {
+    "id": "bike-ride-provo-river-trail",
+    "title": "Bike Ride Along the Provo River Parkway",
+    "description": "Rent bikes or bring your own and ride the paved Provo River Parkway trail that stretches for miles through town. The flat terrain and riverside scenery make it enjoyable even if you're not serious cyclists.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "biking",
+      "river-trail",
+      "active",
+      "scenic"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo River Parkway",
+    "address": "500 W Center St, Provo, UT 84601",
+    "proTip": "Ride south toward Utah Lake for a more mellow route with fewer people. Bring a bike lock so you can stop and explore."
+  },
+  {
+    "id": "alpine-loop-drive",
+    "title": "Alpine Loop Scenic Drive",
+    "description": "Drive the breathtaking Alpine Loop connecting Provo Canyon to American Fork Canyon through winding mountain roads surrounded by aspen and pine forests. In fall, the golden aspens make this one of the most spectacular drives in Utah.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 6,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "scenic-drive",
+      "alpine-loop",
+      "fall-foliage",
+      "mountains"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Alpine Loop Scenic Byway",
+    "address": "Alpine Loop Rd, Provo, UT 84604",
+    "proTip": "Peak fall colors are usually the last week of September. Stop at Sundance for a quick look around and a hot cider."
+  },
+  {
+    "id": "sunrise-squaw-peak",
+    "title": "Sunrise at Squaw Peak",
+    "description": "Set an early alarm and drive up to Squaw Peak to watch the sun rise over the valley below. Bring coffee in a thermos and a blanket to sit on, and watch the entire Utah Valley light up in orange and gold.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "sunrise",
+      "scenic",
+      "early-morning",
+      "provo-canyon"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Squaw Peak Overlook",
+    "address": "Squaw Peak Rd, Provo, UT 84604",
+    "proTip": "Check the sunrise time the night before and arrive 20 minutes early. The pre-dawn colors are just as beautiful as the actual sunrise."
+  },
+  {
+    "id": "utah-lake-kayaking",
+    "title": "Kayaking on Utah Lake",
+    "description": "Rent a tandem kayak and paddle around Utah Lake together with mountain views in every direction. The calm waters make it beginner-friendly and the wide-open space feels wonderfully freeing.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 40,
+    "budgetTier": "splurge",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "kayaking",
+      "utah-lake",
+      "water-sports",
+      "summer"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Utah Lake State Park Marina",
+    "address": "4400 W Center St, Provo, UT 84601",
+    "proTip": "Go in the morning before the afternoon wind kicks up. Bring sunscreen and a dry bag for your phones."
+  },
+  {
+    "id": "hobble-creek-canyon-drive",
+    "title": "Hobble Creek Canyon Fall Drive",
+    "description": "Take the scenic drive through Hobble Creek Canyon when the leaves are turning for a quieter alternative to Provo Canyon. The narrow road winds through thick forest canopy that glows amber and red in autumn.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "scenic-drive",
+      "fall-foliage",
+      "hobble-creek",
+      "peaceful"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Hobble Creek Canyon",
+    "address": "Hobble Creek Canyon Rd, Springville, UT 84663",
+    "proTip": "Drive the full length and keep going over the pass to Nebo Loop for an extended adventure."
+  },
+  {
+    "id": "rock-canyon-bouldering",
+    "title": "Bouldering in Rock Canyon",
+    "description": "Try bouldering on the beginner-friendly rock formations near the mouth of Rock Canyon. No ropes needed \u2014 just climbing shoes, a crash pad, and a willingness to try something new together.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "bouldering",
+      "climbing",
+      "rock-canyon",
+      "active"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Bouldering Area",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Borrow a crash pad from a friend or rent from a local gear shop. Start with the easy traverses near the parking area."
+  },
+  {
+    "id": "night-drive-provo-canyon",
+    "title": "Night Drive Through Provo Canyon",
+    "description": "Roll the windows down and cruise through Provo Canyon at night with your favorite playlist on. Stop at a pulloff to listen to the river rushing in the darkness and look up at the stars framed by canyon walls.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "night-drive",
+      "provo-canyon",
+      "music",
+      "romantic"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Provo Canyon (US-189)",
+    "proTip": "Watch for deer on the road at night. Stop at Bridal Veil Falls pulloff \u2014 you can hear the waterfall even in the dark."
+  },
+  {
+    "id": "spring-wildflower-hike",
+    "title": "Spring Wildflower Hike",
+    "description": "Hike the lower trails of Rock Canyon or the foothills above Provo in late April through May when the wildflowers are in full bloom. The hillsides covered in purple, yellow, and white blossoms feel straight out of a painting.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "wildflowers",
+      "spring",
+      "hiking",
+      "photography"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Foothills",
+    "address": "East Provo foothills near 2200 N",
+    "proTip": "Bring a wildflower identification app and see how many species you can find together. Late April is usually peak bloom."
+  },
+  {
+    "id": "sundance-ski-lift",
+    "title": "Scenic Lift Ride at Sundance",
+    "description": "Ride the ski lift at Sundance Mountain Resort during summer or fall for sweeping views of Mount Timpanogos and the surrounding peaks. It's an effortless way to get stunning alpine scenery without a strenuous hike.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 30,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "sundance",
+      "ski-lift",
+      "mountain-views",
+      "scenic"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Sundance Mountain Resort",
+    "address": "8841 N Alpine Loop Rd, Sundance, UT 84604",
+    "proTip": "Go during fall for the aspen colors. Pack a light jacket \u2014 it's noticeably cooler at the top."
+  },
+  {
+    "id": "utah-lake-sunset-paddleboard",
+    "title": "Sunset Paddleboarding on Utah Lake",
+    "description": "Rent stand-up paddleboards and glide across the glassy evening waters of Utah Lake as the sun sets. The calm pre-sunset conditions are ideal for beginners and the colors reflecting off the water are unforgettable.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 40,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "paddleboarding",
+      "utah-lake",
+      "sunset",
+      "water-sports"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Utah Lake State Park",
+    "address": "4400 W Center St, Provo, UT 84601",
+    "proTip": "Go about 2 hours before sunset so you have time to get comfortable on the board before the golden hour light hits."
+  },
+  {
+    "id": "squaw-peak-overlook-hike",
+    "title": "Hike to Squaw Peak Summit",
+    "description": "Take on the challenging but rewarding hike past the overlook all the way to the summit of Squaw Peak for 360-degree views of Utah Valley, Provo Canyon, and the Wasatch Range. This is a serious hike that'll give you both an accomplishment to celebrate.",
+    "estimatedTimeMinutes": 240,
+    "timeRange": "180+",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "hiking",
+      "summit",
+      "challenging",
+      "mountain-views"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Squaw Peak Trail",
+    "address": "Squaw Peak Rd, Provo, UT 84604",
+    "proTip": "Start by 7am to avoid afternoon thunderstorms. Bring lunch to eat at the top \u2014 you've earned it."
+  },
+  {
+    "id": "timpanogos-falls-hike",
+    "title": "Hike to Timpanogos Falls via Aspen Grove",
+    "description": "Hike through aspen forests and alpine meadows on the Aspen Grove trail toward the Timpanogos glacier basin. Even if you don't summit, the waterfalls and wildflowers along the lower portions are absolutely spectacular.",
+    "estimatedTimeMinutes": 240,
+    "timeRange": "180+",
+    "estimatedCostDollars": 6,
+    "budgetTier": "under10",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "hiking",
+      "timpanogos",
+      "waterfalls",
+      "alpine"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Aspen Grove Trailhead",
+    "address": "Alpine Loop Rd, Provo, UT 84604",
+    "proTip": "Get there before 8am for parking \u2014 it fills up completely by mid-morning on summer weekends."
+  },
+  {
+    "id": "campfire-evening-canyon",
+    "title": "Campfire Evening in the Canyon",
+    "description": "Reserve a fire pit at one of the canyon campgrounds and spend the evening roasting marshmallows and telling stories around the fire. You don't need to camp overnight to enjoy a campfire date.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "campfire",
+      "s'mores",
+      "canyon",
+      "evening"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "South Fork Park, Provo Canyon",
+    "address": "South Fork, Provo Canyon, UT",
+    "proTip": "Bring firewood from a gas station \u2014 don't collect wood from the campground. Pack chocolate, graham crackers, and marshmallows for proper s'mores."
+  },
+  {
+    "id": "full-moon-hike",
+    "title": "Full Moon Hike",
+    "description": "Time your hike with the full moon and head up a familiar trail after dark with the moon lighting your way. Rock Canyon and the Y Mountain trail are both manageable by moonlight and feel completely transformed at night.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "adventurous",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "night-hike",
+      "full-moon",
+      "adventurous",
+      "romantic"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Rock Canyon or Y Mountain Trail",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Check the lunar calendar and pick a clear night. Bring a headlamp as backup but try hiking with just moonlight \u2014 it's surprisingly bright."
+  },
+  {
+    "id": "hammock-provo-canyon",
+    "title": "Hammocking by the River",
+    "description": "String up a hammock between two trees along the Provo River and spend an afternoon reading, napping, or just talking while the river flows by. Bring a second hammock or a double so you can lay side by side.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "hammocking",
+      "river",
+      "relaxing",
+      "provo-canyon"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Vivian Park, Provo Canyon",
+    "address": "Vivian Park, Provo Canyon, UT 84604",
+    "proTip": "Vivian Park has great trees spaced perfectly for hammocks right along the river. Bring a bluetooth speaker for background music."
+  },
+  {
+    "id": "deer-creek-reservoir-explore",
+    "title": "Explore Deer Creek Reservoir",
+    "description": "Drive up to Deer Creek Reservoir at the top of Provo Canyon and walk along the shoreline or just sit and watch the sailboats. The turquoise water framed by mountains makes it one of the prettiest spots in the area.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "reservoir",
+      "scenic",
+      "provo-canyon",
+      "water"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Deer Creek State Park",
+    "address": "Deer Creek State Park, Midway, UT 84049",
+    "proTip": "The west side of the reservoir has free pulloffs where you can park and walk to the water without paying the park entrance fee."
+  },
+  {
+    "id": "diy-paint-night-at-home",
+    "title": "DIY Paint Night at Home",
+    "description": "Grab some canvases and acrylic paints from Joann Fabrics on University Ave and set up your own paint night at home. Follow a YouTube tutorial together or freestyle your own masterpieces. Compare your finished paintings at the end for a good laugh.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "painting",
+      "at-home",
+      "art",
+      "cozy"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Joann Fabrics (for supplies)",
+    "address": "1260 N University Ave, Provo, UT 84604",
+    "proTip": "Use Joann's weekly coupon to save 40-60% on canvases and paint sets."
+  },
+  {
+    "id": "color-me-mine-pottery",
+    "title": "Paint Pottery at Color Me Mine",
+    "description": "Pick out a ceramic piece at Color Me Mine in the Riverwoods and paint it together. You'll each walk away with a handmade keepsake that reminds you of the date. The studio fires your pieces so you pick them up a week later, giving you a built-in second date.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 35,
+    "budgetTier": "splurge",
+    "moods": [
+      "creative",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "pottery",
+      "painting",
+      "keepsake",
+      "riverwoods"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Color Me Mine Provo",
+    "address": "4801 N University Ave #60, Provo, UT 84604",
+    "proTip": "Go on a weekday evening to avoid the weekend crowds and get a quieter, more intimate experience."
+  },
+  {
+    "id": "provo-photography-walk",
+    "title": "Couples Photography Walk Downtown",
+    "description": "Walk through downtown Provo's Center Street with your phone cameras and challenge each other to capture the most creative shots. The murals, vintage storefronts, and mountain backdrops make for incredible photos. Set a timer and see who gets the best shot of each other.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "adventurous",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "creative-diy",
+    "tags": [
+      "photography",
+      "downtown",
+      "walking",
+      "free"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Center Street, Downtown Provo",
+    "address": "Center St, Provo, UT 84601",
+    "proTip": "Golden hour hits beautifully along Center Street with the mountains in the background, so plan to go about an hour before sunset."
+  },
+  {
+    "id": "playlist-making-date",
+    "title": "Build the Ultimate Couples Playlist",
+    "description": "Cozy up together and take turns adding songs to a shared Spotify or Apple Music playlist. Pick a theme like 'songs that remind me of you' or 'road trip vibes' and curate something you'll listen to for months. Grab hot chocolate from The Chocolate or boba from Tea Time to sip while you listen.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "music",
+      "cozy",
+      "free",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Make it a tradition by adding one new song each week to keep the playlist growing with your relationship."
+  },
+  {
+    "id": "tie-dye-party",
+    "title": "Tie-Dye T-Shirt Party",
+    "description": "Grab a tie-dye kit from Joann Fabrics and some plain white tees from the DI thrift store on State Street. Set up outside at a Provo park and get messy making matching or complementary shirts. The results are always a fun surprise when you unwrap them the next day.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "creative-diy",
+    "tags": [
+      "tie-dye",
+      "crafts",
+      "colorful",
+      "messy"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Kiwanis Park (for outdoor space)",
+    "address": "820 N 1100 E, Provo, UT 84604",
+    "proTip": "Bring rubber gloves and old towels unless you want rainbow-stained hands for the next three days."
+  },
+  {
+    "id": "scrapbook-your-relationship",
+    "title": "Scrapbook Your Relationship",
+    "description": "Print out your favorite photos together and create a scrapbook page or mini album documenting your relationship. Grab scrapbook supplies from Joann Fabrics or use what you already have at home. This is a perfect rainy-day date that produces something you'll treasure.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "scrapbooking",
+      "photos",
+      "memories",
+      "cozy"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Joann Fabrics (for supplies)",
+    "address": "1260 N University Ave, Provo, UT 84604",
+    "proTip": "Print photos at the Walmart Photo Center for only $0.09 each to keep costs low."
+  },
+  {
+    "id": "thrift-store-outfit-challenge",
+    "title": "Thrift Store Outfit Challenge",
+    "description": "Head to the DI on State Street or the Provo Deseret Industries with a $5 budget and pick out a complete outfit for each other. The catch is your partner has to wear the outfit to dinner afterward. It's hilarious, creative, and always produces unforgettable photos.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "social",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "thrift",
+      "fashion",
+      "challenge",
+      "funny",
+      "budget"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Deseret Industries (DI)",
+    "address": "1455 S State St, Provo, UT 84606",
+    "proTip": "Set a 15-minute shopping timer to add pressure and make the outfit choices even more chaotic."
+  },
+  {
+    "id": "build-a-blanket-fort",
+    "title": "Build an Epic Blanket Fort",
+    "description": "Gather every blanket, pillow, and fairy light you own and construct the ultimate blanket fort in your living room. Watch a movie, play card games, or just talk inside your cozy creation. This is a Provo winter staple when it's too cold to go outside.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "fort",
+      "cozy",
+      "at-home",
+      "free",
+      "winter"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "String up Christmas lights inside the fort for an extra magical glow and grab snacks from the BYU Creamery."
+  },
+  {
+    "id": "diy-candle-making",
+    "title": "DIY Candle Making Night",
+    "description": "Order a candle-making kit online or grab soy wax and essential oils from Joann Fabrics and make your own custom candles. Pick scents that match your favorite memories together and pour them into mason jars. You'll have a handmade candle that smells like your relationship.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "candles",
+      "diy",
+      "crafts",
+      "cozy",
+      "handmade"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Joann Fabrics (for supplies)",
+    "address": "1260 N University Ave, Provo, UT 84604",
+    "proTip": "Soy wax takes about 24 hours to fully cure, so make the candles one night and have a candle-lit dinner the next."
+  },
+  {
+    "id": "love-letter-writing",
+    "title": "Write Love Letters to Each Other",
+    "description": "Sit across from each other at a cozy Provo coffee shop like The Chocolate and write heartfelt letters to one another. Exchange them when you're done and read them together. It's simple, deeply romantic, and creates a keepsake you'll cherish.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "romantic"
+    ],
+    "setting": "either",
+    "category": "creative-diy",
+    "tags": [
+      "writing",
+      "romantic",
+      "letters",
+      "meaningful"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "The Chocolate",
+    "address": "212 S University Ave, Provo, UT 84601",
+    "proTip": "Buy some nice stationery from the BYU Bookstore to make it feel extra special and frame-worthy."
+  },
+  {
+    "id": "vision-board-date",
+    "title": "Make a Couples Vision Board",
+    "description": "Grab some old magazines from the DI or print images from Pinterest and create a vision board of your goals and dreams together. Lay it all out on poster board and glue everything down at a Provo park or at home. It sparks amazing conversations about your future.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "either",
+    "category": "creative-diy",
+    "tags": [
+      "vision-board",
+      "goals",
+      "future",
+      "crafts"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Hang the finished board somewhere you'll both see it daily to keep your shared goals top of mind."
+  },
+  {
+    "id": "origami-challenge",
+    "title": "Origami Challenge Night",
+    "description": "Pull up origami tutorials on YouTube and challenge each other to fold increasingly difficult designs using colorful paper. Start with cranes and work your way up to flowers, dragons, or modular cubes. Pick up origami paper from the BYU Bookstore for under $5.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 4,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "origami",
+      "paper",
+      "challenge",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "BYU Bookstore (for supplies)",
+    "address": "770 E University Pkwy, Provo, UT 84602",
+    "proTip": "Make 1,000 paper cranes together over multiple date nights for a Japanese tradition said to grant a wish."
+  },
+  {
+    "id": "diy-room-decor",
+    "title": "DIY Room Decor Project",
+    "description": "Pick a DIY room decor project from Pinterest and build it together using supplies from the DI and Joann Fabrics. Whether it's a macrame wall hanging, painted signs, or a photo wall collage, you'll have something handmade for your apartment. Provo apartment living practically demands creative decor solutions.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "decor",
+      "diy",
+      "crafts",
+      "home",
+      "pinterest"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Check the DI's home decor section first since you can often find frames, vases, and fabric for under a dollar each."
+  },
+  {
+    "id": "watercolor-painting-date",
+    "title": "Watercolor Painting at the Park",
+    "description": "Grab a cheap watercolor set and some paper and head to Rock Canyon Park to paint the mountain scenery together. Watercolors are forgiving for beginners and the Provo canyon views provide endless inspiration. Pack a picnic to round out the afternoon.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "creative-diy",
+    "tags": [
+      "watercolor",
+      "painting",
+      "park",
+      "nature"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Park",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Bring a mason jar for water and paper towels for dabbing since there aren't sinks at the park."
+  },
+  {
+    "id": "diy-pizza-from-scratch",
+    "title": "Make Pizza from Scratch Together",
+    "description": "Buy pizza dough ingredients and toppings from Macey's or Smith's and make homemade pizza entirely from scratch. Roll out the dough, toss it if you dare, and customize your own personal pizzas. It's a creative cooking experience that's way more fun than ordering delivery in Provo.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "cooking",
+      "pizza",
+      "homemade",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Use the broiler for the last 2 minutes to get that crispy, slightly charred crust that rivals Mozz."
+  },
+  {
+    "id": "star-map-diy",
+    "title": "Create a Custom Star Map",
+    "description": "Use a free online star map generator to create a printable map of the night sky from a date that's meaningful to you, like when you first met. Print it out at the BYU library and frame it with a cheap frame from the DI. It's an incredibly romantic and personalized piece of art.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "star-map",
+      "romantic",
+      "personalized",
+      "diy"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Print on cardstock for a higher-quality look and add the date and GPS coordinates at the bottom."
+  },
+  {
+    "id": "collaborative-short-story",
+    "title": "Write a Collaborative Short Story",
+    "description": "Grab a notebook and take turns writing one paragraph at a time to create a wild, unpredictable short story together. Head to a cozy corner at the Provo City Library for the perfect writing atmosphere. The stories always go in hilarious unexpected directions.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "either",
+    "category": "creative-diy",
+    "tags": [
+      "writing",
+      "storytelling",
+      "creative",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Provo City Library",
+    "address": "550 N University Ave, Provo, UT 84601",
+    "proTip": "Set a rule that each paragraph must include a random word the other person picks to keep things interesting."
+  },
+  {
+    "id": "diy-bath-bombs",
+    "title": "Make DIY Bath Bombs Together",
+    "description": "Pick up baking soda, citric acid, and essential oils from Smith's or Joann Fabrics and make colorful bath bombs from scratch. Mold them into fun shapes and let them dry overnight. It's a creative and surprisingly easy project that makes great gifts too.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 12,
+    "budgetTier": "under25",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "bath-bombs",
+      "diy",
+      "crafts",
+      "spa"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Add dried flower petals from the Provo Farmers Market for a luxurious touch."
+  },
+  {
+    "id": "sketch-each-other",
+    "title": "Sketch Portraits of Each Other",
+    "description": "Sit facing each other and try to draw realistic (or hilariously bad) portraits using just pencils and paper. Set a five-minute timer for quick sketches or take your time for more detailed attempts. The BYU campus grounds or Joaquin Park make beautiful backdrops for outdoor sketching.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "either",
+    "category": "creative-diy",
+    "tags": [
+      "drawing",
+      "portraits",
+      "funny",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Try a round where you draw without looking at the paper for guaranteed laughs."
+  },
+  {
+    "id": "thrift-flip-challenge",
+    "title": "Thrift Flip Furniture Project",
+    "description": "Find a cheap piece of furniture at the DI on State Street and transform it together with paint and new hardware. A small shelf, picture frame, or side table makes the perfect beginner project. You'll bond over the creative process and have a unique piece for your apartment.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "creative",
+      "adventurous"
+    ],
+    "setting": "either",
+    "category": "creative-diy",
+    "tags": [
+      "thrift",
+      "furniture",
+      "upcycle",
+      "diy",
+      "paint"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Deseret Industries (DI)",
+    "address": "1455 S State St, Provo, UT 84606",
+    "proTip": "Chalk paint from Home Depot requires zero sanding or priming, making it perfect for beginners."
+  },
+  {
+    "id": "podcast-recording-date",
+    "title": "Record Your Own Mini Podcast",
+    "description": "Use your phone to record a casual podcast episode about your relationship, hot takes, or funny stories. Pick a topic, set up in a quiet room, and just start talking. The BYU campus has quiet study rooms you can reserve for free to get decent audio.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "podcast",
+      "recording",
+      "conversation",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Use the free Anchor app to record and edit, and you might actually end up starting a real show."
+  },
+  {
+    "id": "clay-sculpting-at-home",
+    "title": "Air Dry Clay Sculpting Date",
+    "description": "Pick up a pack of air dry clay from Joann Fabrics and sculpt mini figures, bowls, or ornaments together at home. No kiln needed since the clay dries overnight and can be painted the next day. It's like pottery class but way cheaper and more personal.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 7,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "clay",
+      "sculpting",
+      "crafts",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Joann Fabrics (for supplies)",
+    "address": "1260 N University Ave, Provo, UT 84604",
+    "proTip": "Make matching ring dishes or small planters that you can paint together on a follow-up date."
+  },
+  {
+    "id": "couples-pottery-wheel",
+    "title": "Pottery Wheel Class for Two",
+    "description": "Sign up for a couples pottery wheel class at a local Provo studio and channel your inner Ghost movie moment. Learn to throw clay on the wheel and make bowls, mugs, or vases together under expert guidance. You'll pick up your fired and glazed pieces a couple weeks later.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 50,
+    "budgetTier": "splurge",
+    "moods": [
+      "creative",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "pottery",
+      "class",
+      "wheel",
+      "hands-on",
+      "date-night"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "Wear old clothes you don't mind getting clay on since the wheel splatters more than you'd expect."
+  },
+  {
+    "id": "rock-climbing-quarry",
+    "title": "Indoor Rock Climbing at The Quarry",
+    "description": "Head to The Quarry Climbing Center in Provo for a fun and physical date you'll both remember. Whether you're beginners on the bouldering wall or experienced on top rope, there's something for every skill level. Belay each other and cheer each other on as you tackle new routes.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 30,
+    "budgetTier": "splurge",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "climbing",
+      "bouldering",
+      "gym",
+      "fitness"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "The Quarry Climbing Center",
+    "address": "2494 N University Pkwy, Provo, UT 84604",
+    "proTip": "First-timers can rent shoes and get a day pass, and the staff offers free basic belay lessons."
+  },
+  {
+    "id": "bowling-at-fat-cats",
+    "title": "Bowling Night at Fat Cats",
+    "description": "Enjoy a classic bowling date at Fat Cats in Provo complete with neon lights, arcade games, and friendly competition. Bowl a couple games and then hit the arcade or mini golf for bonus fun. It's one of Provo's most reliable date spots for good reason.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "active",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "bowling",
+      "arcade",
+      "fun",
+      "classic-date"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fat Cats Fun Center",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Go after 9pm on weeknights for glow bowling which is way more fun and usually less crowded."
+  },
+  {
+    "id": "ice-skating-peaks",
+    "title": "Ice Skating at Peaks Ice Arena",
+    "description": "Lace up your skates at Peaks Ice Arena for a romantic and active date on the ice. Hold hands while you glide around the rink and don't worry if you fall because that's half the fun. Public skate sessions are affordable and a perfect Provo winter date.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 12,
+    "budgetTier": "under25",
+    "moods": [
+      "active",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "skating",
+      "ice",
+      "winter",
+      "romantic"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Peaks Ice Arena",
+    "address": "100 N Seven Peaks Blvd, Provo, UT 84606",
+    "proTip": "Check their public skate schedule online first since hockey games and private events sometimes take priority."
+  },
+  {
+    "id": "pickleball-match",
+    "title": "Pickleball at the Provo Rec Center",
+    "description": "Grab some paddles and head to the pickleball courts at the Provo Recreation Center for a fast-paced, easy-to-learn sport. Pickleball is huge in Utah Valley and perfect for couples of any athletic ability. Play singles against each other or team up for doubles with another couple.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "social"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "pickleball",
+      "courts",
+      "competitive",
+      "trending"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Recreation Center",
+    "address": "320 W 500 N, Provo, UT 84601",
+    "proTip": "Go early in the morning or at dusk to avoid the midday pickleball rush since courts fill up fast."
+  },
+  {
+    "id": "tennis-at-byu",
+    "title": "Tennis on BYU Outdoor Courts",
+    "description": "BYU has free outdoor tennis courts that are open to the public and they're well-maintained with stunning mountain views. Rally back and forth or play a competitive set if you're both experienced players. It's one of the best free active dates in Provo.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "tennis",
+      "byu",
+      "free",
+      "outdoors"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "BYU Outdoor Tennis Courts",
+    "address": "BYU Campus, Provo, UT 84602",
+    "proTip": "Bring your own rackets or borrow from a friend since there's no rental available at the outdoor courts."
+  },
+  {
+    "id": "swimming-provo-rec",
+    "title": "Swimming at the Provo Rec Center Pool",
+    "description": "Take a dip together at the Provo Recreation Center's indoor pool for a refreshing and active date any time of year. Swim laps together, play around in the leisure pool, or just float and talk. It's an affordable way to stay active without braving the Utah weather.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 6,
+    "budgetTier": "under10",
+    "moods": [
+      "active",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "swimming",
+      "pool",
+      "fitness",
+      "indoor"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Recreation Center",
+    "address": "320 W 500 N, Provo, UT 84601",
+    "proTip": "Swim during adult-only lap swim hours for a quieter, more relaxed experience without kids splashing everywhere."
+  },
+  {
+    "id": "skiing-sundance",
+    "title": "Skiing or Snowboarding at Sundance",
+    "description": "Hit the slopes at Sundance Mountain Resort just 15 minutes up Provo Canyon for an unforgettable winter date. The resort is smaller and less crowded than the big Park City resorts, making it perfect for a couple's ski day. Warm up afterward with hot cocoa at the Sundance lodge.",
+    "estimatedTimeMinutes": 240,
+    "timeRange": "180+",
+    "estimatedCostDollars": 120,
+    "budgetTier": "splurge",
+    "moods": [
+      "active",
+      "adventurous",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "skiing",
+      "snowboarding",
+      "winter",
+      "mountains",
+      "sundance"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Sundance Mountain Resort",
+    "address": "8841 Alpine Loop Scenic Byway, Sundance, UT 84604",
+    "proTip": "Buy lift tickets online in advance for significant savings and check for BYU student discount days."
+  },
+  {
+    "id": "roller-skating-classic",
+    "title": "Roller Skating at Classic Fun Center",
+    "description": "Strap on some roller skates at Classic Fun Center in Orem for a retro active date with great music and a fun atmosphere. Whether you're graceful or completely hopeless on wheels, you'll have a blast. The rink also has laser tag and bumper cars for when your legs need a break.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "active",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "skating",
+      "retro",
+      "fun",
+      "music"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Classic Fun Center",
+    "address": "1100 S Geneva Rd, Orem, UT 84058",
+    "proTip": "Friday night skate sessions often have themed music nights like 80s or hip-hop which makes it way more fun."
+  },
+  {
+    "id": "yoga-in-the-park",
+    "title": "Partner Yoga in the Park",
+    "description": "Roll out yoga mats at Kiwanis Park or the Provo River Parkway and follow a couples yoga tutorial on YouTube. Partner poses are fun, require trust and communication, and end with a relaxing savasana under the Utah sky. It's completely free and surprisingly intimate.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "yoga",
+      "park",
+      "free",
+      "wellness",
+      "couples"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Kiwanis Park",
+    "address": "820 N 1100 E, Provo, UT 84604",
+    "proTip": "Go early morning for the most peaceful atmosphere and to avoid the afternoon wind that whips through the valley."
+  },
+  {
+    "id": "bike-provo-river-trail",
+    "title": "Bike the Provo River Trail",
+    "description": "Ride bikes along the Provo River Parkway Trail, a paved path stretching from Provo Canyon through town with gorgeous river and mountain views. The trail is flat and easy, perfect for a casual ride and conversation. Stop at one of the parks along the way for a snack break.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "biking",
+      "trail",
+      "river",
+      "scenic",
+      "nature"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo River Parkway Trail",
+    "address": "Provo River Parkway, Provo, UT 84604",
+    "proTip": "Start at the mouth of Provo Canyon and ride south for a slight downhill advantage the whole way."
+  },
+  {
+    "id": "basketball-byu-courts",
+    "title": "Shoot Hoops on BYU Courts",
+    "description": "Head to the outdoor basketball courts on BYU campus for a free and active date. Play one-on-one, HORSE, or just shoot around and talk. The courts are well-lit and the mountain backdrop makes even a casual shoot-around feel like a real event.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "social"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "basketball",
+      "byu",
+      "free",
+      "competitive"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "BYU Outdoor Basketball Courts",
+    "address": "BYU Campus, Provo, UT 84602",
+    "proTip": "Play a game of HORSE with creative trick shots for a date that's more about laughing than being athletic."
+  },
+  {
+    "id": "golf-east-bay",
+    "title": "Golf at East Bay Golf Course",
+    "description": "Tee off at East Bay Golf Course, a beautiful public course with stunning Utah Lake and mountain views just south of Provo. Play a full round or just hit the driving range together for a more casual experience. It's a great way to spend a sunny afternoon in the valley.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 30,
+    "budgetTier": "splurge",
+    "moods": [
+      "active",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "golf",
+      "course",
+      "scenic",
+      "outdoors"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "East Bay Golf Course",
+    "address": "1860 S East Bay Blvd, Provo, UT 84606",
+    "proTip": "Twilight rates after 3pm are significantly cheaper and the sunset views over Utah Lake are incredible."
+  },
+  {
+    "id": "hiking-y-mountain",
+    "title": "Hike to the Y on Y Mountain",
+    "description": "Take on the iconic hike to the giant Y on the mountainside above BYU campus. It's a steep but short 1.2-mile trail that rewards you with panoramic views of the entire Utah Valley. This is a Provo rite of passage that every couple should do at least once.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "hiking",
+      "y-mountain",
+      "views",
+      "iconic",
+      "free"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Y Mountain Trailhead",
+    "address": "E 820 N, Provo, UT 84604",
+    "proTip": "Start early in the morning during summer to avoid the heat since there's zero shade on the trail."
+  },
+  {
+    "id": "paddleboarding-utah-lake",
+    "title": "Paddleboarding on Utah Lake",
+    "description": "Rent paddleboards at Utah Lake State Park and cruise the water together on a warm Provo afternoon. It's a great full-body workout disguised as a relaxing date. You'll get stunning views of the Wasatch Front while trying not to fall in.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 25,
+    "budgetTier": "under25",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "paddleboard",
+      "lake",
+      "water-sports",
+      "summer"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Utah Lake State Park",
+    "address": "4400 W Center St, Provo, UT 84601",
+    "proTip": "Go in the morning when the water is glassy and calm since afternoon winds can make balancing much harder."
+  },
+  {
+    "id": "frisbee-golf-rock-canyon",
+    "title": "Disc Golf at Rock Canyon Park",
+    "description": "Play a round of disc golf at the free course near Rock Canyon Park in Provo. Bring your own discs or borrow some since the course winds through beautiful terrain with mountain views. It's casual enough for beginners and engaging enough for experienced players.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "active",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "disc-golf",
+      "frisbee",
+      "free",
+      "park"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Park area",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Borrow a driver, midrange, and putter disc from a friend if you don't own any since buying all three can be pricey."
+  },
+  {
+    "id": "late-night-gym-session",
+    "title": "Late Night Couples Gym Session",
+    "description": "Hit the gym together late at night when it's quiet and empty for a focused couples workout. BYU's Richards Building gym or a local gym like Vasa Fitness in Provo works perfectly. Spot each other on lifts, do a circuit together, or try a new workout class.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "gym",
+      "workout",
+      "fitness",
+      "late-night"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Vasa Fitness Provo",
+    "address": "1355 S State St, Provo, UT 84606",
+    "proTip": "Vasa Fitness is open 24 hours and has a day pass option if neither of you has a membership."
+  },
+  {
+    "id": "indoor-trampoline-park",
+    "title": "Jump at Get Air Trampoline Park",
+    "description": "Bounce off the walls literally at Get Air Trampoline Park in Orem for a high-energy active date. Try the foam pit, dodgeball courts, and ninja course for non-stop action. It's an exhausting workout disguised as pure fun.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 22,
+    "budgetTier": "under25",
+    "moods": [
+      "active",
+      "adventurous",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "trampoline",
+      "jumping",
+      "fun",
+      "high-energy"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Get Air Trampoline Park",
+    "address": "1480 S State St, Orem, UT 84097",
+    "proTip": "Buy tickets online in advance to save a few bucks and skip the line at the front desk."
+  },
+  {
+    "id": "sunset-run-together",
+    "title": "Sunset Run Along the Provo River",
+    "description": "Lace up your running shoes and go for a sunset jog together along the Provo River Parkway trail. The path is paved, flat, and offers beautiful golden-hour views of the mountains and river. Finish at a park bench and stretch together while watching the last light fade.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "active",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "active-sports",
+    "tags": [
+      "running",
+      "sunset",
+      "river",
+      "free",
+      "scenic"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo River Parkway Trail",
+    "address": "Provo River Parkway, Provo, UT 84604",
+    "proTip": "Run south from University Ave toward Utah Lake for the best unobstructed sunset views."
+  },
+  {
+    "id": "mini-golf-fat-cats",
+    "title": "Mini Golf at Fat Cats",
+    "description": "Play a round of mini golf at Fat Cats in Provo for a lighthearted competitive date. The course is fun with creative obstacles and it's easy enough for anyone to enjoy. Add on bowling or arcade games to turn it into a full evening of active fun.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "active",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "mini-golf",
+      "fun",
+      "competitive",
+      "classic-date"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fat Cats Fun Center",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Make a fun bet on the outcome like the loser buys ice cream at the BYU Creamery afterward."
+  },
+  {
+    "id": "spa-night-essential-oils",
+    "title": "Essential Oil Spa Night",
+    "description": "Set up a mini spa in your apartment with essential oils, warm towels, and soothing music. Grab a diffuser blend from the Provo DoTERRA shop or Smith's wellness aisle and take turns giving each other hand and shoulder massages.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "spa",
+      "self-care",
+      "at-home",
+      "cozy"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Lavender and eucalyptus is the go-to combo. Run a hot shower first to steam up the bathroom for a sauna effect."
+  },
+  {
+    "id": "alpine-loop-scenic-drive",
+    "title": "Scenic Drive Up the Alpine Loop",
+    "description": "Cruise through Provo Canyon and up the Alpine Loop for breathtaking mountain views, waterfalls, and winding roads. Stop at Bridal Veil Falls along the way and roll the windows down to feel the mountain air.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 6,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "scenic-drive",
+      "mountains",
+      "provo-canyon",
+      "nature"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Alpine Loop Scenic Byway",
+    "address": "US-189, Provo Canyon, UT",
+    "proTip": "The road closes in winter. Go in late September for unbelievable fall colors.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
+  },
+  {
+    "id": "reading-together-provo-library",
+    "title": "Reading Date at Provo City Library",
+    "description": "Pick out books for each other at the stunning Provo City Library and read side by side in the rooftop garden or cozy reading nooks. The architecture alone makes it feel like a special outing rather than a regular library visit.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "reading",
+      "library",
+      "downtown-provo",
+      "quiet"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo City Library",
+    "address": "550 N University Ave, Provo, UT 84601",
+    "proTip": "Head to the rooftop garden on the top floor for the best views and a quiet escape most people don't know about."
+  },
+  {
+    "id": "hammocking-south-fork-park",
+    "title": "Hammocking at South Fork Park",
+    "description": "Set up a double hammock between the tall cottonwoods at South Fork Park along the Provo River. Listen to the water and read, nap, or just enjoy being together with no screens in sight.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "hammock",
+      "river",
+      "nature",
+      "provo-canyon"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "South Fork Park",
+    "address": "4958 S Fork Rd, Provo, UT 84604",
+    "proTip": "Weekday mornings are practically empty. Bring a Bluetooth speaker for ambient nature playlists."
+  },
+  {
+    "id": "cloud-watching-memorial-park",
+    "title": "Cloud Watching at Memorial Park",
+    "description": "Spread out a blanket on the wide green lawns at Provo Memorial Park and spend an hour finding shapes in the clouds. Bring snacks and let the conversation flow without any agenda or time pressure.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "cloud-watching",
+      "park",
+      "picnic",
+      "free"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Memorial Park",
+    "address": "800 E Center St, Provo, UT 84606",
+    "proTip": "Late afternoon in summer gives the best cumulus clouds. Bring a bag of grapes and some cheese for a low-key snack spread."
+  },
+  {
+    "id": "couples-meditation-session",
+    "title": "Couples Meditation Session",
+    "description": "Find a guided couples meditation on YouTube or the Headspace app and do it together in your living room. Light some candles, put your phones on Do Not Disturb, and spend 20-30 minutes just breathing and being present together.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "at-home",
+      "wellness"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Search for 'couples meditation for connection' on YouTube. BYU students get free access to some meditation apps through the Counseling Center."
+  },
+  {
+    "id": "face-mask-movie-night",
+    "title": "Face Masks & Movie Night",
+    "description": "Grab a pack of sheet masks from Daiso in Orem and put them on while watching a comfort movie together. It's goofy, relaxing, and makes for hilarious selfies you'll both appreciate later.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 4,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "face-masks",
+      "movie",
+      "self-care",
+      "cozy"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Daiso",
+    "address": "575 E University Pkwy, Orem, UT 84097",
+    "proTip": "Daiso has packs of 7 masks for a couple bucks. Pair it with a Studio Ghibli movie for peak cozy vibes."
+  },
+  {
+    "id": "couples-journaling-evening",
+    "title": "Couples Journaling Evening",
+    "description": "Sit together at a cozy Provo coffee shop or at home and write in your journals for an hour. Use prompts like 'What's one thing you admire about us?' to share answers and spark meaningful conversation.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "either",
+    "category": "relaxation",
+    "tags": [
+      "journaling",
+      "writing",
+      "connection",
+      "reflection"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Print out a list of couples journal prompts beforehand so you don't spend the whole time thinking of questions."
+  },
+  {
+    "id": "vinyl-listening-session",
+    "title": "Vinyl Listening Session",
+    "description": "Browse the bins at Randy's Records in Orem or Provo's local thrift shops for a record you both love, then go home and listen to the full album start to finish. No skipping tracks allowed.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "vinyl",
+      "music",
+      "thrifting",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Randy's Records",
+    "address": "157 N University Ave, Provo, UT 84601",
+    "proTip": "If you don't have a turntable, Randy's staff can recommend affordable ones. The $1 bin always has hidden gems."
+  },
+  {
+    "id": "provo-river-slow-walk",
+    "title": "Slow Walk Along the Provo River Trail",
+    "description": "Walk the paved Provo River Parkway trail at a leisurely pace with no destination in mind. The trail runs for miles through town, passing parks, bridges, and quiet stretches of river perfect for decompressing together.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "walking",
+      "river",
+      "trail",
+      "nature"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo River Parkway",
+    "address": "500 W Center St, Provo, UT 84601",
+    "proTip": "Start near the Parkway Crossing trailhead for the prettiest stretch. Mornings are quieter before joggers and bikers come out."
+  },
+  {
+    "id": "yoga-at-home-together",
+    "title": "Couples Yoga at Home",
+    "description": "Roll out two yoga mats and follow a couples yoga video on YouTube in your living room. It's a great way to stretch, laugh at each other's balance, and feel physically connected without leaving the house.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "yoga",
+      "exercise",
+      "at-home",
+      "wellness"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Search 'couples yoga for beginners' on YouTube. Don't worry about being flexible \u2014 the funny moments are the best part."
+  },
+  {
+    "id": "candlelit-dinner-at-home",
+    "title": "Candlelit Dinner at Home",
+    "description": "Cook a simple meal together, light some candles, and turn off all the overhead lights for an intimate dinner at your own table. Put your phones in another room and just focus on each other over pasta and bread.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 12,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "cooking",
+      "candlelit",
+      "dinner",
+      "romantic"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Trader Joe's in Orem has amazing premade sauces and pasta that make it easy to cook something impressive without much effort."
+  },
+  {
+    "id": "audiobook-blanket-fort",
+    "title": "Audiobook in a Blanket Fort",
+    "description": "Build a blanket fort in your living room and listen to an audiobook together with hot cocoa or cider. Pick a story you'll both enjoy \u2014 mysteries and fantasies work great for shared listening.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "audiobook",
+      "blanket-fort",
+      "cozy",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Use your Provo Library card to borrow audiobooks for free through the Libby app. Fairy lights in the fort are a game changer."
+  },
+  {
+    "id": "tea-tasting-at-home",
+    "title": "Tea Tasting Date",
+    "description": "Buy a variety pack of herbal teas from Harmons or the Asian market on State Street in Orem and do a blind tasting together. Rate each one and discover your shared favorites.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 6,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "tea",
+      "tasting",
+      "cozy",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "The Asian market near University Place has unique teas you won't find at regular grocery stores. Pair each tea with a small treat like cookies or mochi."
+  },
+  {
+    "id": "sunrise-watching-y-mountain",
+    "title": "Sunrise Watch at Y Mountain Trailhead",
+    "description": "Wake up early and drive to the Y Mountain trailhead parking lot to watch the sunrise paint Utah Valley in golden light. You don't even have to hike \u2014 just sit on a blanket near the lot and soak it in.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "sunrise",
+      "mountain",
+      "scenic",
+      "early-morning"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Y Mountain Trailhead",
+    "address": "2590 Temple View Dr, Provo, UT 84604",
+    "proTip": "Check the sunrise time the night before and arrive 15 minutes early. Bring a thermos of hot chocolate for the wait."
+  },
+  {
+    "id": "nature-sounds-picnic",
+    "title": "Silent Picnic at Bicentennial Park",
+    "description": "Pack a simple picnic and sit together at Bicentennial Park near the river with a rule: no talking for the first 20 minutes, just listening to the water and birds. Then share what you noticed and let the conversation flow naturally.",
+    "estimatedTimeMinutes": 75,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "picnic",
+      "mindfulness",
+      "nature",
+      "park"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Bicentennial Park",
+    "address": "600 N 100 W, Provo, UT 84601",
+    "proTip": "This sounds weird but the silent start makes the conversation afterwards so much better. Try it once."
+  },
+  {
+    "id": "stretching-and-breathing",
+    "title": "Partner Stretching & Breathwork",
+    "description": "Follow a 30-minute partner stretching and breathwork routine at home. Look up a guided session on YouTube that includes synced breathing exercises and assisted stretches for a deeply calming shared experience.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "stretching",
+      "breathwork",
+      "wellness",
+      "at-home"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Do this right before bed \u2014 you'll both sleep like rocks after. Use a soft playlist in the background."
+  },
+  {
+    "id": "lo-fi-puzzle-night",
+    "title": "Lo-Fi Puzzle Night",
+    "description": "Put on a lo-fi playlist, brew some tea, and work on a jigsaw puzzle together at the kitchen table. Pick one up at the DI or Goodwill in Provo for under $2 and enjoy a slow, screen-free evening.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 2,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "puzzle",
+      "lo-fi",
+      "at-home",
+      "thrift"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "DI Thrift Store",
+    "address": "1500 S State St, Provo, UT 84606",
+    "proTip": "500-piece puzzles are the sweet spot \u2014 big enough to be satisfying but finishable in one evening."
+  },
+  {
+    "id": "backyard-stargazing-blanket",
+    "title": "Backyard Stargazing with Blankets",
+    "description": "Lay out blankets and pillows in your backyard or apartment courtyard and stargaze together. Download a free star map app and take turns pointing out constellations and making up your own stories about them.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "relaxation",
+    "tags": [
+      "stargazing",
+      "night",
+      "at-home",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Provo's light pollution is moderate, but you can still see plenty. SkyView is a great free app for identifying constellations."
+  },
+  {
+    "id": "byu-museum-of-art-visit",
+    "title": "BYU Museum of Art Visit",
+    "description": "Explore the BYU Museum of Art, which is completely free and features rotating exhibitions ranging from classical to contemporary work. Walk through the galleries hand-in-hand and share your interpretations of each piece.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "museum",
+      "art",
+      "byu",
+      "free"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "BYU Museum of Art",
+    "address": "N Campus Dr, Provo, UT 84602",
+    "proTip": "Check their website for current exhibitions before you go. Thursday evenings sometimes have special events and extended hours."
+  },
+  {
+    "id": "hale-center-theatre-show",
+    "title": "Show at Hale Center Theatre",
+    "description": "Catch a live production at Hale Center Theatre in Orem for a polished community theater experience. Their shows range from musicals to dramas and the intimate venue means every seat feels close to the action.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 30,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "theater",
+      "live-performance",
+      "orem",
+      "date-night"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Hale Center Theatre",
+    "address": "225 W 400 N, Orem, UT 84057",
+    "proTip": "Book matinee shows for cheaper tickets. Grab dinner at Mozz on Center Street in Provo beforehand for a full date experience."
+  },
+  {
+    "id": "covey-center-performance",
+    "title": "Performance at the Covey Center",
+    "description": "See a concert, dance show, or theatrical performance at the Covey Center for the Arts in downtown Provo. The venue hosts a wide variety of events and many are surprisingly affordable or even free.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "performing-arts",
+      "concert",
+      "downtown-provo",
+      "live-show"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Covey Center for the Arts",
+    "address": "425 W Center St, Provo, UT 84601",
+    "proTip": "Follow them on Instagram for last-minute free ticket giveaways. Their holiday shows in December are especially popular."
+  },
+  {
+    "id": "center-street-gallery-walk",
+    "title": "Gallery Walk on Center Street",
+    "description": "Stroll down Center Street in Provo and pop into the small galleries and art studios that open their doors during gallery walk events. Many offer free refreshments and a chance to chat with local artists.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "chill",
+      "romantic"
+    ],
+    "setting": "either",
+    "category": "arts-culture",
+    "tags": [
+      "gallery",
+      "art-walk",
+      "downtown-provo",
+      "local-artists"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Gallery strolls happen periodically \u2014 check Provo City's events page for upcoming dates. Most galleries are between University Ave and 100 West."
+  },
+  {
+    "id": "byu-free-concert",
+    "title": "Free Concert at BYU",
+    "description": "Attend one of BYU's many free concerts at the de Jong Concert Hall or Harris Fine Arts Center. From symphony orchestras to jazz ensembles, there's world-class music happening on campus almost every week.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "concert",
+      "music",
+      "byu",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "de Jong Concert Hall",
+    "address": "Harris Fine Arts Center, Provo, UT 84602",
+    "proTip": "Check the BYU Arts calendar at arts.byu.edu. Arrive 15 minutes early for good seats \u2014 these fill up fast."
+  },
+  {
+    "id": "antique-shopping-provo",
+    "title": "Antique Shop Exploration",
+    "description": "Spend an afternoon browsing the antique and vintage shops along State Street and Center Street in Provo. Challenge each other to find the weirdest item under $5 or hunt for a small keepsake to remember the date.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "antiques",
+      "vintage",
+      "shopping",
+      "downtown-provo"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "Cats Cradle Vintage and the shops near 200 South have the best finds. Go on a weekday for less competition over the good stuff."
+  },
+  {
+    "id": "poetry-reading-event",
+    "title": "Poetry Reading Night",
+    "description": "Attend an open mic poetry reading at a Provo coffee shop or bookstore. If you're feeling brave, write a short poem for each other beforehand and read it aloud. The local scene is welcoming and low-pressure.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "poetry",
+      "open-mic",
+      "bookstore",
+      "literary"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "The King's English and Pioneer Book have hosted readings in the past. Check local event boards for the latest schedule."
+  },
+  {
+    "id": "photography-exhibit-byu",
+    "title": "Photography Exhibit at BYU",
+    "description": "Visit the photography galleries in BYU's Harris Fine Arts Center, where student and visiting artist exhibits rotate regularly. Discuss the compositions and stories behind the images as you wander through the halls.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "photography",
+      "exhibit",
+      "byu",
+      "free"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Harris Fine Arts Center",
+    "address": "BYU Campus, Provo, UT 84602",
+    "proTip": "The third floor hallways have rotating student exhibits that change every few weeks. Totally underrated."
+  },
+  {
+    "id": "movie-discussion-date",
+    "title": "Film Discussion Date",
+    "description": "Watch a thought-provoking film at home or at Cinemark in Provo, then head to a nearby dessert spot to discuss it over milkshakes. Pick a movie neither of you has seen and compare your takes on the themes and characters.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "either",
+    "category": "arts-culture",
+    "tags": [
+      "film",
+      "discussion",
+      "movie",
+      "dessert"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Cinemark 16 Provo",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Cinemark does $5 Tuesdays. Pick an indie film or foreign film for deeper conversation material."
+  },
+  {
+    "id": "byu-international-cinema",
+    "title": "BYU International Cinema Night",
+    "description": "Catch a free international film screening at BYU's International Cinema series. Films are shown in their original language with subtitles and span genres from Italian neorealism to modern Korean cinema.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "film",
+      "international",
+      "byu",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "BYU International Cinema",
+    "address": "BYU Campus, Provo, UT 84602",
+    "proTip": "Check ic.byu.edu for the current schedule. Go early to grab seats in the middle rows for the best viewing angle."
+  },
+  {
+    "id": "local-art-at-provo-towne-centre",
+    "title": "Local Art Display at Provo Towne Centre",
+    "description": "Browse the rotating local art installations inside Provo Towne Centre while walking the mall. Local artists display paintings, photography, and mixed media, and pieces are often available for purchase at reasonable prices.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "local-art",
+      "mall",
+      "provo",
+      "browsing"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Towne Centre",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Combine it with a Jamba Juice or pretzel run to make it a full casual date."
+  },
+  {
+    "id": "vinyl-art-at-randys",
+    "title": "Album Art Appreciation at Randy's Records",
+    "description": "Flip through vinyl at Randy's Records in downtown Provo and judge albums purely by their cover art. Pick your favorite cover, buy it, and frame it as art for your apartment wall.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "vinyl",
+      "album-art",
+      "music",
+      "downtown-provo"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Randy's Records",
+    "address": "157 N University Ave, Provo, UT 84601",
+    "proTip": "The $1 bin has records with incredible vintage cover art. A cheap frame from Dollar Tree makes it legit wall decor."
+  },
+  {
+    "id": "provo-mural-photo-tour",
+    "title": "Provo Mural Photo Tour",
+    "description": "Walk around downtown Provo and take photos together at the many colorful murals on building walls. There are over a dozen murals within a few blocks, making for a fun and free self-guided art tour.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "arts-culture",
+    "tags": [
+      "murals",
+      "photography",
+      "walking",
+      "downtown-provo"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "The alley behind Center Street between 100 West and University Ave has some of the best ones. Golden hour light makes the photos pop."
+  },
+  {
+    "id": "cultural-film-at-library",
+    "title": "Cultural Film Screening at the Library",
+    "description": "Provo City Library occasionally hosts free film screenings featuring documentaries and international films in their auditorium. Check their event calendar for upcoming screenings and enjoy a movie date with zero cost.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "film",
+      "library",
+      "free",
+      "cultural"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo City Library",
+    "address": "550 N University Ave, Provo, UT 84601",
+    "proTip": "Grab a seat near the back so you can whisper comments to each other without bothering anyone."
+  },
+  {
+    "id": "handmade-pottery-class",
+    "title": "Pottery Class for Two",
+    "description": "Take a beginner pottery or ceramics class together at a Provo or Orem studio. Get your hands dirty shaping clay on the wheel, and a few weeks later you'll have a handmade mug or bowl to remember the date by.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 35,
+    "budgetTier": "splurge",
+    "moods": [
+      "creative",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "arts-culture",
+    "tags": [
+      "pottery",
+      "ceramics",
+      "class",
+      "hands-on"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "Color Me Mine in Orem offers paint-your-own pottery if the wheel feels intimidating. Book ahead since couples slots fill up fast."
+  },
+  {
+    "id": "double-date-bowling",
+    "title": "Double Date Bowling Night",
+    "description": "Round up another couple and hit Fat Cats in Provo for a bowling double date. Split a lane, order some nachos, and make it competitive with a loser-buys-dessert bet for maximum fun.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "bowling",
+      "double-date",
+      "group",
+      "fat-cats"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fat Cats",
+    "address": "1200 N University Ave, Provo, UT 84604",
+    "proTip": "Go after 9pm for cosmic bowling with black lights and music. Split the lane cost four ways to keep it cheap."
+  },
+  {
+    "id": "game-night-with-friends",
+    "title": "Game Night with Friends",
+    "description": "Host a board game night at your apartment and invite two or three other couples. Pull out Codenames, Settlers of Catan, or Wavelength and provide some easy snacks like chips and a veggie tray.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "board-games",
+      "group",
+      "at-home",
+      "hosting"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Codenames Duet is perfect for couples. If you don't own games, the Provo Library has a board game checkout section."
+  },
+  {
+    "id": "group-picnic-canyon-park",
+    "title": "Group Picnic at Rock Canyon Park",
+    "description": "Organize a group picnic at Rock Canyon Park and have each couple bring a dish to share. Grab a pavilion, set up some lawn games, and spend a Saturday afternoon eating, laughing, and enjoying the mountain views.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "social",
+    "tags": [
+      "picnic",
+      "group",
+      "park",
+      "potluck"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Park",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Reserve a pavilion through Provo City's website if you want guaranteed shade and a grill. First come first served otherwise."
+  },
+  {
+    "id": "potluck-dinner-party",
+    "title": "Couples Potluck Dinner",
+    "description": "Host a potluck dinner where each couple brings their signature dish. Set a theme like 'comfort food' or 'international cuisine' to keep it interesting and give everyone a topic to talk about while eating.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "potluck",
+      "dinner",
+      "hosting",
+      "cooking"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Use a shared Google Doc so people can sign up for dishes and you don't end up with five bags of chips and no main course."
+  },
+  {
+    "id": "pickup-basketball-byu",
+    "title": "Pickup Basketball at BYU",
+    "description": "Grab a few friends and head to the outdoor courts at BYU or Helaman Halls for a casual pickup basketball game. Play couples vs couples or mix the teams for a fun and active way to hang out together.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "social",
+    "tags": [
+      "basketball",
+      "sports",
+      "byu",
+      "group"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "BYU Outdoor Courts",
+    "address": "BYU Campus, Provo, UT 84602",
+    "proTip": "The courts near Helaman Halls are usually less crowded than the ones by the RB. Bring extra water for everyone."
+  },
+  {
+    "id": "bonfire-night-hobble-creek",
+    "title": "Bonfire Night at Hobble Creek Canyon",
+    "description": "Drive out to Hobble Creek Canyon in Springville and find a fire pit for a group bonfire. Bring marshmallows, hot dogs, and a guitar if someone plays. The canyon gets beautifully dark for great stargazing too.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "social",
+    "tags": [
+      "bonfire",
+      "canyon",
+      "smores",
+      "group"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Hobble Creek Canyon",
+    "address": "Hobble Creek Canyon Rd, Springville, UT 84663",
+    "proTip": "Check fire restrictions before you go \u2014 Utah has seasonal burn bans. Bring firewood from a gas station since gathering wood in the canyon may not be allowed."
+  },
+  {
+    "id": "dinner-party-hosting",
+    "title": "Host a Themed Dinner Party",
+    "description": "Pick a theme like Italian Night or Taco Tuesday and host a dinner party for three to four couples at your place. Assign courses to each couple and set the table with candles and a fun playlist for a memorable evening.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "dinner-party",
+      "hosting",
+      "themed",
+      "cooking"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Keep it simple \u2014 pasta bars and taco bars let guests customize their plates and take pressure off the host. Trader Joe's in Orem is your best friend for affordable party food."
+  },
+  {
+    "id": "themed-costume-party",
+    "title": "Themed Costume Party",
+    "description": "Throw a themed costume party at your apartment \u2014 think decades night, movie characters, or come-as-your-favorite-celebrity. Raid the DI in Provo for cheap costume pieces and give a prize for the best outfit.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "costume-party",
+      "themed",
+      "hosting",
+      "group"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "DI Thrift Store",
+    "address": "1500 S State St, Provo, UT 84606",
+    "proTip": "80s night is always a hit. The DI has a massive selection of vintage clothes perfect for costumes."
+  },
+  {
+    "id": "karaoke-group-night",
+    "title": "Karaoke Night with Friends",
+    "description": "Rally a group for karaoke night at a Provo venue or set up a DIY karaoke station at home with YouTube karaoke videos on the TV. Duets between couples are mandatory and hilariously fun.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "karaoke",
+      "singing",
+      "group",
+      "party"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "YouTube has thousands of free karaoke tracks. Get a cheap microphone from Amazon and project it on the TV for the full experience."
+  },
+  {
+    "id": "speed-friending-event",
+    "title": "Speed Friending Event",
+    "description": "Attend a speed friending event in Provo, where couples rotate through quick conversations with other couples. BYU ward activities and local community groups sometimes organize these, making it easy to expand your social circle.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "speed-friending",
+      "community",
+      "couples",
+      "networking"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "If you can't find an organized event, host one yourself \u2014 it's surprisingly easy. Just set a timer and have couples rotate every 5 minutes."
+  },
+  {
+    "id": "group-hiking-y-mountain",
+    "title": "Group Hike Up Y Mountain",
+    "description": "Organize a group hike up to the Y on Y Mountain with several couples or friends. The trail is well-marked and the summit rewards everyone with panoramic views of Utah Valley. It's the perfect shared adventure for a weekend morning.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "social",
+    "tags": [
+      "hiking",
+      "group",
+      "y-mountain",
+      "adventure"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Y Mountain Trailhead",
+    "address": "2590 Temple View Dr, Provo, UT 84604",
+    "proTip": "Start early in the morning to beat the heat and the crowds. Bring enough water for everyone \u2014 it's steeper than it looks."
+  },
+  {
+    "id": "ice-cream-crawl-friends",
+    "title": "Ice Cream Crawl with Friends",
+    "description": "Organize an ice cream crawl with two or three other couples, hitting up BYU Creamery, Sub Zero, and Rockwell Ice Cream in one evening. Rate each stop and crown a group winner at the end of the night.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "either",
+    "category": "social",
+    "tags": [
+      "ice-cream",
+      "food-crawl",
+      "group",
+      "provo"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "BYU Creamery",
+    "address": "1209 N 900 E, Provo, UT 84604",
+    "proTip": "Order kid-size scoops at each stop so you don't tap out after the second shop. BYU Creamery's Graham Canyon is legendary."
+  },
+  {
+    "id": "volleyball-at-south-park",
+    "title": "Group Volleyball at the Sand Courts",
+    "description": "Gather friends for a casual volleyball game at one of Provo's sand volleyball courts. South Fork Park and several apartment complexes have courts available, and you don't need to be good to have a blast.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "social",
+    "tags": [
+      "volleyball",
+      "sports",
+      "group",
+      "sand-court"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "Bring your own ball since the courts rarely have one available. Evening games are better in summer to avoid the brutal midday sun."
+  },
+  {
+    "id": "frisbee-golf-group",
+    "title": "Group Disc Golf at Bicentennial Park",
+    "description": "Play a round of disc golf at the Bicentennial Park course in Provo with a group of friends. The course is free, beginner-friendly, and takes about an hour to complete at a casual pace.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "social",
+    "tags": [
+      "disc-golf",
+      "park",
+      "group",
+      "free"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Bicentennial Park Disc Golf Course",
+    "address": "600 N 100 W, Provo, UT 84601",
+    "proTip": "You only need one or two discs each to play. Borrow from a friend or grab cheap ones at Play It Again Sports in Orem."
+  },
+  {
+    "id": "couples-trivia-at-venue",
+    "title": "Couples Trivia Night",
+    "description": "Find a trivia night at a Provo restaurant or organize your own at home with friends. Team up as couples and compete on topics from pop culture to geography. Loser couple does the dishes or buys dessert.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "social",
+    "tags": [
+      "trivia",
+      "group",
+      "competition",
+      "restaurant"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "ABG's in Provo sometimes hosts trivia nights. Check their Instagram for the schedule."
+  },
+  {
+    "id": "cooking-class-together",
+    "title": "Couples Cooking Class",
+    "description": "Take a cooking class together at a local Provo or Orem venue. Sur La Table at University Place in Orem offers hands-on classes where you learn to make everything from sushi to fresh pasta side by side.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 40,
+    "budgetTier": "splurge",
+    "moods": [
+      "creative",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "learning",
+    "tags": [
+      "cooking",
+      "class",
+      "hands-on",
+      "food"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Sur La Table",
+    "address": "575 E University Pkwy, Orem, UT 84097",
+    "proTip": "Sign up early \u2014 popular classes fill up fast. Check Groupon for occasional discounts on class packages."
+  },
+  {
+    "id": "byu-free-lecture",
+    "title": "Free Lecture at BYU",
+    "description": "Attend one of BYU's many free public lectures, forums, or devotionals on campus. Topics range from science and history to philosophy and current events, and they're a great way to learn something new together.",
+    "estimatedTimeMinutes": 75,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "learning",
+    "tags": [
+      "lecture",
+      "byu",
+      "free",
+      "education"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "BYU Marriott Center / Various",
+    "address": "BYU Campus, Provo, UT 84602",
+    "proTip": "Check speeches.byu.edu for the forum and devotional schedule. Kennedy Center lectures are especially fascinating."
+  },
+  {
+    "id": "learn-a-language-together",
+    "title": "Learn a Language Together",
+    "description": "Pick a language you both want to learn and do a Duolingo or Pimsleur session together at a Provo coffee shop. Set a goal to learn 10 phrases each week and practice ordering food in your new language at a local restaurant.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "either",
+    "category": "learning",
+    "tags": [
+      "language",
+      "learning",
+      "duolingo",
+      "couple-goal"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "BYU has tons of language resources and clubs that welcome community members. Pick a language that matches a cuisine you both love."
+  },
+  {
+    "id": "thanksgiving-point-museum",
+    "title": "Thanksgiving Point Museum Day",
+    "description": "Drive up to Thanksgiving Point in Lehi and explore the Museum of Natural Curiosity or the Museum of Ancient Life. The interactive exhibits make it feel like a date and an adventure rolled into one.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "adventurous",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "learning",
+    "tags": [
+      "museum",
+      "thanksgiving-point",
+      "lehi",
+      "interactive"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Thanksgiving Point",
+    "address": "3003 Thanksgiving Way, Lehi, UT 84043",
+    "proTip": "Buy tickets online for a few dollars off. The Natural Curiosity museum has a rainforest exhibit that feels like a mini vacation."
+  },
+  {
+    "id": "teach-each-other-skills",
+    "title": "Teach Each Other a Skill",
+    "description": "Each of you picks one skill you're good at and teaches it to the other for 30 minutes. Guitar, origami, juggling, coding, braiding hair \u2014 anything goes. You learn something new and gain appreciation for each other's talents.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "chill"
+    ],
+    "setting": "either",
+    "category": "learning",
+    "tags": [
+      "skills",
+      "teaching",
+      "bonding",
+      "creative"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Pick something neither of you takes too seriously. The point is bonding, not perfection."
+  },
+  {
+    "id": "planetarium-visit",
+    "title": "Planetarium Show",
+    "description": "Visit the Clark Planetarium in Salt Lake City for a dome show about the cosmos. The drive from Provo takes about 45 minutes and the shows are free in the main exhibit hall, with dome shows for a small fee.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "learning",
+    "tags": [
+      "planetarium",
+      "space",
+      "salt-lake-city",
+      "science"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Clark Planetarium",
+    "address": "110 S 400 W, Salt Lake City, UT 84101",
+    "proTip": "The free exhibits on the main floor are worth an hour on their own. Catch a dome show for the full experience."
+  },
+  {
+    "id": "book-club-date",
+    "title": "Two-Person Book Club Date",
+    "description": "Pick a book together, set a deadline to finish it, and then have a book club discussion date at a Provo coffee shop. Prepare discussion questions for each other and debate your favorite characters and themes over hot drinks.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "either",
+    "category": "learning",
+    "tags": [
+      "books",
+      "reading",
+      "discussion",
+      "coffee-shop"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Pick a short book (under 250 pages) so you actually finish it. Pioneer Book on Center Street has cheap used copies of almost anything."
+  },
+  {
+    "id": "documentary-discussion-night",
+    "title": "Documentary & Discussion Night",
+    "description": "Choose a documentary on Netflix, YouTube, or Kanopy (free with your library card) and watch it together at home. Afterwards, make snacks and discuss what you learned and what surprised you most.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "learning",
+    "tags": [
+      "documentary",
+      "discussion",
+      "at-home",
+      "streaming"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Kanopy is completely free through the Provo City Library. Their documentary selection is massive and curated."
+  },
+  {
+    "id": "history-walking-tour-provo",
+    "title": "History Walking Tour of Downtown Provo",
+    "description": "Download a self-guided walking tour of downtown Provo's historic buildings and landmarks. Learn about the city's pioneer history, original tabernacle site, and the stories behind the century-old facades along Center Street.",
+    "estimatedTimeMinutes": 75,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "outdoor",
+    "category": "learning",
+    "tags": [
+      "history",
+      "walking-tour",
+      "downtown-provo",
+      "architecture"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "The Utah County Historical Society has free printed guides. The buildings between 100 North and 100 South on University Ave have the most history."
+  },
+  {
+    "id": "diy-science-experiments",
+    "title": "DIY Science Experiments at Home",
+    "description": "Look up simple science experiments on YouTube and do them together in your kitchen. Make elephant toothpaste, non-Newtonian fluids, or crystal growing kits for a playful and educational date night.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "learning",
+    "tags": [
+      "science",
+      "experiments",
+      "at-home",
+      "hands-on"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Most supplies are things you already have \u2014 baking soda, vinegar, food coloring, dish soap. Lay down newspaper because it will get messy."
+  },
+  {
+    "id": "christmas-lights-temple-square",
+    "title": "Christmas Lights at Temple Square",
+    "description": "Drive up to Salt Lake City to see the iconic Christmas lights at Temple Square. Millions of lights cover the trees and buildings, and the atmosphere is magical for a winter date night. Grab hot cocoa at a nearby shop afterward.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "christmas",
+      "lights",
+      "salt-lake-city",
+      "holiday"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Temple Square",
+    "address": "50 N Temple, Salt Lake City, UT 84150",
+    "proTip": "Go on a weeknight to avoid the weekend crowds. Dress warmly \u2014 it's significantly colder in SLC than Provo at night.",
+    "seasonalAvailability": [
+      "winter"
+    ]
+  },
+  {
+    "id": "cornbellys-fall-festival",
+    "title": "Fall Festival at Cornbelly's",
+    "description": "Spend an afternoon at Cornbelly's corn maze and fall festival at Thanksgiving Point in Lehi. Navigate the massive corn maze together, go on hayrides, and pick pumpkins for a quintessential autumn date.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 25,
+    "budgetTier": "splurge",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "fall-festival",
+      "corn-maze",
+      "pumpkins",
+      "lehi"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Cornbelly's at Thanksgiving Point",
+    "address": "3003 Thanksgiving Way, Lehi, UT 84043",
+    "proTip": "Buy tickets online in advance for a discount. The Flashlight Corn Maze on Friday and Saturday nights is an absolute blast.",
+    "seasonalAvailability": [
+      "fall"
+    ]
+  },
+  {
+    "id": "summer-concert-provo",
+    "title": "Summer Concert Series in Provo",
+    "description": "Bring a blanket and snacks to one of Provo's free outdoor summer concert series at the Covey Center or Startup Crossing park. Local bands play everything from indie rock to jazz, and the summer evening atmosphere is unbeatable.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "concert",
+      "summer",
+      "outdoor",
+      "free"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Startup Crossing Park",
+    "address": "200 W Center St, Provo, UT 84601",
+    "proTip": "Arrive 30 minutes early with a blanket to claim a good spot. Rooftop Concert Series is another great Provo summer music option.",
+    "seasonalAvailability": [
+      "summer"
+    ]
+  },
+  {
+    "id": "sledding-rock-canyon",
+    "title": "Sledding at Rock Canyon Park",
+    "description": "When the snow hits, grab a sled and head to the hills at Rock Canyon Park for some old-school winter fun. The hill near the parking lot is perfect for sledding and you can warm up in the car with hot chocolate afterward.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "sledding",
+      "winter",
+      "snow",
+      "rock-canyon"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Rock Canyon Park",
+    "address": "2620 N 1200 E, Provo, UT 84604",
+    "proTip": "Cheap plastic sleds from Walmart work just fine. Go right after a fresh snowfall for the best conditions.",
+    "seasonalAvailability": [
+      "winter"
+    ]
+  },
+  {
+    "id": "ice-fishing-strawberry",
+    "title": "Ice Fishing at Strawberry Reservoir",
+    "description": "Bundle up and drive to Strawberry Reservoir for a unique ice fishing date. Rent gear from a local outfitter, drill a hole, and wait for a bite together. Even if you don't catch anything, the snowy mountain scenery is worth the trip.",
+    "estimatedTimeMinutes": 240,
+    "timeRange": "180+",
+    "estimatedCostDollars": 25,
+    "budgetTier": "splurge",
+    "moods": [
+      "adventurous",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "ice-fishing",
+      "winter",
+      "reservoir",
+      "adventure"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Strawberry Reservoir",
+    "address": "Strawberry Reservoir, Heber City, UT",
+    "proTip": "Check ice conditions before you go and bring extra layers \u2014 it's always colder on the ice than you expect. A fishing license is required for both of you.",
+    "seasonalAvailability": [
+      "winter"
+    ]
+  },
+  {
+    "id": "autumn-canyon-drive",
+    "title": "Autumn Canyon Color Drive",
+    "description": "Drive through Provo Canyon in late September to mid-October when the maples, oaks, and aspens explode in reds, oranges, and golds. Pull over at Bridal Veil Falls or Vivian Park to take photos and soak in the colors.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "fall-colors",
+      "canyon",
+      "scenic-drive",
+      "provo-canyon"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Canyon",
+    "address": "US-189, Provo Canyon, UT",
+    "proTip": "Peak color is usually the first two weeks of October. Go mid-morning on a weekday to avoid bumper-to-bumper traffic.",
+    "seasonalAvailability": [
+      "fall"
+    ]
+  },
+  {
+    "id": "halloween-haunted-houses",
+    "title": "Halloween Haunted Attractions",
+    "description": "Hit up a haunted house or Fear Factory in the Salt Lake or Utah Valley area during October for a thrilling Halloween date. Nothing bonds you like grabbing onto each other in terror as you navigate dark, spooky corridors together.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 25,
+    "budgetTier": "splurge",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "seasonal",
+    "tags": [
+      "halloween",
+      "haunted-house",
+      "spooky",
+      "october"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fear Factory SLC",
+    "address": "666 W 800 S, Salt Lake City, UT 84104",
+    "proTip": "Buy tickets online in advance to skip the line. Go on a weeknight in early October for shorter waits. Not recommended if you genuinely hate being scared.",
+    "seasonalAvailability": [
+      "fall"
+    ]
+  },
+  {
+    "id": "tulip-festival-thanksgiving-point",
+    "title": "Tulip Festival at Thanksgiving Point",
+    "description": "Visit the Tulip Festival at Ashton Gardens in Thanksgiving Point during April when over 300,000 tulips bloom across the gardens. Walk the paths together and take photos among fields of vibrant color.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "tulips",
+      "garden",
+      "spring",
+      "thanksgiving-point"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Ashton Gardens at Thanksgiving Point",
+    "address": "3900 Garden Dr, Lehi, UT 84043",
+    "proTip": "Mid-April is usually peak bloom. Go on a weekday morning for thinner crowds and better photo opportunities.",
+    "seasonalAvailability": [
+      "spring"
+    ]
+  },
+  {
+    "id": "summer-stargazing-squaw-peak",
+    "title": "Summer Stargazing at Squaw Peak",
+    "description": "Drive up Squaw Peak Road on a warm summer night for stargazing without the cold. Lay out a blanket on the overlook and use a star map app to find constellations, planets, and the Milky Way together.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "seasonal",
+    "tags": [
+      "stargazing",
+      "summer",
+      "squaw-peak",
+      "night"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Squaw Peak Overlook",
+    "address": "Squaw Peak Rd, Provo, UT 84604",
+    "proTip": "The Perseid meteor shower in August is the best time to go. Check the moon phase \u2014 new moon nights give the darkest skies.",
+    "seasonalAvailability": [
+      "summer"
+    ]
+  },
+  {
+    "id": "diy-paint-night-home",
+    "title": "DIY Paint Night at Home",
+    "description": "Grab a couple of canvases and acrylic paints from the Dollar Tree and follow a YouTube painting tutorial together. It's hilarious comparing your results and way cheaper than a real paint night.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "creative",
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "painting",
+      "at-home",
+      "creative",
+      "cheap"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Pick a Bob Ross tutorial for maximum laughs. Lay down newspaper first unless you want paint on your carpet forever."
+  },
+  {
+    "id": "bowling-fat-cats",
+    "title": "Bowling Night at Fat Cats",
+    "description": "Classic date night energy \u2014 rent a lane at Fat Cats and bowl a few games with the cosmic lighting and music going. Add on some arcade games after for bonus fun.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 12,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "active-sports",
+    "tags": [
+      "bowling",
+      "arcade",
+      "provo",
+      "group-friendly"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fat Cats",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Go after 9pm for cosmic bowling \u2014 the lights, music, and glow-in-the-dark setup make it way more fun."
+  },
+  {
+    "id": "crumbl-taste-test",
+    "title": "Crumbl Cookie Taste Test Challenge",
+    "description": "Grab the weekly Crumbl box and do a blind taste test together \u2014 rate each cookie on appearance, taste, and texture. It's surprisingly competitive and delicious.",
+    "estimatedTimeMinutes": 30,
+    "timeRange": "30",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "either",
+    "category": "food-drink",
+    "tags": [
+      "cookies",
+      "taste-test",
+      "provo",
+      "dessert"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Crumbl Cookies Provo",
+    "address": "1355 N University Ave, Provo, UT 84604",
+    "proTip": "Check the Crumbl app for the weekly rotation before you go \u2014 some weeks are way better than others."
+  },
+  {
+    "id": "provo-river-walk",
+    "title": "Evening Stroll on the Provo River Trail",
+    "description": "Walk along the Provo River Trail as the evening light fades. The trail runs through some beautiful stretches of trees and the sound of the river is incredibly calming.",
+    "estimatedTimeMinutes": 45,
+    "timeRange": "60",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "outdoor",
+    "category": "outdoors-nature",
+    "tags": [
+      "walking",
+      "river",
+      "nature",
+      "provo"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo River Trail",
+    "proTip": "The stretch near the BYU campus is well-lit and paved \u2014 perfect for an after-dinner walk."
+  },
+  {
+    "id": "spa-night-home",
+    "title": "DIY Spa Night",
+    "description": "Turn your apartment into a spa with face masks, candles, chill music, and maybe some cucumber water. Take turns giving shoulder massages and actually relax for once.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "relaxation",
+    "tags": [
+      "spa",
+      "at-home",
+      "relaxation",
+      "self-care"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Get the face masks from TJ Maxx for like $2 each. They have way better ones than the grocery store."
+  },
+  {
+    "id": "thrift-store-challenge",
+    "title": "Thrift Store Outfit Challenge",
+    "description": "Each person gets $5 and 15 minutes to find the most ridiculous outfit for the other person at DI. Then you have to wear what they picked for the next hour. Guaranteed laughs.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "adventurous",
+      "social",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "creative-diy",
+    "tags": [
+      "thrift-store",
+      "challenge",
+      "funny",
+      "cheap"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Deseret Industries",
+    "address": "1455 S State St, Provo, UT 84606",
+    "proTip": "Go to the DI on State Street \u2014 it has the biggest selection and the weirdest finds."
+  },
+  {
+    "id": "movie-marathon-theme",
+    "title": "Themed Movie Marathon at Home",
+    "description": "Pick a theme \u2014 like all Studio Ghibli, every Spider-Man, or 90s rom-coms \u2014 and commit to at least two movies. Make themed snacks to match for extra points.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "movies",
+      "at-home",
+      "cozy",
+      "low-effort"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Set a hard stop time BEFORE you start so you don't accidentally stay up until 2am. Two movies max on a school night."
+  },
+  {
+    "id": "cinemark-date-night",
+    "title": "Cinemark Movie Date Night",
+    "description": "Catch the latest blockbuster or indie film at Cinemark in Provo. Grab the couple's combo with popcorn and drinks for a classic date night that never gets old.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 18,
+    "budgetTier": "under25",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "movies",
+      "theater",
+      "classic date",
+      "blockbuster"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Cinemark 16 Provo",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Tuesday is discount day with reduced ticket prices, making it an even better deal for date night."
+  },
+  {
+    "id": "megaplex-luxury-screening",
+    "title": "Megaplex Luxury Lounge Experience",
+    "description": "Upgrade your movie night to the luxury loungers at Megaplex Theatres in Vineyard. Enjoy reclining heated seats, in-seat dining, and a premium viewing experience with your date.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 30,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "luxury cinema",
+      "movies",
+      "recliner seats",
+      "premium"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Megaplex Theatres at The Vineyard",
+    "address": "600 N Mill Rd, Vineyard, UT 84059",
+    "proTip": "Book your luxury lounger seats online in advance since they sell out fast on weekends."
+  },
+  {
+    "id": "comedy-sportz-improv",
+    "title": "ComedySportz Improv Showdown",
+    "description": "Laugh until you cry at a ComedySportz improv comedy show in Provo. Two teams compete for laughs in a fast-paced, audience-interactive format that keeps every show fresh and unpredictable.",
+    "estimatedTimeMinutes": 105,
+    "timeRange": "120",
+    "estimatedCostDollars": 12,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "comedy",
+      "improv",
+      "live performance",
+      "interactive"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "ComedySportz Provo",
+    "address": "36 W Center St, Provo, UT 84601",
+    "proTip": "Arrive early to grab front-row seats and be ready to shout out suggestions for the performers."
+  },
+  {
+    "id": "velour-live-music-night",
+    "title": "Velour Live Music Evening",
+    "description": "Experience the local music scene at Velour Live Music Gallery, one of Utah's most beloved indie music venues. Catch up-and-coming bands and singer-songwriters in an intimate, standing-room setting right on University Avenue.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "live music",
+      "indie",
+      "local bands",
+      "nightlife"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Velour Live Music Gallery",
+    "address": "135 N University Ave, Provo, UT 84601",
+    "proTip": "Check their Instagram for the weekly lineup since some shows are free and others are ticketed."
+  },
+  {
+    "id": "nickel-city-arcade-date",
+    "title": "Nickel City Retro Arcade Throwback",
+    "description": "Relive your childhood at Nickel City where every game costs just a nickel. Challenge your date to classic arcade games, skee-ball, and racing simulators for hours of competitive fun without breaking the bank.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "arcade",
+      "retro games",
+      "competitive",
+      "budget-friendly"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Nickel City",
+    "address": "1515 S State St, Orem, UT 84097",
+    "proTip": "Bring a roll of nickels from the bank to skip the coin machine line and jump straight into the action."
+  },
+  {
+    "id": "fat-cats-glow-bowling",
+    "title": "Fat Cats Glow Bowling Night",
+    "description": "Hit the lanes for cosmic bowling at Fat Cats with black lights, neon colors, and pumping music. Add in some friendly competition and nachos from the snack bar for a high-energy date night.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "bowling",
+      "glow bowling",
+      "competitive",
+      "nightlife"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fat Cats Provo",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Go after 9 PM on Fridays for cosmic bowling with the best light show and DJ."
+  },
+  {
+    "id": "get-air-trampoline-date",
+    "title": "Get Air Trampoline Park Bounce Session",
+    "description": "Bounce off the walls together at Get Air Trampoline Park in Orem. Try the dodgeball courts, foam pit, and ninja course for a date that keeps you both laughing and moving.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 16,
+    "budgetTier": "under25",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "trampoline",
+      "active",
+      "playful",
+      "sporty"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Get Air Orem",
+    "address": "272 W 1200 S, Orem, UT 84058",
+    "proTip": "Buy your tickets online ahead of time to save a few dollars and skip the check-in line."
+  },
+  {
+    "id": "escape-room-mystery",
+    "title": "Couples Escape Room Challenge",
+    "description": "Put your teamwork and puzzle-solving skills to the test at an escape room in Provo. Work together under pressure to crack codes, find hidden clues, and escape before the clock runs out.",
+    "estimatedTimeMinutes": 90,
+    "timeRange": "120",
+    "estimatedCostDollars": 28,
+    "budgetTier": "splurge",
+    "moods": [
+      "adventurous",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "escape room",
+      "puzzle",
+      "teamwork",
+      "mystery"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Escapology Provo",
+    "address": "4801 N University Ave #110, Provo, UT 84604",
+    "proTip": "Book a weeknight session for a more private experience with fewer strangers in your group."
+  },
+  {
+    "id": "hive-board-game-cafe",
+    "title": "Board Game Cafe Hangout at The Hive",
+    "description": "Settle into a cozy booth at The Hive and choose from their massive library of board games and card games. Sip on hot chocolate or a specialty drink while you battle it out over strategy games or cooperative adventures.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 8,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "board games",
+      "cafe",
+      "cozy",
+      "strategy"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "The Hive Collaborative",
+    "address": "60 N 100 W, Provo, UT 84601",
+    "proTip": "Ask the staff for recommendations based on two-player games if you want something specifically designed for couples."
+  },
+  {
+    "id": "karaoke-night-duets",
+    "title": "Karaoke Night Duet Session",
+    "description": "Belt out your favorite songs together at a karaoke night in Provo. Whether you are pitch-perfect or wonderfully off-key, singing duets with your date is always a bonding experience.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 5,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "karaoke",
+      "singing",
+      "nightlife",
+      "duets"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Roosters B Street",
+    "address": "255 N 100 W, Provo, UT 84601",
+    "proTip": "Pick a duet song you both know well for your first song to break the ice before going solo."
+  },
+  {
+    "id": "trivia-night-showdown",
+    "title": "Pub Trivia Night Team-Up",
+    "description": "Form a two-person trivia team and test your combined knowledge at a local trivia night in Provo. Compete against other teams across rounds of pop culture, history, science, and more.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "trivia",
+      "competitive",
+      "team",
+      "nightlife"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "ABG's Bar",
+    "address": "180 W 300 S, Provo, UT 84601",
+    "proTip": "Come up with a funny team name beforehand since the host usually reads them all aloud to the crowd."
+  },
+  {
+    "id": "outdoor-movie-blanket-setup",
+    "title": "DIY Outdoor Movie Under the Stars",
+    "description": "Set up a projector, laptop, and cozy blankets at a park or your backyard for a private outdoor movie screening. Utah County's clear skies make for a stunning backdrop as you watch a favorite film together.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "entertainment",
+    "tags": [
+      "outdoor movie",
+      "DIY",
+      "romantic",
+      "stargazing"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Bring extra blankets and hot cocoa because Utah evenings cool down fast, even in summer.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
+  },
+  {
+    "id": "provo-rec-center-splash",
+    "title": "Provo Rec Center Splash Date",
+    "description": "Take a dip together at the Provo Recreation Center's indoor pool and lazy river. Race down the water slide, soak in the hot tub, and enjoy a fun, active date without the seasonal limitations of outdoor swimming.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 6,
+    "budgetTier": "under10",
+    "moods": [
+      "active",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "swimming",
+      "pool",
+      "water slide",
+      "recreation"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Provo Recreation Center",
+    "address": "320 W 500 N, Provo, UT 84601",
+    "proTip": "Go during open swim hours on weekday evenings when it is less crowded and more relaxed."
+  },
+  {
+    "id": "dollar-theater-throwback",
+    "title": "Dollar Theater Throwback Film",
+    "description": "Catch a second-run movie for almost nothing at one of Utah County's discount theaters. It is the same big-screen experience at a fraction of the price, perfect for a spontaneous low-budget date.",
+    "estimatedTimeMinutes": 135,
+    "timeRange": "120",
+    "estimatedCostDollars": 4,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "romantic"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "movies",
+      "discount",
+      "second-run",
+      "budget"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Bring your own snacks in a bag to save even more since outside food policies tend to be relaxed."
+  },
+  {
+    "id": "fat-cats-mini-golf-duel",
+    "title": "Fat Cats Indoor Mini Golf Duel",
+    "description": "Play a round of blacklight mini golf at Fat Cats for a fun, low-pressure competitive date. The glow-in-the-dark course adds a playful twist to the classic mini golf experience.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 9,
+    "budgetTier": "under10",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "mini golf",
+      "blacklight",
+      "competitive",
+      "playful"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Fat Cats Provo",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Make it interesting by setting a silly wager on who wins each hole."
+  },
+  {
+    "id": "laser-tag-battle-royale",
+    "title": "Laser Tag Battle Royale",
+    "description": "Gear up for an adrenaline-pumping laser tag showdown at Fat Cats in Provo. Team up as a duo or go head-to-head in a dark, fog-filled arena for an exciting and active date.",
+    "estimatedTimeMinutes": 75,
+    "timeRange": "60",
+    "estimatedCostDollars": 10,
+    "budgetTier": "under10",
+    "moods": [
+      "active",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "laser tag",
+      "competitive",
+      "active",
+      "adrenaline"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "Fat Cats Provo",
+    "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+    "proTip": "Wear dark clothing for a tactical advantage in the blacklight arena."
+  },
+  {
+    "id": "open-mic-night-velour",
+    "title": "Open Mic Night at Velour",
+    "description": "Attend an open mic night at Velour and soak in the raw talent of Provo's local musicians, poets, and comedians. If you are feeling brave, sign up to perform something together.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 0,
+    "budgetTier": "free",
+    "moods": [
+      "creative",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "open mic",
+      "live performance",
+      "local talent",
+      "creative"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "Velour Live Music Gallery",
+    "address": "135 N University Ave, Provo, UT 84601",
+    "proTip": "If you want to perform, sign up right when doors open since spots fill up quickly."
+  },
+  {
+    "id": "scera-live-theater",
+    "title": "SCERA Center Live Theater Show",
+    "description": "See a live musical or play at the SCERA Center for the Arts in Orem. From Broadway-style musicals to original productions, the intimate theater setting makes for a memorable and cultured evening out.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 22,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "theater",
+      "musical",
+      "live performance",
+      "arts"
+    ],
+    "lateNightFriendly": false,
+    "specificLocation": "SCERA Center for the Arts",
+    "address": "745 S State St, Orem, UT 84058",
+    "proTip": "Check their season calendar early and book opening weekend for the freshest performances."
+  },
+  {
+    "id": "standup-comedy-night",
+    "title": "Stand-Up Comedy Night in Provo",
+    "description": "Catch a stand-up comedy show at a local venue in downtown Provo. Touring comedians and local acts perform regularly, giving you a full evening of laughs without having to drive to Salt Lake.",
+    "estimatedTimeMinutes": 105,
+    "timeRange": "120",
+    "estimatedCostDollars": 20,
+    "budgetTier": "under25",
+    "moods": [
+      "social",
+      "chill"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "comedy",
+      "stand-up",
+      "live show",
+      "downtown"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Follow local comedy accounts on social media for surprise pop-up shows and discounted tickets."
+  },
+  {
+    "id": "couples-vr-adventure",
+    "title": "Virtual Reality Couples Adventure",
+    "description": "Step into a virtual reality gaming experience at a VR arcade in Utah County. Fight zombies, explore alien worlds, or solve puzzles together in fully immersive VR that feels unlike any other date.",
+    "estimatedTimeMinutes": 60,
+    "timeRange": "60",
+    "estimatedCostDollars": 30,
+    "budgetTier": "splurge",
+    "moods": [
+      "adventurous",
+      "active"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "VR",
+      "gaming",
+      "immersive",
+      "technology"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "Start with a cooperative game to ease in before trying the competitive options."
+  },
+  {
+    "id": "drive-in-movie-night",
+    "title": "Throwback Drive-In Movie Night",
+    "description": "Pack the car with pillows and snacks and head to a pop-up or seasonal drive-in movie screening in Utah County. Tune your car radio to the movie frequency and enjoy a nostalgic cinematic experience from the comfort of your vehicle.",
+    "estimatedTimeMinutes": 150,
+    "timeRange": "180+",
+    "estimatedCostDollars": 15,
+    "budgetTier": "under25",
+    "moods": [
+      "romantic",
+      "chill"
+    ],
+    "setting": "outdoor",
+    "category": "entertainment",
+    "tags": [
+      "drive-in",
+      "movies",
+      "nostalgic",
+      "outdoor cinema"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Back into your spot and open the hatchback or truck bed for the best viewing setup.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
+  },
+  {
+    "id": "dinner-theater-evening",
+    "title": "Dinner Theater Date Night",
+    "description": "Combine a full-course meal with a live theatrical performance at a dinner theater venue near Provo. Watch actors perform just feet from your table while you enjoy a multi-course dinner for a truly special evening.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 50,
+    "budgetTier": "splurge",
+    "moods": [
+      "romantic",
+      "social"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "dinner theater",
+      "fine dining",
+      "live performance",
+      "special occasion"
+    ],
+    "lateNightFriendly": false,
+    "proTip": "Make reservations at least two weeks ahead and request a center table for the best sightlines."
+  },
+  {
+    "id": "uccu-center-concert",
+    "title": "UCCU Center Concert Night",
+    "description": "See a major touring artist or band at the UCCU Center on BYU campus. From pop and rock to country and comedy tours, the arena brings big-name entertainment right to Provo.",
+    "estimatedTimeMinutes": 180,
+    "timeRange": "180+",
+    "estimatedCostDollars": 55,
+    "budgetTier": "splurge",
+    "moods": [
+      "social",
+      "adventurous"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "concert",
+      "live music",
+      "arena",
+      "touring artists"
+    ],
+    "lateNightFriendly": true,
+    "specificLocation": "UCCU Center",
+    "address": "800 N University Ave, Provo, UT 84604",
+    "proTip": "Buy tickets right when they go on sale for the best seats and check BYU's event calendar for upcoming shows."
+  },
+  {
+    "id": "puzzle-and-chill-night",
+    "title": "Jigsaw Puzzle and Chill Night",
+    "description": "Pick up a 500-piece puzzle from a local thrift store and spend a cozy evening assembling it together at home. Put on a playlist, make some hot drinks, and enjoy the simple satisfaction of a collaborative project.",
+    "estimatedTimeMinutes": 120,
+    "timeRange": "120",
+    "estimatedCostDollars": 3,
+    "budgetTier": "under10",
+    "moods": [
+      "chill",
+      "creative"
+    ],
+    "setting": "indoor",
+    "category": "entertainment",
+    "tags": [
+      "puzzle",
+      "cozy",
+      "at-home",
+      "collaborative"
+    ],
+    "lateNightFriendly": true,
+    "proTip": "Check Deseret Industries or local thrift stores on Center Street for puzzles under two dollars."
+  }
+]
