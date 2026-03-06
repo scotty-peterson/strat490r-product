@@ -6,6 +6,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import dateIdeas from "@/data/date-ideas.json";
 import { DateIdea } from "@/lib/types";
+import { useAuth } from "@/lib/auth-context";
+import { useSavedIdea } from "@/hooks/useSavedIdea";
 
 const MOOD_COLORS: Record<string, string> = {
   chill: "bg-blue-500/20 text-blue-300",
@@ -45,6 +47,9 @@ function formatTime(minutes: number): string {
 export default function IdeaDetailPage() {
   const params = useParams();
   const router = useRouter();
+  const { user } = useAuth();
+  const ideaId = typeof params.id === "string" ? params.id : "";
+  const { isSaved, toggle, loading: saveLoading } = useSavedIdea(ideaId);
 
   const idea = useMemo(() => {
     return (dateIdeas as DateIdea[]).find(
@@ -70,6 +75,14 @@ export default function IdeaDetailPage() {
       alert("Link copied to clipboard!");
     }
   }, [idea]);
+
+  const handleSave = useCallback(async () => {
+    if (!user) {
+      router.push(`/auth?next=/idea/${ideaId}`);
+      return;
+    }
+    await toggle();
+  }, [user, toggle, router, ideaId]);
 
   const mapsUrl = useMemo(() => {
     if (!idea?.address) return null;
@@ -117,24 +130,48 @@ export default function IdeaDetailPage() {
             />
           </svg>
         </button>
-        <button
-          onClick={handleShare}
-          className="p-2 -mr-2 text-text-secondary hover:text-text-primary transition-colors"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
+
+        <div className="flex items-center gap-1">
+          {/* Save button */}
+          <button
+            onClick={handleSave}
+            disabled={saveLoading}
+            className="p-2 text-text-secondary hover:text-text-primary transition-colors disabled:opacity-50"
+            aria-label={isSaved ? "Unsave idea" : "Save idea"}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
-            />
-          </svg>
-        </button>
+            <svg
+              className={`w-6 h-6 transition-all duration-200 ${isSaved ? "fill-accent-primary text-accent-primary scale-110" : "fill-none"}`}
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+          </button>
+          {/* Share button */}
+          <button
+            onClick={handleShare}
+            className="p-2 -mr-2 text-text-secondary hover:text-text-primary transition-colors"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Content */}
@@ -267,10 +304,37 @@ export default function IdeaDetailPage() {
         {/* Action buttons */}
         <div className="flex flex-col gap-3 mt-4">
           <button
-            onClick={handleShare}
-            className="w-full py-4 bg-accent-primary text-bg-primary font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            onClick={handleSave}
+            disabled={saveLoading}
+            className={`w-full py-4 font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-60 disabled:scale-100 flex items-center justify-center gap-2 ${
+              isSaved
+                ? "bg-accent-primary/20 border-2 border-accent-primary text-accent-primary"
+                : "bg-accent-primary text-bg-primary"
+            }`}
           >
-            Share This Idea
+            <svg
+              className={`w-5 h-5 ${isSaved ? "fill-accent-primary" : "fill-bg-primary"}`}
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={1.5}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+            {user
+              ? isSaved
+                ? "Saved"
+                : "Save This Idea"
+              : "Save This Idea"}
+          </button>
+          <button
+            onClick={handleShare}
+            className="w-full py-3 border-2 border-border text-text-secondary font-semibold rounded-2xl text-sm transition-all duration-200 hover:border-accent-primary hover:text-text-primary active:scale-[0.98]"
+          >
+            Share
           </button>
           <Link
             href="/concierge"
