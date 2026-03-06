@@ -336,6 +336,14 @@ export default function IdeaDetailPage() {
           >
             Share
           </button>
+          {isSaved && user && (
+            <Link
+              href="/saved"
+              className="w-full py-3 text-center text-accent-primary text-sm font-semibold transition-colors hover:opacity-80"
+            >
+              View all saved ideas →
+            </Link>
+          )}
           <Link
             href="/concierge"
             className="w-full py-3 text-center text-text-muted text-sm font-medium transition-colors hover:text-text-secondary"

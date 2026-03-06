@@ -3,6 +3,18 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-[100dvh] flex flex-col items-center justify-center px-6 relative overflow-hidden">
+      {/* Top-right saved link */}
+      <div className="absolute top-4 right-4 z-20">
+        <Link
+          href="/saved"
+          className="flex items-center gap-1.5 text-xs text-text-muted hover:text-accent-primary transition-colors px-3 py-2"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+          Saved
+        </Link>
+      </div>
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-bg-secondary to-bg-primary" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent-primary/5 rounded-full blur-3xl" />
