@@ -73,15 +73,7 @@ function ResultsContent() {
         <h1 className="text-sm font-semibold text-text-secondary">
           Your Evening
         </h1>
-        <Link
-          href="/saved"
-          className="p-2 -mr-2 text-text-secondary hover:text-accent-primary transition-colors"
-          aria-label="Saved ideas"
-        >
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-          </svg>
-        </Link>
+        <div className="w-10" />
       </div>
 
       {/* Subheader */}
@@ -132,6 +124,15 @@ function ResultsContent() {
               Show Me 3 More
             </button>
           )}
+          <Link
+            href="/saved"
+            className="w-full py-4 bg-bg-card border-2 border-border text-text-primary font-bold rounded-2xl text-base transition-all duration-200 hover:border-accent-primary active:scale-[0.98] flex items-center justify-center gap-2"
+          >
+            <svg className="w-5 h-5 fill-accent-primary" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+            Saved Ideas
+          </Link>
           <button
             onClick={handleStartOver}
             className="w-full py-3 text-text-muted text-sm font-medium transition-colors hover:text-text-secondary"
