@@ -77,7 +77,11 @@ function AuthContent() {
         <div className="w-full max-w-sm">
           {submitted ? (
             <div className="text-center">
-              <div className="text-5xl mb-6">📬</div>
+              <div className="mb-6">
+                <svg className="w-12 h-12 mx-auto text-accent-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+              </div>
               <h1 className="text-2xl font-bold text-text-primary mb-3">
                 Check your email
               </h1>
@@ -93,7 +97,11 @@ function AuthContent() {
           ) : (
             <>
               <div className="text-center mb-8">
-                <div className="text-4xl mb-4">🔖</div>
+                <div className="mb-4">
+                  <svg className="w-10 h-10 mx-auto text-accent-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                  </svg>
+                </div>
                 <h1 className="text-2xl font-bold text-text-primary mb-2">
                   Save your favorites
                 </h1>
@@ -118,7 +126,7 @@ function AuthContent() {
                 <button
                   type="submit"
                   disabled={loading || !email.trim()}
-                  className="w-full py-4 bg-accent-primary text-bg-primary font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:scale-100"
+                  className="w-full py-4 bg-accent-primary text-white font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:scale-100"
                 >
                   {loading ? "Sending…" : "Send Magic Link"}
                 </button>

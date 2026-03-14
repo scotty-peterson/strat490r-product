@@ -10,12 +10,12 @@ import { useAuth } from "@/lib/auth-context";
 import { useSavedIdea } from "@/hooks/useSavedIdea";
 
 const MOOD_COLORS: Record<string, string> = {
-  chill: "bg-blue-500/20 text-blue-300",
-  adventurous: "bg-orange-500/20 text-orange-300",
-  romantic: "bg-pink-500/20 text-pink-300",
-  social: "bg-green-500/20 text-green-300",
-  creative: "bg-purple-500/20 text-purple-300",
-  active: "bg-red-500/20 text-red-300",
+  chill: "bg-blue-50 text-blue-700",
+  adventurous: "bg-orange-50 text-orange-700",
+  romantic: "bg-pink-50 text-pink-700",
+  social: "bg-green-50 text-green-700",
+  creative: "bg-purple-50 text-purple-700",
+  active: "bg-red-50 text-red-700",
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -214,14 +214,14 @@ export default function IdeaDetailPage() {
           </span>
           <span className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-xl bg-bg-card border border-border text-text-secondary">
             {idea.setting === "indoor"
-              ? "🏠 Indoor"
+              ? "Indoor"
               : idea.setting === "outdoor"
-                ? "🌲 Outdoor"
-                : "🤷 Either"}
+                ? "Outdoor"
+                : "Either"}
           </span>
           {idea.lateNightFriendly && (
             <span className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-xl bg-accent-secondary/10 border border-accent-secondary/20 text-accent-secondary">
-              🌙 Late night friendly
+              Late night friendly
             </span>
           )}
         </div>
@@ -309,11 +309,11 @@ export default function IdeaDetailPage() {
             className={`w-full py-4 font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-60 disabled:scale-100 flex items-center justify-center gap-2 ${
               isSaved
                 ? "bg-accent-primary/20 border-2 border-accent-primary text-accent-primary"
-                : "bg-accent-primary text-bg-primary"
+                : "bg-accent-primary text-white"
             }`}
           >
             <svg
-              className={`w-5 h-5 ${isSaved ? "fill-accent-primary" : "fill-bg-primary"}`}
+              className={`w-5 h-5 ${isSaved ? "fill-accent-primary" : "fill-white"}`}
               viewBox="0 0 24 24"
               stroke="currentColor"
               strokeWidth={1.5}

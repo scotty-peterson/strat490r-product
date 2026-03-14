@@ -4,12 +4,12 @@ import Link from "next/link";
 import { DateIdea } from "@/lib/types";
 
 const MOOD_COLORS: Record<string, string> = {
-  chill: "bg-blue-500/20 text-blue-300",
-  adventurous: "bg-orange-500/20 text-orange-300",
-  romantic: "bg-pink-500/20 text-pink-300",
-  social: "bg-green-500/20 text-green-300",
-  creative: "bg-purple-500/20 text-purple-300",
-  active: "bg-red-500/20 text-red-300",
+  chill: "bg-blue-50 text-blue-700",
+  adventurous: "bg-orange-50 text-orange-700",
+  romantic: "bg-pink-50 text-pink-700",
+  social: "bg-green-50 text-green-700",
+  creative: "bg-purple-50 text-purple-700",
+  active: "bg-red-50 text-red-700",
 };
 
 function formatCost(dollars: number): string {
@@ -60,7 +60,7 @@ export default function IdeaCard({ idea }: { idea: DateIdea }) {
             <>
               <span>·</span>
               <span className="text-accent-secondary flex items-center gap-1">
-                🌙 Late night
+                Late night
               </span>
             </>
           )}
@@ -78,7 +78,8 @@ export default function IdeaCard({ idea }: { idea: DateIdea }) {
           ))}
           {idea.specificLocation && (
             <span className="text-xs px-2.5 py-1 rounded-full font-medium bg-accent-primary/10 text-accent-primary">
-              📍 {idea.specificLocation}
+              <svg className="w-3 h-3 inline-block mr-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+              {idea.specificLocation}
             </span>
           )}
         </div>

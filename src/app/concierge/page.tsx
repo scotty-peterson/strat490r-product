@@ -15,6 +15,7 @@ import {
   BUDGET_OPTIONS,
   MOOD_OPTIONS,
   SETTING_OPTIONS,
+  getSuggestedTimeRange,
 } from "@/lib/constants";
 import OptionPill from "@/components/ui/OptionPill";
 import ProgressDots from "@/components/ui/ProgressDots";
@@ -40,9 +41,10 @@ export default function ConciergePage() {
   const router = useRouter();
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState(1);
-  const [filters, setFilters] = useState<Partial<ConciergeFilters>>({
+  const [filters, setFilters] = useState<Partial<ConciergeFilters>>(() => ({
     moods: [],
-  });
+    timeRange: getSuggestedTimeRange(),
+  }));
 
   const goForward = useCallback(() => {
     setDirection(1);
@@ -60,7 +62,6 @@ export default function ConciergePage() {
 
   const handleTimeSelect = (time: TimeRange) => {
     setFilters((prev) => ({ ...prev, timeRange: time }));
-    setTimeout(goForward, 200);
   };
 
   const handleBudgetSelect = (budget: BudgetTier) => {
@@ -97,19 +98,26 @@ export default function ConciergePage() {
         return (
           <StepContainer
             question="How much time do you have?"
-            subtitle="Pick one"
+            subtitle="Suggested for right now"
           >
             <div className="flex flex-col gap-3 w-full">
               {TIME_OPTIONS.map((opt) => (
                 <OptionPill
                   key={opt.value}
-                  icon={opt.icon}
                   label={opt.label}
                   selected={filters.timeRange === opt.value}
                   onClick={() => handleTimeSelect(opt.value)}
                 />
               ))}
             </div>
+            {filters.timeRange && (
+              <button
+                onClick={goForward}
+                className="mt-6 w-full py-4 bg-accent-primary text-white font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Next
+              </button>
+            )}
           </StepContainer>
         );
       case 1:
@@ -122,7 +130,6 @@ export default function ConciergePage() {
               {BUDGET_OPTIONS.map((opt) => (
                 <OptionPill
                   key={opt.value}
-                  icon={opt.icon}
                   label={opt.label}
                   selected={filters.budgetTier === opt.value}
                   onClick={() => handleBudgetSelect(opt.value)}
@@ -141,7 +148,6 @@ export default function ConciergePage() {
               {MOOD_OPTIONS.map((opt) => (
                 <OptionPill
                   key={opt.value}
-                  icon={opt.icon}
                   label={opt.label}
                   selected={filters.moods?.includes(opt.value) || false}
                   onClick={() => handleMoodToggle(opt.value)}
@@ -151,7 +157,7 @@ export default function ConciergePage() {
             {(filters.moods?.length || 0) > 0 && (
               <button
                 onClick={goForward}
-                className="mt-6 w-full py-4 bg-accent-primary text-bg-primary font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+                className="mt-6 w-full py-4 bg-accent-primary text-white font-bold rounded-2xl text-base transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
               >
                 Next
               </button>
@@ -168,7 +174,6 @@ export default function ConciergePage() {
               {SETTING_OPTIONS.map((opt) => (
                 <OptionPill
                   key={opt.value}
-                  icon={opt.icon}
                   label={opt.label}
                   selected={filters.setting === opt.value}
                   onClick={() => handleSettingSelect(opt.value)}

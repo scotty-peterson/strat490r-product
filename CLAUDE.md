@@ -1,8 +1,8 @@
-# CLAUDE.md — The Dead Evening
+# CLAUDE.md — Rendition
 
 ## Product Overview
 
-**The Dead Evening** is a mobile-first web app that helps college couples in Provo, UT find something genuinely good to do together on a weeknight evening. Users answer 4 quick questions (time, budget, mood, setting) and receive 3 vetted, executable date ideas — no scrolling, no arguing, no defaulting to a movie.
+**Rendition** is a mobile-first web app that helps college couples in Provo, UT find something genuinely good to do together on a weeknight evening. Users answer 4 quick questions (time, budget, mood, setting) and receive 3 vetted, executable date ideas — no scrolling, no arguing, no defaulting to a movie.
 
 ## The Problem
 
@@ -105,12 +105,13 @@ interface DateIdea {
 
 ## Design System
 
-- **Background**: `#0f0d15` (deep midnight purple-black)
-- **Primary accent**: `#e8a838` (warm gold) — CTAs, selected states
-- **Secondary accent**: `#c77dff` (soft lavender) — late-night badge
+- **Background**: `#f7f5f2` (warm off-white)
+- **Primary accent**: `#c4703e` (warm terracotta) — CTAs, selected states
+- **Secondary accent**: `#7c6cae` (muted purple) — badges
 - **Typography**: Geist (Next.js default), weights 400–800
 - **Corners**: `rounded-2xl` everywhere (friendly, modern)
 - **Touch targets**: 48px+ height on all interactive elements
+- **Style**: Clean, no emojis — polished but approachable
 
 ## Running Locally
 

@@ -1,9 +1,9 @@
 {
-  "name": "The Dead Evening",
-  "short_name": "Dead Evening",
+  "name": "Rendition",
+  "short_name": "Rendition",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0f0d15",
-  "theme_color": "#0f0d15",
+  "background_color": "#f7f5f2",
+  "theme_color": "#f7f5f2",
   "description": "Find reliable, time-appropriate things to do tonight."
 }

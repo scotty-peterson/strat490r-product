@@ -3,14 +3,12 @@
 import { cn } from "@/lib/utils";
 
 interface OptionPillProps {
-  icon: string;
   label: string;
   selected: boolean;
   onClick: () => void;
 }
 
 export default function OptionPill({
-  icon,
   label,
   selected,
   onClick,
@@ -21,11 +19,10 @@ export default function OptionPill({
       className={cn(
         "flex items-center gap-3 w-full px-5 py-4 rounded-2xl border-2 text-left transition-all duration-200 active:scale-[0.97]",
         selected
-          ? "border-accent-primary bg-accent-primary/10 text-text-primary shadow-[0_0_20px_rgba(232,168,56,0.15)]"
+          ? "border-accent-primary bg-accent-primary/10 text-text-primary shadow-md"
           : "border-border bg-bg-card text-text-secondary hover:border-border-hover hover:bg-bg-card-hover"
       )}
     >
-      <span className="text-2xl">{icon}</span>
       <span className="text-base font-semibold">{label}</span>
       {selected && (
         <svg

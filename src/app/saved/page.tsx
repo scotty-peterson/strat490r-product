@@ -103,7 +103,11 @@ export default function SavedPage() {
           </div>
         ) : savedIdeas.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16 text-center">
-            <div className="text-4xl mb-4">🔖</div>
+            <div className="mb-4">
+              <svg className="w-10 h-10 mx-auto text-text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+              </svg>
+            </div>
             <p className="text-text-secondary font-medium mb-2">
               Nothing saved yet
             </p>
@@ -112,7 +116,7 @@ export default function SavedPage() {
             </p>
             <Link
               href="/concierge"
-              className="py-3 px-6 bg-accent-primary text-bg-primary font-bold rounded-2xl text-sm transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+              className="py-3 px-6 bg-accent-primary text-white font-bold rounded-2xl text-sm transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             >
               Find Something Tonight
             </Link>

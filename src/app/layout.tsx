@@ -9,14 +9,14 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "The Dead Evening | Provo Date Night Ideas",
+  title: "Rendition | Provo Date Night Ideas",
   description:
     "Find reliable, time-appropriate things to do with your date tonight. Provo evenings, sorted.",
   manifest: "/manifest.json",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0f0d15",
+  themeColor: "#f7f5f2",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,

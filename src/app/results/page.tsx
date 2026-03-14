@@ -71,7 +71,7 @@ function ResultsContent() {
           </svg>
         </Link>
         <h1 className="text-sm font-semibold text-text-secondary">
-          Your Evening
+          Your Night
         </h1>
         <div className="w-10" />
       </div>

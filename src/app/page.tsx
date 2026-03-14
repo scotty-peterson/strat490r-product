@@ -17,19 +17,15 @@ export default function Home() {
       </div>
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-bg-primary via-bg-secondary to-bg-primary" />
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-1/4 left-1/3 w-[400px] h-[400px] bg-accent-secondary/5 rounded-full blur-3xl" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent-primary/8 rounded-full blur-3xl" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-md">
-        <div className="text-6xl mb-6">🌙</div>
-        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-text-primary mb-4 leading-tight">
-          The Dead
-          <br />
-          <span className="text-accent-primary">Evening</span>
+        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-accent-primary mb-4 leading-tight">
+          Rendition
         </h1>
         <p className="text-lg text-text-secondary mb-2">
-          Provo evenings, sorted.
+          Date nights, curated.
         </p>
         <p className="text-sm text-text-muted mb-10 max-w-xs">
           Stop defaulting to a movie. Find something you&apos;ll actually
@@ -38,9 +34,9 @@ export default function Home() {
 
         <Link
           href="/concierge"
-          className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-bg-primary bg-accent-primary rounded-2xl transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(232,168,56,0.3)] active:scale-95"
+          className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-accent-primary rounded-2xl transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-95"
         >
-          Find Your Evening
+          Find Your Night
           <svg
             className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1"
             fill="none"
@@ -59,15 +55,15 @@ export default function Home() {
         {/* How it works */}
         <div className="mt-16 grid grid-cols-3 gap-6 text-center">
           <div>
-            <div className="text-2xl mb-2">🎯</div>
+            <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-accent-primary/15 text-accent-primary text-sm font-bold flex items-center justify-center">1</div>
             <p className="text-xs text-text-muted">Pick your vibe</p>
           </div>
           <div>
-            <div className="text-2xl mb-2">✨</div>
+            <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-accent-primary/15 text-accent-primary text-sm font-bold flex items-center justify-center">2</div>
             <p className="text-xs text-text-muted">Get 3 ideas</p>
           </div>
           <div>
-            <div className="text-2xl mb-2">🚀</div>
+            <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-accent-primary/15 text-accent-primary text-sm font-bold flex items-center justify-center">3</div>
             <p className="text-xs text-text-muted">Go have fun</p>
           </div>
         </div>
