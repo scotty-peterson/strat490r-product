@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SurpriseButton from "@/components/SurpriseButton";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
             />
           </svg>
         </Link>
+        <SurpriseButton />
 
         {/* How it works */}
         <div className="mt-16 grid grid-cols-3 gap-6 text-center">

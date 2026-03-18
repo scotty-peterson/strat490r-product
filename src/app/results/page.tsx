@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { useState, useMemo, useCallback, Suspense } from "react";
+import { useState, useMemo, useCallback, useEffect, Suspense } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ConciergeFilters, TimeRange, BudgetTier, Mood, Setting } from "@/lib/types";
@@ -10,10 +10,57 @@ import dateIdeas from "@/data/date-ideas.json";
 import { DateIdea } from "@/lib/types";
 import IdeaCard from "@/components/results/IdeaCard";
 
+interface WeatherState {
+  tempF: number;
+  isBad: boolean;
+}
+
+const WEATHER_CACHE_KEY = "provo-weather";
+const WEATHER_CACHE_TTL_MS = 30 * 60 * 1000; // 30 minutes
+
 function ResultsContent() {
   const searchParams = useSearchParams();
   const [shownIds, setShownIds] = useState<string[]>([]);
   const [refreshKey, setRefreshKey] = useState(0);
+  const [weather, setWeather] = useState<WeatherState | null>(null);
+
+  useEffect(() => {
+    try {
+      const raw = sessionStorage.getItem(WEATHER_CACHE_KEY);
+      if (raw) {
+        const cached = JSON.parse(raw) as WeatherState & { cachedAt: number };
+        if (Date.now() - cached.cachedAt < WEATHER_CACHE_TTL_MS) {
+          setWeather({ tempF: cached.tempF, isBad: cached.isBad });
+          return;
+        }
+      }
+    } catch {
+      // ignore parse errors
+    }
+
+    fetch("https://wttr.in/Provo,UT?format=j1")
+      .then((r) => r.json())
+      .then((data) => {
+        const condition = data?.current_condition?.[0];
+        if (!condition) return;
+        const tempF = parseInt(condition.temp_F, 10);
+        const code = parseInt(condition.weatherCode, 10);
+        const isBad = tempF <= 32 || code >= 300;
+        const result: WeatherState = { tempF, isBad };
+        setWeather(result);
+        try {
+          sessionStorage.setItem(
+            WEATHER_CACHE_KEY,
+            JSON.stringify({ ...result, cachedAt: Date.now() })
+          );
+        } catch {
+          // ignore storage errors
+        }
+      })
+      .catch(() => {
+        // Graceful degradation — show all results as normal
+      });
+  }, []);
 
   const filters: ConciergeFilters = useMemo(
     () => ({
@@ -37,6 +84,18 @@ function ResultsContent() {
     return results;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters, refreshKey]);
+
+  const displayIdeas = useMemo(() => {
+    if (!weather?.isBad) return ideas;
+    const indoor = ideas.filter((i) => i.setting !== "outdoor");
+    const outdoor = ideas.filter((i) => i.setting === "outdoor");
+    return [...indoor, ...outdoor];
+  }, [ideas, weather]);
+
+  const outdoorDeprioritized = useMemo(() => {
+    if (!weather?.isBad) return false;
+    return ideas.some((i) => i.setting === "outdoor");
+  }, [ideas, weather]);
 
   const handleRefresh = useCallback(() => {
     setShownIds((prev) => [...prev, ...ideas.map((i) => i.id)]);
@@ -88,6 +147,11 @@ function ResultsContent() {
             Try broadening your preferences or start over.
           </p>
         )}
+        {outdoorDeprioritized && weather && (
+          <p className="text-xs text-text-muted mt-2">
+            Outdoor ideas moved to the bottom — it&apos;s {weather.tempF}&deg;F outside
+          </p>
+        )}
       </div>
 
       {/* Results */}
@@ -101,7 +165,7 @@ function ResultsContent() {
             transition={{ duration: 0.3 }}
             className="flex flex-col gap-4 mt-4"
           >
-            {ideas.map((idea, i) => (
+            {displayIdeas.map((idea, i) => (
               <motion.div
                 key={idea.id}
                 initial={{ opacity: 0, y: 20 }}
