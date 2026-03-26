@@ -1,0 +1,9 @@
+{
+  "name": "Rendition",
+  "short_name": "Rendition",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5f2",
+  "theme_color": "#f7f5f2",
+  "description": "Find reliable, time-appropriate things to do tonight."
+}

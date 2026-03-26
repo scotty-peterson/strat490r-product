@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #f7f5f2;
+  --bg-secondary: #edeae5;
+  --bg-card: #ffffff;
+  --bg-card-hover: #faf8f6;
+  --accent-primary: #c4703e;
+  --accent-primary-dim: #a85d30;
+  --accent-secondary: #7c6cae;
+  --accent-secondary-dim: #5e4f8c;
+  --text-primary: #1a1a1a;
+  --text-secondary: #5c5650;
+  --text-muted: #8a8279;
+  --border: #e0dbd4;
+  --border-hover: #ccc5bc;
+  --success: #3aa76d;
+  --error: #d94848;
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-primary-dim: var(--accent-primary-dim);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-accent-secondary-dim: var(--accent-secondary-dim);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --font-sans: var(--font-geist-sans);
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Desktop: constrain content width with centered card layout */
+@media (min-width: 768px) {
+  .desktop-container {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .desktop-wide {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* Prevent overscroll bounce on iOS */
+html,
+body {
+  overscroll-behavior: none;
+}
+
+/* Hide scrollbar but allow scrolling */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
