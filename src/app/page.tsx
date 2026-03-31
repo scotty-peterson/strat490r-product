@@ -1,9 +1,14 @@
+"use client";
+
 import Link from "next/link";
 import SurpriseButton from "@/components/SurpriseButton";
 import WelcomeOverlay from "@/components/WelcomeOverlay";
 import CitySelector from "@/components/CitySelector";
+import { useSeasonalContent } from "@/components/SeasonalTagline";
 
 export default function Home() {
+  const { subtitle, cta } = useSeasonalContent();
+
   return (
     <div className="min-h-[100dvh] flex flex-col relative overflow-hidden">
       <WelcomeOverlay />
@@ -48,8 +53,7 @@ export default function Home() {
             Date nights, curated.
           </p>
           <p className="text-sm text-text-muted mb-8 max-w-xs mx-auto">
-            Stop defaulting to a movie. Find something you&apos;ll actually
-            remember tonight.
+            {subtitle}
           </p>
 
           {/* CTAs */}
@@ -58,7 +62,7 @@ export default function Home() {
               href="/concierge"
               className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-accent-primary rounded-2xl transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-95"
             >
-              Find Your Night
+              {cta}
               <svg
                 className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1"
                 fill="none"

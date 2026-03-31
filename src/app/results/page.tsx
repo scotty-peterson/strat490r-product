@@ -26,6 +26,7 @@ function ResultsContent() {
   const [refreshKey, setRefreshKey] = useState(0);
   const [weather, setWeather] = useState<WeatherState | null>(null);
   const { completedIdeaIds } = useAllDateHistory();
+  const [hideCompleted, setHideCompleted] = useState(false);
 
   const contextLabel = useMemo(() => {
     const season = getSeasonLabel(getCurrentSeason());
@@ -100,11 +101,15 @@ function ResultsContent() {
   );
 
   const displayIdeas = useMemo(() => {
-    if (!weather?.isBad) return ideas;
-    const indoor = ideas.filter((i) => i.setting !== "outdoor");
-    const outdoor = ideas.filter((i) => i.setting === "outdoor");
+    let filtered = ideas;
+    if (hideCompleted && completedIdeaIds.size > 0) {
+      filtered = filtered.filter((i) => !completedIdeaIds.has(i.id));
+    }
+    if (!weather?.isBad) return filtered;
+    const indoor = filtered.filter((i) => i.setting !== "outdoor");
+    const outdoor = filtered.filter((i) => i.setting === "outdoor");
     return [...indoor, ...outdoor];
-  }, [ideas, weather]);
+  }, [ideas, weather, hideCompleted, completedIdeaIds]);
 
   const outdoorDeprioritized = useMemo(() => {
     if (!weather?.isBad) return false;
@@ -173,6 +178,17 @@ function ResultsContent() {
           <p className="text-xs text-text-muted mt-2">
             Outdoor ideas moved to the bottom — it&apos;s {weather.tempF}&deg;F outside
           </p>
+        )}
+        {completedIdeaIds.size > 0 && (
+          <button
+            onClick={() => setHideCompleted((h) => !h)}
+            className="mt-3 inline-flex items-center gap-2 text-xs font-medium text-text-muted hover:text-text-secondary transition-colors"
+          >
+            <span className={`w-8 h-[18px] rounded-full relative transition-colors duration-200 ${hideCompleted ? "bg-accent-primary" : "bg-border"}`}>
+              <span className={`absolute top-[2px] w-[14px] h-[14px] rounded-full bg-white shadow-sm transition-transform duration-200 ${hideCompleted ? "translate-x-[16px]" : "translate-x-[2px]"}`} />
+            </span>
+            Hide dates we&apos;ve done
+          </button>
         )}
       </div>
 
