@@ -22,7 +22,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Communal",
     "address": "102 N University Ave, Provo, UT 84601",
-    "proTip": "Make a reservation \u2014 this place fills up fast on weekends. Ask for a table by the window for the best ambiance."
+    "proTip": "Make a reservation — this place fills up fast on weekends. Ask for a table by the window for the best ambiance."
   },
   {
     "id": "black-sheep-cafe-navajo",
@@ -47,7 +47,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Black Sheep Cafe",
     "address": "19 N University Ave, Provo, UT 84601",
-    "proTip": "Start with the Navajo frybread appetizer \u2014 it's legendary. Pair it with one of their house-made sodas."
+    "proTip": "Start with the Navajo frybread appetizer — it's legendary. Pair it with one of their house-made sodas."
   },
   {
     "id": "india-palace-feast",
@@ -72,7 +72,7 @@
     "lateNightFriendly": false,
     "specificLocation": "India Palace",
     "address": "98 W Center St, Provo, UT 84601",
-    "proTip": "Hit the lunch buffet for the best value \u2014 you both eat for around $25 total and get to sample everything."
+    "proTip": "Hit the lunch buffet for the best value — you both eat for around $25 total and get to sample everything."
   },
   {
     "id": "station-22-brunch",
@@ -172,7 +172,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Waffle Love",
     "address": "1349 S State St, Orem, UT 84097",
-    "proTip": "Share one waffle \u2014 they're massive. The Lehi is the fan favorite for good reason."
+    "proTip": "Share one waffle — they're massive. The Lehi is the fan favorite for good reason."
   },
   {
     "id": "jinya-ramen-date",
@@ -197,7 +197,7 @@
     "lateNightFriendly": true,
     "specificLocation": "Jinya Ramen Bar",
     "address": "575 E University Pkwy, Orem, UT 84097",
-    "proTip": "Order the Tonkotsu Black and add the soft-boiled egg. Ask for extra noodles \u2014 they give you a refill for cheap."
+    "proTip": "Order the Tonkotsu Black and add the soft-boiled egg. Ask for extra noodles — they give you a refill for cheap."
   },
   {
     "id": "betos-late-night-run",
@@ -272,7 +272,7 @@
     "lateNightFriendly": true,
     "specificLocation": "Handel's Homemade Ice Cream",
     "address": "4801 N University Ave Suite 100, Provo, UT 84604",
-    "proTip": "Try the Chocolate Pecan if you like nutty flavors. Ask for a sample before committing \u2014 they're generous with tastings."
+    "proTip": "Try the Chocolate Pecan if you like nutty flavors. Ask for a sample before committing — they're generous with tastings."
   },
   {
     "id": "boba-crawl-center-street",
@@ -301,7 +301,7 @@
   {
     "id": "food-truck-roundup",
     "title": "Food Truck Roundup Adventure",
-    "description": "Track down Provo's rotating food trucks and split a few different dishes from different vendors. Check social media for truck locations \u2014 they often cluster near the Startup Building or BYU campus.",
+    "description": "Track down Provo's rotating food trucks and split a few different dishes from different vendors. Check social media for truck locations — they often cluster near the Startup Building or BYU campus.",
     "estimatedTimeMinutes": 60,
     "timeRange": "60",
     "estimatedCostDollars": 15,
@@ -320,7 +320,12 @@
     ],
     "lateNightFriendly": false,
     "specificLocation": "Various locations, Provo",
-    "proTip": "Follow @provocityevents on Instagram for weekly food truck roundup locations and schedules."
+    "proTip": "Follow @provocityevents on Instagram for weekly food truck roundup locations and schedules.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "bake-off-challenge",
@@ -368,7 +373,7 @@
     ],
     "lateNightFriendly": true,
     "specificLocation": "At Home",
-    "proTip": "Try making homemade pasta or sushi rolls \u2014 they're impressive but surprisingly doable with a good tutorial."
+    "proTip": "Try making homemade pasta or sushi rolls — they're impressive but surprisingly doable with a good tutorial."
   },
   {
     "id": "mystery-ingredient-challenge",
@@ -470,7 +475,7 @@
   {
     "id": "dessert-sampler-crawl",
     "title": "Dessert Sampler Crawl",
-    "description": "Hit up three dessert spots in one evening \u2014 start with Crumbl cookies, then Handel's ice cream, and finish with a churro from a food truck. Split everything so you don't go into a sugar coma.",
+    "description": "Hit up three dessert spots in one evening — start with Crumbl cookies, then Handel's ice cream, and finish with a churro from a food truck. Split everything so you don't go into a sugar coma.",
     "estimatedTimeMinutes": 90,
     "timeRange": "120",
     "estimatedCostDollars": 20,
@@ -661,7 +666,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Joe's Cafe",
     "address": "353 W Center St, Provo, UT 84601",
-    "proTip": "Go to a spot that serves breakfast all day. Order what you'd never order in the morning \u2014 it hits different at 7pm."
+    "proTip": "Go to a spot that serves breakfast all day. Order what you'd never order in the morning — it hits different at 7pm."
   },
   {
     "id": "diy-charcuterie-board",
@@ -709,7 +714,7 @@
     ],
     "lateNightFriendly": false,
     "specificLocation": "Various bakeries, Provo",
-    "proTip": "Start early \u2014 the best stuff sells out by noon. Provo Bakery on Freedom Blvd is a must-stop for their glazed donuts."
+    "proTip": "Start early — the best stuff sells out by noon. Provo Bakery on Freedom Blvd is a must-stop for their glazed donuts."
   },
   {
     "id": "fancy-hot-chocolate",
@@ -758,7 +763,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Tucanos Brazilian Grill",
     "address": "4801 N University Ave, Provo, UT 84604",
-    "proTip": "Don't fill up on the salad bar \u2014 pace yourself so you can enjoy all the meat options. Save room for the grilled pineapple."
+    "proTip": "Don't fill up on the salad bar — pace yourself so you can enjoy all the meat options. Save room for the grilled pineapple."
   },
   {
     "id": "midnight-diner-date",
@@ -783,7 +788,7 @@
     "lateNightFriendly": true,
     "specificLocation": "Denny's Provo",
     "address": "1575 S State St, Orem, UT 84097",
-    "proTip": "Go after 11pm when it's nearly empty. Order breakfast food at midnight \u2014 it hits completely different."
+    "proTip": "Go after 11pm when it's nearly empty. Order breakfast food at midnight — it hits completely different."
   },
   {
     "id": "italian-soda-bar",
@@ -832,7 +837,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Rock Canyon Trailhead",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "Go about 45 minutes before sunset for the best colors. Bring a jacket \u2014 it cools off fast once the sun drops."
+    "proTip": "Go about 45 minutes before sunset for the best colors. Bring a jacket — it cools off fast once the sun drops.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "y-mountain-hike",
@@ -857,7 +867,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Y Mountain Trailhead",
     "address": "E 820 N, Provo, UT 84604",
-    "proTip": "Start early in the morning to avoid the afternoon heat and crowds. Bring more water than you think you need \u2014 the switchbacks are relentless."
+    "proTip": "Start early in the morning to avoid the afternoon heat and crowds. Bring more water than you think you need — the switchbacks are relentless.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "bridal-veil-falls-visit",
@@ -882,7 +897,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Bridal Veil Falls",
     "address": "Bridal Veil Falls Rd, Provo, UT 84604",
-    "proTip": "Visit in spring when the snowmelt makes the falls absolutely thunderous. Bring a light rain jacket \u2014 you will get misty."
+    "proTip": "Visit in spring when the snowmelt makes the falls absolutely thunderous. Bring a light rain jacket — you will get misty.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "provo-canyon-scenic-drive",
@@ -931,7 +951,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Utah Lake State Park",
     "address": "4400 W Center St, Provo, UT 84601",
-    "proTip": "Bring mosquito spray in summer. Park near the marina for the widest unobstructed sunset views."
+    "proTip": "Bring mosquito spray in summer. Park near the marina for the widest unobstructed sunset views.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "stargazing-squaw-peak",
@@ -956,7 +981,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Squaw Peak Overlook",
     "address": "Squaw Peak Rd, Provo, UT 84604",
-    "proTip": "Go on a clear night with a new moon for the best visibility. Bring extra blankets \u2014 it's always colder up there than you think."
+    "proTip": "Go on a clear night with a new moon for the best visibility. Bring extra blankets — it's always colder up there than you think.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "hobble-creek-canyon-picnic",
@@ -981,7 +1011,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Hobble Creek Canyon",
     "address": "Hobble Creek Canyon Rd, Springville, UT 84663",
-    "proTip": "The Jolley's Ranch area has the best picnic tables and shade. Pack out all your trash \u2014 keep this hidden gem clean."
+    "proTip": "The Jolley's Ranch area has the best picnic tables and shade. Pack out all your trash — keep this hidden gem clean.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "provo-river-trail-walk",
@@ -1006,7 +1041,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo River Parkway",
     "address": "800 S University Ave, Provo, UT 84601",
-    "proTip": "Start near the BYU campus section for the most scenic and shaded portions of the trail."
+    "proTip": "Start near the BYU campus section for the most scenic and shaded portions of the trail.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "timpanogos-cave-hike",
@@ -1031,7 +1071,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Timpanogos Cave National Monument",
     "address": "2038 Alpine Loop Rd, American Fork, UT 84003",
-    "proTip": "Book tickets online in advance \u2014 they sell out fast in summer. The trail is steep so wear good shoes and bring water."
+    "proTip": "Book tickets online in advance — they sell out fast in summer. The trail is steep so wear good shoes and bring water.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "rock-canyon-picnic",
@@ -1056,7 +1101,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Rock Canyon Park",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "The east side of the park closest to the canyon mouth has the best mountain views and fewer people."
+    "proTip": "The east side of the park closest to the canyon mouth has the best mountain views and fewer people.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "provo-river-fly-fishing",
@@ -1081,7 +1131,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Middle Provo River",
     "address": "Provo Canyon, US-189, Provo, UT",
-    "proTip": "Rent gear from a local fly shop in Provo Canyon. The shop employees will tell you exactly where the fish are biting."
+    "proTip": "Rent gear from a local fly shop in Provo Canyon. The shop employees will tell you exactly where the fish are biting.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "bike-ride-provo-river-trail",
@@ -1106,7 +1161,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo River Parkway",
     "address": "500 W Center St, Provo, UT 84601",
-    "proTip": "Ride south toward Utah Lake for a more mellow route with fewer people. Bring a bike lock so you can stop and explore."
+    "proTip": "Ride south toward Utah Lake for a more mellow route with fewer people. Bring a bike lock so you can stop and explore.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "alpine-loop-drive",
@@ -1156,7 +1216,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Squaw Peak Overlook",
     "address": "Squaw Peak Rd, Provo, UT 84604",
-    "proTip": "Check the sunrise time the night before and arrive 20 minutes early. The pre-dawn colors are just as beautiful as the actual sunrise."
+    "proTip": "Check the sunrise time the night before and arrive 20 minutes early. The pre-dawn colors are just as beautiful as the actual sunrise.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "utah-lake-kayaking",
@@ -1181,7 +1246,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Utah Lake State Park Marina",
     "address": "4400 W Center St, Provo, UT 84601",
-    "proTip": "Go in the morning before the afternoon wind kicks up. Bring sunscreen and a dry bag for your phones."
+    "proTip": "Go in the morning before the afternoon wind kicks up. Bring sunscreen and a dry bag for your phones.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "hobble-creek-canyon-drive",
@@ -1211,7 +1281,7 @@
   {
     "id": "rock-canyon-bouldering",
     "title": "Bouldering in Rock Canyon",
-    "description": "Try bouldering on the beginner-friendly rock formations near the mouth of Rock Canyon. No ropes needed \u2014 just climbing shoes, a crash pad, and a willingness to try something new together.",
+    "description": "Try bouldering on the beginner-friendly rock formations near the mouth of Rock Canyon. No ropes needed — just climbing shoes, a crash pad, and a willingness to try something new together.",
     "estimatedTimeMinutes": 120,
     "timeRange": "120",
     "estimatedCostDollars": 0,
@@ -1231,7 +1301,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Rock Canyon Bouldering Area",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "Borrow a crash pad from a friend or rent from a local gear shop. Start with the easy traverses near the parking area."
+    "proTip": "Borrow a crash pad from a friend or rent from a local gear shop. Start with the easy traverses near the parking area.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "night-drive-provo-canyon",
@@ -1255,7 +1330,7 @@
     ],
     "lateNightFriendly": true,
     "specificLocation": "Provo Canyon (US-189)",
-    "proTip": "Watch for deer on the road at night. Stop at Bridal Veil Falls pulloff \u2014 you can hear the waterfall even in the dark."
+    "proTip": "Watch for deer on the road at night. Stop at Bridal Veil Falls pulloff — you can hear the waterfall even in the dark."
   },
   {
     "id": "spring-wildflower-hike",
@@ -1280,7 +1355,10 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo Foothills",
     "address": "East Provo foothills near 2200 N",
-    "proTip": "Bring a wildflower identification app and see how many species you can find together. Late April is usually peak bloom."
+    "proTip": "Bring a wildflower identification app and see how many species you can find together. Late April is usually peak bloom.",
+    "seasonalAvailability": [
+      "spring"
+    ]
   },
   {
     "id": "sundance-ski-lift",
@@ -1305,7 +1383,10 @@
     "lateNightFriendly": false,
     "specificLocation": "Sundance Mountain Resort",
     "address": "8841 N Alpine Loop Rd, Sundance, UT 84604",
-    "proTip": "Go during fall for the aspen colors. Pack a light jacket \u2014 it's noticeably cooler at the top."
+    "proTip": "Go during fall for the aspen colors. Pack a light jacket — it's noticeably cooler at the top.",
+    "seasonalAvailability": [
+      "winter"
+    ]
   },
   {
     "id": "utah-lake-sunset-paddleboard",
@@ -1330,7 +1411,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Utah Lake State Park",
     "address": "4400 W Center St, Provo, UT 84601",
-    "proTip": "Go about 2 hours before sunset so you have time to get comfortable on the board before the golden hour light hits."
+    "proTip": "Go about 2 hours before sunset so you have time to get comfortable on the board before the golden hour light hits.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "squaw-peak-overlook-hike",
@@ -1355,7 +1441,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Squaw Peak Trail",
     "address": "Squaw Peak Rd, Provo, UT 84604",
-    "proTip": "Start by 7am to avoid afternoon thunderstorms. Bring lunch to eat at the top \u2014 you've earned it."
+    "proTip": "Start by 7am to avoid afternoon thunderstorms. Bring lunch to eat at the top — you've earned it.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "timpanogos-falls-hike",
@@ -1380,7 +1471,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Aspen Grove Trailhead",
     "address": "Alpine Loop Rd, Provo, UT 84604",
-    "proTip": "Get there before 8am for parking \u2014 it fills up completely by mid-morning on summer weekends."
+    "proTip": "Get there before 8am for parking — it fills up completely by mid-morning on summer weekends.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "campfire-evening-canyon",
@@ -1405,7 +1501,12 @@
     "lateNightFriendly": true,
     "specificLocation": "South Fork Park, Provo Canyon",
     "address": "South Fork, Provo Canyon, UT",
-    "proTip": "Bring firewood from a gas station \u2014 don't collect wood from the campground. Pack chocolate, graham crackers, and marshmallows for proper s'mores."
+    "proTip": "Bring firewood from a gas station — don't collect wood from the campground. Pack chocolate, graham crackers, and marshmallows for proper s'mores.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "full-moon-hike",
@@ -1430,7 +1531,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Rock Canyon or Y Mountain Trail",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "Check the lunar calendar and pick a clear night. Bring a headlamp as backup but try hiking with just moonlight \u2014 it's surprisingly bright."
+    "proTip": "Check the lunar calendar and pick a clear night. Bring a headlamp as backup but try hiking with just moonlight — it's surprisingly bright.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "hammock-provo-canyon",
@@ -1455,7 +1561,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Vivian Park, Provo Canyon",
     "address": "Vivian Park, Provo Canyon, UT 84604",
-    "proTip": "Vivian Park has great trees spaced perfectly for hammocks right along the river. Bring a bluetooth speaker for background music."
+    "proTip": "Vivian Park has great trees spaced perfectly for hammocks right along the river. Bring a bluetooth speaker for background music.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "deer-creek-reservoir-explore",
@@ -1480,7 +1591,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Deer Creek State Park",
     "address": "Deer Creek State Park, Midway, UT 84049",
-    "proTip": "The west side of the reservoir has free pulloffs where you can park and walk to the water without paying the park entrance fee."
+    "proTip": "The west side of the reservoir has free pulloffs where you can park and walk to the water without paying the park entrance fee.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "diy-paint-night-at-home",
@@ -1557,7 +1673,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Center Street, Downtown Provo",
     "address": "Center St, Provo, UT 84601",
-    "proTip": "Golden hour hits beautifully along Center Street with the mountains in the background, so plan to go about an hour before sunset."
+    "proTip": "Golden hour hits beautifully along Center Street with the mountains in the background, so plan to go about an hour before sunset.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "playlist-making-date",
@@ -1606,7 +1727,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Kiwanis Park (for outdoor space)",
     "address": "820 N 1100 E, Provo, UT 84604",
-    "proTip": "Bring rubber gloves and old towels unless you want rainbow-stained hands for the next three days."
+    "proTip": "Bring rubber gloves and old towels unless you want rainbow-stained hands for the next three days.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "scrapbook-your-relationship",
@@ -1835,7 +1961,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Rock Canyon Park",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "Bring a mason jar for water and paper towels for dabbing since there aren't sinks at the park."
+    "proTip": "Bring a mason jar for water and paper towels for dabbing since there aren't sinks at the park.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "diy-pizza-from-scratch",
@@ -2152,7 +2283,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo Recreation Center",
     "address": "320 W 500 N, Provo, UT 84601",
-    "proTip": "Go early in the morning or at dusk to avoid the midday pickleball rush since courts fill up fast."
+    "proTip": "Go early in the morning or at dusk to avoid the midday pickleball rush since courts fill up fast.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "tennis-at-byu",
@@ -2177,7 +2313,12 @@
     "lateNightFriendly": false,
     "specificLocation": "BYU Outdoor Tennis Courts",
     "address": "BYU Campus, Provo, UT 84602",
-    "proTip": "Bring your own rackets or borrow from a friend since there's no rental available at the outdoor courts."
+    "proTip": "Bring your own rackets or borrow from a friend since there's no rental available at the outdoor courts.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "swimming-provo-rec",
@@ -2229,7 +2370,10 @@
     "lateNightFriendly": false,
     "specificLocation": "Sundance Mountain Resort",
     "address": "8841 Alpine Loop Scenic Byway, Sundance, UT 84604",
-    "proTip": "Buy lift tickets online in advance for significant savings and check for BYU student discount days."
+    "proTip": "Buy lift tickets online in advance for significant savings and check for BYU student discount days.",
+    "seasonalAvailability": [
+      "winter"
+    ]
   },
   {
     "id": "roller-skating-classic",
@@ -2281,7 +2425,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Kiwanis Park",
     "address": "820 N 1100 E, Provo, UT 84604",
-    "proTip": "Go early morning for the most peaceful atmosphere and to avoid the afternoon wind that whips through the valley."
+    "proTip": "Go early morning for the most peaceful atmosphere and to avoid the afternoon wind that whips through the valley.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "bike-provo-river-trail",
@@ -2307,7 +2456,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo River Parkway Trail",
     "address": "Provo River Parkway, Provo, UT 84604",
-    "proTip": "Start at the mouth of Provo Canyon and ride south for a slight downhill advantage the whole way."
+    "proTip": "Start at the mouth of Provo Canyon and ride south for a slight downhill advantage the whole way.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "basketball-byu-courts",
@@ -2332,7 +2486,12 @@
     "lateNightFriendly": false,
     "specificLocation": "BYU Outdoor Basketball Courts",
     "address": "BYU Campus, Provo, UT 84602",
-    "proTip": "Play a game of HORSE with creative trick shots for a date that's more about laughing than being athletic."
+    "proTip": "Play a game of HORSE with creative trick shots for a date that's more about laughing than being athletic.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "golf-east-bay",
@@ -2357,7 +2516,12 @@
     "lateNightFriendly": false,
     "specificLocation": "East Bay Golf Course",
     "address": "1860 S East Bay Blvd, Provo, UT 84606",
-    "proTip": "Twilight rates after 3pm are significantly cheaper and the sunset views over Utah Lake are incredible."
+    "proTip": "Twilight rates after 3pm are significantly cheaper and the sunset views over Utah Lake are incredible.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "hiking-y-mountain",
@@ -2383,7 +2547,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Y Mountain Trailhead",
     "address": "E 820 N, Provo, UT 84604",
-    "proTip": "Start early in the morning during summer to avoid the heat since there's zero shade on the trail."
+    "proTip": "Start early in the morning during summer to avoid the heat since there's zero shade on the trail.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "paddleboarding-utah-lake",
@@ -2408,7 +2577,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Utah Lake State Park",
     "address": "4400 W Center St, Provo, UT 84601",
-    "proTip": "Go in the morning when the water is glassy and calm since afternoon winds can make balancing much harder."
+    "proTip": "Go in the morning when the water is glassy and calm since afternoon winds can make balancing much harder.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "frisbee-golf-rock-canyon",
@@ -2433,7 +2607,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Rock Canyon Park area",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "Borrow a driver, midrange, and putter disc from a friend if you don't own any since buying all three can be pricey."
+    "proTip": "Borrow a driver, midrange, and putter disc from a friend if you don't own any since buying all three can be pricey.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "late-night-gym-session",
@@ -2509,7 +2688,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo River Parkway Trail",
     "address": "Provo River Parkway, Provo, UT 84604",
-    "proTip": "Run south from University Ave toward Utah Lake for the best unobstructed sunset views."
+    "proTip": "Run south from University Ave toward Utah Lake for the best unobstructed sunset views.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "mini-golf-fat-cats",
@@ -2637,7 +2821,12 @@
     "lateNightFriendly": false,
     "specificLocation": "South Fork Park",
     "address": "4958 S Fork Rd, Provo, UT 84604",
-    "proTip": "Weekday mornings are practically empty. Bring a Bluetooth speaker for ambient nature playlists."
+    "proTip": "Weekday mornings are practically empty. Bring a Bluetooth speaker for ambient nature playlists.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "cloud-watching-memorial-park",
@@ -2662,7 +2851,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo Memorial Park",
     "address": "800 E Center St, Provo, UT 84606",
-    "proTip": "Late afternoon in summer gives the best cumulus clouds. Bring a bag of grapes and some cheese for a low-key snack spread."
+    "proTip": "Late afternoon in summer gives the best cumulus clouds. Bring a bag of grapes and some cheese for a low-key snack spread.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "couples-meditation-session",
@@ -2783,7 +2977,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Provo River Parkway",
     "address": "500 W Center St, Provo, UT 84601",
-    "proTip": "Start near the Parkway Crossing trailhead for the prettiest stretch. Mornings are quieter before joggers and bikers come out."
+    "proTip": "Start near the Parkway Crossing trailhead for the prettiest stretch. Mornings are quieter before joggers and bikers come out.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "yoga-at-home-together",
@@ -2806,7 +3005,7 @@
       "wellness"
     ],
     "lateNightFriendly": true,
-    "proTip": "Search 'couples yoga for beginners' on YouTube. Don't worry about being flexible \u2014 the funny moments are the best part."
+    "proTip": "Search 'couples yoga for beginners' on YouTube. Don't worry about being flexible — the funny moments are the best part."
   },
   {
     "id": "candlelit-dinner-at-home",
@@ -2834,7 +3033,7 @@
   {
     "id": "audiobook-blanket-fort",
     "title": "Audiobook in a Blanket Fort",
-    "description": "Build a blanket fort in your living room and listen to an audiobook together with hot cocoa or cider. Pick a story you'll both enjoy \u2014 mysteries and fantasies work great for shared listening.",
+    "description": "Build a blanket fort in your living room and listen to an audiobook together with hot cocoa or cider. Pick a story you'll both enjoy — mysteries and fantasies work great for shared listening.",
     "estimatedTimeMinutes": 90,
     "timeRange": "120",
     "estimatedCostDollars": 0,
@@ -2880,7 +3079,7 @@
   {
     "id": "sunrise-watching-y-mountain",
     "title": "Sunrise Watch at Y Mountain Trailhead",
-    "description": "Wake up early and drive to the Y Mountain trailhead parking lot to watch the sunrise paint Utah Valley in golden light. You don't even have to hike \u2014 just sit on a blanket near the lot and soak it in.",
+    "description": "Wake up early and drive to the Y Mountain trailhead parking lot to watch the sunrise paint Utah Valley in golden light. You don't even have to hike — just sit on a blanket near the lot and soak it in.",
     "estimatedTimeMinutes": 60,
     "timeRange": "60",
     "estimatedCostDollars": 0,
@@ -2900,7 +3099,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Y Mountain Trailhead",
     "address": "2590 Temple View Dr, Provo, UT 84604",
-    "proTip": "Check the sunrise time the night before and arrive 15 minutes early. Bring a thermos of hot chocolate for the wait."
+    "proTip": "Check the sunrise time the night before and arrive 15 minutes early. Bring a thermos of hot chocolate for the wait.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "nature-sounds-picnic",
@@ -2925,7 +3129,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Bicentennial Park",
     "address": "600 N 100 W, Provo, UT 84601",
-    "proTip": "This sounds weird but the silent start makes the conversation afterwards so much better. Try it once."
+    "proTip": "This sounds weird but the silent start makes the conversation afterwards so much better. Try it once.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "stretching-and-breathing",
@@ -2948,7 +3157,7 @@
       "at-home"
     ],
     "lateNightFriendly": true,
-    "proTip": "Do this right before bed \u2014 you'll both sleep like rocks after. Use a soft playlist in the background."
+    "proTip": "Do this right before bed — you'll both sleep like rocks after. Use a soft playlist in the background."
   },
   {
     "id": "lo-fi-puzzle-night",
@@ -2973,7 +3182,7 @@
     "lateNightFriendly": true,
     "specificLocation": "DI Thrift Store",
     "address": "1500 S State St, Provo, UT 84606",
-    "proTip": "500-piece puzzles are the sweet spot \u2014 big enough to be satisfying but finishable in one evening."
+    "proTip": "500-piece puzzles are the sweet spot — big enough to be satisfying but finishable in one evening."
   },
   {
     "id": "backyard-stargazing-blanket",
@@ -2996,7 +3205,12 @@
       "free"
     ],
     "lateNightFriendly": true,
-    "proTip": "Provo's light pollution is moderate, but you can still see plenty. SkyView is a great free app for identifying constellations."
+    "proTip": "Provo's light pollution is moderate, but you can still see plenty. SkyView is a great free app for identifying constellations.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "byu-museum-of-art-visit",
@@ -3097,7 +3311,7 @@
       "local-artists"
     ],
     "lateNightFriendly": true,
-    "proTip": "Gallery strolls happen periodically \u2014 check Provo City's events page for upcoming dates. Most galleries are between University Ave and 100 West."
+    "proTip": "Gallery strolls happen periodically — check Provo City's events page for upcoming dates. Most galleries are between University Ave and 100 West."
   },
   {
     "id": "byu-free-concert",
@@ -3122,7 +3336,7 @@
     "lateNightFriendly": true,
     "specificLocation": "de Jong Concert Hall",
     "address": "Harris Fine Arts Center, Provo, UT 84602",
-    "proTip": "Check the BYU Arts calendar at arts.byu.edu. Arrive 15 minutes early for good seats \u2014 these fill up fast."
+    "proTip": "Check the BYU Arts calendar at arts.byu.edu. Arrive 15 minutes early for good seats — these fill up fast."
   },
   {
     "id": "antique-shopping-provo",
@@ -3318,7 +3532,12 @@
       "downtown-provo"
     ],
     "lateNightFriendly": false,
-    "proTip": "The alley behind Center Street between 100 West and University Ave has some of the best ones. Golden hour light makes the photos pop."
+    "proTip": "The alley behind Center Street between 100 West and University Ave has some of the best ones. Golden hour light makes the photos pop.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "cultural-film-at-library",
@@ -3439,7 +3658,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Rock Canyon Park",
     "address": "2620 N 1200 E, Provo, UT 84604",
-    "proTip": "Reserve a pavilion through Provo City's website if you want guaranteed shade and a grill. First come first served otherwise."
+    "proTip": "Reserve a pavilion through Provo City's website if you want guaranteed shade and a grill. First come first served otherwise.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "potluck-dinner-party",
@@ -3487,7 +3711,12 @@
     "lateNightFriendly": false,
     "specificLocation": "BYU Outdoor Courts",
     "address": "BYU Campus, Provo, UT 84602",
-    "proTip": "The courts near Helaman Halls are usually less crowded than the ones by the RB. Bring extra water for everyone."
+    "proTip": "The courts near Helaman Halls are usually less crowded than the ones by the RB. Bring extra water for everyone.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "bonfire-night-hobble-creek",
@@ -3512,7 +3741,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Hobble Creek Canyon",
     "address": "Hobble Creek Canyon Rd, Springville, UT 84663",
-    "proTip": "Check fire restrictions before you go \u2014 Utah has seasonal burn bans. Bring firewood from a gas station since gathering wood in the canyon may not be allowed."
+    "proTip": "Check fire restrictions before you go — Utah has seasonal burn bans. Bring firewood from a gas station since gathering wood in the canyon may not be allowed.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "dinner-party-hosting",
@@ -3535,12 +3769,12 @@
       "cooking"
     ],
     "lateNightFriendly": true,
-    "proTip": "Keep it simple \u2014 pasta bars and taco bars let guests customize their plates and take pressure off the host. Trader Joe's in Orem is your best friend for affordable party food."
+    "proTip": "Keep it simple — pasta bars and taco bars let guests customize their plates and take pressure off the host. Trader Joe's in Orem is your best friend for affordable party food."
   },
   {
     "id": "themed-costume-party",
     "title": "Themed Costume Party",
-    "description": "Throw a themed costume party at your apartment \u2014 think decades night, movie characters, or come-as-your-favorite-celebrity. Raid the DI in Provo for cheap costume pieces and give a prize for the best outfit.",
+    "description": "Throw a themed costume party at your apartment — think decades night, movie characters, or come-as-your-favorite-celebrity. Raid the DI in Provo for cheap costume pieces and give a prize for the best outfit.",
     "estimatedTimeMinutes": 180,
     "timeRange": "180+",
     "estimatedCostDollars": 15,
@@ -3606,7 +3840,7 @@
       "networking"
     ],
     "lateNightFriendly": false,
-    "proTip": "If you can't find an organized event, host one yourself \u2014 it's surprisingly easy. Just set a timer and have couples rotate every 5 minutes."
+    "proTip": "If you can't find an organized event, host one yourself — it's surprisingly easy. Just set a timer and have couples rotate every 5 minutes."
   },
   {
     "id": "group-hiking-y-mountain",
@@ -3631,7 +3865,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Y Mountain Trailhead",
     "address": "2590 Temple View Dr, Provo, UT 84604",
-    "proTip": "Start early in the morning to beat the heat and the crowds. Bring enough water for everyone \u2014 it's steeper than it looks."
+    "proTip": "Start early in the morning to beat the heat and the crowds. Bring enough water for everyone — it's steeper than it looks.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "ice-cream-crawl-friends",
@@ -3679,7 +3918,12 @@
       "sand-court"
     ],
     "lateNightFriendly": false,
-    "proTip": "Bring your own ball since the courts rarely have one available. Evening games are better in summer to avoid the brutal midday sun."
+    "proTip": "Bring your own ball since the courts rarely have one available. Evening games are better in summer to avoid the brutal midday sun.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "frisbee-golf-group",
@@ -3704,7 +3948,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Bicentennial Park Disc Golf Course",
     "address": "600 N 100 W, Provo, UT 84601",
-    "proTip": "You only need one or two discs each to play. Borrow from a friend or grab cheap ones at Play It Again Sports in Orem."
+    "proTip": "You only need one or two discs each to play. Borrow from a friend or grab cheap ones at Play It Again Sports in Orem.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "couples-trivia-at-venue",
@@ -3752,7 +4001,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Sur La Table",
     "address": "575 E University Pkwy, Orem, UT 84097",
-    "proTip": "Sign up early \u2014 popular classes fill up fast. Check Groupon for occasional discounts on class packages."
+    "proTip": "Sign up early — popular classes fill up fast. Check Groupon for occasional discounts on class packages."
   },
   {
     "id": "byu-free-lecture",
@@ -3830,7 +4079,7 @@
   {
     "id": "teach-each-other-skills",
     "title": "Teach Each Other a Skill",
-    "description": "Each of you picks one skill you're good at and teaches it to the other for 30 minutes. Guitar, origami, juggling, coding, braiding hair \u2014 anything goes. You learn something new and gain appreciation for each other's talents.",
+    "description": "Each of you picks one skill you're good at and teaches it to the other for 30 minutes. Guitar, origami, juggling, coding, braiding hair — anything goes. You learn something new and gain appreciation for each other's talents.",
     "estimatedTimeMinutes": 60,
     "timeRange": "60",
     "estimatedCostDollars": 0,
@@ -3942,7 +4191,12 @@
       "architecture"
     ],
     "lateNightFriendly": false,
-    "proTip": "The Utah County Historical Society has free printed guides. The buildings between 100 North and 100 South on University Ave have the most history."
+    "proTip": "The Utah County Historical Society has free printed guides. The buildings between 100 North and 100 South on University Ave have the most history.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "diy-science-experiments",
@@ -3965,7 +4219,7 @@
       "hands-on"
     ],
     "lateNightFriendly": true,
-    "proTip": "Most supplies are things you already have \u2014 baking soda, vinegar, food coloring, dish soap. Lay down newspaper because it will get messy."
+    "proTip": "Most supplies are things you already have — baking soda, vinegar, food coloring, dish soap. Lay down newspaper because it will get messy."
   },
   {
     "id": "christmas-lights-temple-square",
@@ -3990,7 +4244,7 @@
     "lateNightFriendly": true,
     "specificLocation": "Temple Square",
     "address": "50 N Temple, Salt Lake City, UT 84150",
-    "proTip": "Go on a weeknight to avoid the weekend crowds. Dress warmly \u2014 it's significantly colder in SLC than Provo at night.",
+    "proTip": "Go on a weeknight to avoid the weekend crowds. Dress warmly — it's significantly colder in SLC than Provo at night.",
     "seasonalAvailability": [
       "winter"
     ]
@@ -4102,7 +4356,7 @@
     "lateNightFriendly": false,
     "specificLocation": "Strawberry Reservoir",
     "address": "Strawberry Reservoir, Heber City, UT",
-    "proTip": "Check ice conditions before you go and bring extra layers \u2014 it's always colder on the ice than you expect. A fishing license is required for both of you.",
+    "proTip": "Check ice conditions before you go and bring extra layers — it's always colder on the ice than you expect. A fishing license is required for both of you.",
     "seasonalAvailability": [
       "winter"
     ]
@@ -4214,7 +4468,7 @@
     "lateNightFriendly": true,
     "specificLocation": "Squaw Peak Overlook",
     "address": "Squaw Peak Rd, Provo, UT 84604",
-    "proTip": "The Perseid meteor shower in August is the best time to go. Check the moon phase \u2014 new moon nights give the darkest skies.",
+    "proTip": "The Perseid meteor shower in August is the best time to go. Check the moon phase — new moon nights give the darkest skies.",
     "seasonalAvailability": [
       "summer"
     ]
@@ -4246,7 +4500,7 @@
   {
     "id": "bowling-fat-cats",
     "title": "Bowling Night at Fat Cats",
-    "description": "Classic date night energy \u2014 rent a lane at Fat Cats and bowl a few games with the cosmic lighting and music going. Add on some arcade games after for bonus fun.",
+    "description": "Classic date night energy — rent a lane at Fat Cats and bowl a few games with the cosmic lighting and music going. Add on some arcade games after for bonus fun.",
     "estimatedTimeMinutes": 90,
     "timeRange": "120",
     "estimatedCostDollars": 12,
@@ -4266,12 +4520,12 @@
     "lateNightFriendly": true,
     "specificLocation": "Fat Cats",
     "address": "1200 Towne Centre Blvd, Provo, UT 84601",
-    "proTip": "Go after 9pm for cosmic bowling \u2014 the lights, music, and glow-in-the-dark setup make it way more fun."
+    "proTip": "Go after 9pm for cosmic bowling — the lights, music, and glow-in-the-dark setup make it way more fun."
   },
   {
     "id": "crumbl-taste-test",
     "title": "Crumbl Cookie Taste Test Challenge",
-    "description": "Grab the weekly Crumbl box and do a blind taste test together \u2014 rate each cookie on appearance, taste, and texture. It's surprisingly competitive and delicious.",
+    "description": "Grab the weekly Crumbl box and do a blind taste test together — rate each cookie on appearance, taste, and texture. It's surprisingly competitive and delicious.",
     "estimatedTimeMinutes": 30,
     "timeRange": "30",
     "estimatedCostDollars": 8,
@@ -4291,7 +4545,7 @@
     "lateNightFriendly": true,
     "specificLocation": "Crumbl Cookies Provo",
     "address": "1355 N University Ave, Provo, UT 84604",
-    "proTip": "Check the Crumbl app for the weekly rotation before you go \u2014 some weeks are way better than others."
+    "proTip": "Check the Crumbl app for the weekly rotation before you go — some weeks are way better than others."
   },
   {
     "id": "provo-river-walk",
@@ -4315,7 +4569,12 @@
     ],
     "lateNightFriendly": false,
     "specificLocation": "Provo River Trail",
-    "proTip": "The stretch near the BYU campus is well-lit and paved \u2014 perfect for an after-dinner walk."
+    "proTip": "The stretch near the BYU campus is well-lit and paved — perfect for an after-dinner walk.",
+    "seasonalAvailability": [
+      "spring",
+      "summer",
+      "fall"
+    ]
   },
   {
     "id": "spa-night-home",
@@ -4364,12 +4623,12 @@
     "lateNightFriendly": false,
     "specificLocation": "Deseret Industries",
     "address": "1455 S State St, Provo, UT 84606",
-    "proTip": "Go to the DI on State Street \u2014 it has the biggest selection and the weirdest finds."
+    "proTip": "Go to the DI on State Street — it has the biggest selection and the weirdest finds."
   },
   {
     "id": "movie-marathon-theme",
     "title": "Themed Movie Marathon at Home",
-    "description": "Pick a theme \u2014 like all Studio Ghibli, every Spider-Man, or 90s rom-coms \u2014 and commit to at least two movies. Make themed snacks to match for extra points.",
+    "description": "Pick a theme — like all Studio Ghibli, every Spider-Man, or 90s rom-coms — and commit to at least two movies. Make themed snacks to match for extra points.",
     "estimatedTimeMinutes": 180,
     "timeRange": "180+",
     "estimatedCostDollars": 0,

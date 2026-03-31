@@ -1,4 +1,5 @@
 import { DateIdea, ConciergeFilters, TimeRange, BudgetTier } from "./types";
+import { getCurrentSeason } from "./constants";
 
 const TIME_ORDER: TimeRange[] = ["30", "60", "120", "180+"];
 const BUDGET_ORDER: BudgetTier[] = ["free", "under10", "under25", "splurge"];
@@ -25,12 +26,19 @@ interface ScoredIdea {
   score: number;
 }
 
+function seasonMatches(idea: DateIdea, season: string): boolean {
+  // No seasonal tag = available year-round
+  if (!idea.seasonalAvailability || idea.seasonalAvailability.length === 0) return true;
+  return idea.seasonalAvailability.includes(season);
+}
+
 function scoreAndFilter(
   allIdeas: DateIdea[],
   filters: ConciergeFilters,
   excludeIds: Set<string>
 ): ScoredIdea[] {
   const scored: ScoredIdea[] = [];
+  const season = getCurrentSeason();
 
   for (const idea of allIdeas) {
     if (excludeIds.has(idea.id)) continue;
@@ -45,12 +53,19 @@ function scoreAndFilter(
       continue;
     }
 
+    // Filter out ideas that aren't in season
+    if (!seasonMatches(idea, season)) continue;
+
     let score = 0;
     const moodOverlap = idea.moods.filter((m) =>
       filters.moods.includes(m)
     ).length;
     score += moodOverlap * 10;
     if (moodOverlap === filters.moods.length) score += 5;
+
+    // Boost ideas that are specifically tagged for this season
+    if (idea.seasonalAvailability?.includes(season)) score += 3;
+
     score += hashScore(idea.id);
 
     scored.push({ idea, score });

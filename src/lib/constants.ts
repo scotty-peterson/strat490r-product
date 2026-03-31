@@ -39,3 +39,34 @@ export function getSuggestedTimeRange(): TimeRange {
   if (hour < 21) return "60";
   return "30";
 }
+
+export type Season = "spring" | "summer" | "fall" | "winter";
+
+export function getCurrentSeason(): Season {
+  const month = new Date().getMonth(); // 0-indexed
+  if (month >= 2 && month <= 4) return "spring";   // Mar-May
+  if (month >= 5 && month <= 7) return "summer";    // Jun-Aug
+  if (month >= 8 && month <= 10) return "fall";     // Sep-Nov
+  return "winter";                                   // Dec-Feb
+}
+
+export function getTimeOfDay(): "morning" | "afternoon" | "evening" | "late-night" {
+  const hour = new Date().getHours();
+  if (hour < 12) return "morning";
+  if (hour < 17) return "afternoon";
+  if (hour < 21) return "evening";
+  return "late-night";
+}
+
+export function getSeasonLabel(season: Season): string {
+  return season.charAt(0).toUpperCase() + season.slice(1);
+}
+
+export function getTimeOfDayLabel(tod: ReturnType<typeof getTimeOfDay>): string {
+  switch (tod) {
+    case "morning": return "morning";
+    case "afternoon": return "afternoon";
+    case "evening": return "evening";
+    case "late-night": return "late night";
+  }
+}

@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useCallback } from "react";
 import dateIdeas from "@/data/date-ideas.json";
 import { DateIdea, TimeRange } from "@/lib/types";
-import { getSuggestedTimeRange } from "@/lib/constants";
+import { getSuggestedTimeRange, getCurrentSeason } from "@/lib/constants";
 
 const TIME_ORDER: TimeRange[] = ["30", "60", "120", "180+"];
 
@@ -13,10 +13,16 @@ export default function SurpriseButton() {
 
   const handleSurprise = useCallback(() => {
     const timeRange = getSuggestedTimeRange();
+    const season = getCurrentSeason();
     const timeIndex = TIME_ORDER.indexOf(timeRange);
-    const candidates = (dateIdeas as DateIdea[]).filter(
-      (idea) => TIME_ORDER.indexOf(idea.timeRange) <= timeIndex
-    );
+    const candidates = (dateIdeas as DateIdea[]).filter((idea) => {
+      if (TIME_ORDER.indexOf(idea.timeRange) > timeIndex) return false;
+      // Filter out ideas that aren't in season
+      if (idea.seasonalAvailability && idea.seasonalAvailability.length > 0) {
+        if (!idea.seasonalAvailability.includes(season)) return false;
+      }
+      return true;
+    });
     if (candidates.length === 0) return;
     const random = candidates[Math.floor(Math.random() * candidates.length)];
     router.push(`/idea/${random.id}`);

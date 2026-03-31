@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ConciergeFilters, TimeRange, BudgetTier, Mood, Setting } from "@/lib/types";
 import { matchIdeas, countMatchingIdeas } from "@/lib/matching";
+import { getCurrentSeason, getTimeOfDay, getSeasonLabel, getTimeOfDayLabel } from "@/lib/constants";
 import dateIdeas from "@/data/date-ideas.json";
 import { DateIdea } from "@/lib/types";
 import IdeaCard from "@/components/results/IdeaCard";
@@ -25,6 +26,12 @@ function ResultsContent() {
   const [refreshKey, setRefreshKey] = useState(0);
   const [weather, setWeather] = useState<WeatherState | null>(null);
   const { completedIdeaIds } = useAllDateHistory();
+
+  const contextLabel = useMemo(() => {
+    const season = getSeasonLabel(getCurrentSeason());
+    const tod = getTimeOfDayLabel(getTimeOfDay());
+    return `Picks for a ${season.toLowerCase()} ${tod}`;
+  }, []);
 
   useEffect(() => {
     try {
@@ -144,6 +151,9 @@ function ResultsContent() {
 
       {/* Subheader */}
       <div className="px-6 pt-4 pb-1 md:max-w-6xl md:mx-auto md:w-full">
+        <p className="text-xs font-semibold text-accent-secondary uppercase tracking-widest mb-1">
+          {contextLabel}
+        </p>
         <h2 className="text-[1.65rem] md:text-3xl font-extrabold tracking-tight text-text-primary leading-tight">
           {ideas.length > 0
             ? "Tonight looks good"

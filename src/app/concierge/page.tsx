@@ -15,6 +15,7 @@ import {
   BUDGET_OPTIONS,
   MOOD_OPTIONS,
   SETTING_OPTIONS,
+  getSuggestedTimeRange,
 } from "@/lib/constants";
 import OptionPill from "@/components/ui/OptionPill";
 import ProgressDots from "@/components/ui/ProgressDots";
@@ -62,7 +63,7 @@ export default function ConciergePage() {
   const [direction, setDirection] = useState(1);
   const [filters, setFilters] = useState<Partial<ConciergeFilters>>(() => ({
     moods: [],
-    timeRange: undefined,
+    timeRange: getSuggestedTimeRange(),
   }));
 
   const goForward = useCallback(() => {
