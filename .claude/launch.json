@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "rendition-dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "/Users/scottypeterson/local/node/bin/node",
+      "runtimeArgs": ["node_modules/.bin/next", "dev"],
       "port": 3000
     }
   ]

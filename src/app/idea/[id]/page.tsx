@@ -10,6 +10,14 @@ import { useAuth } from "@/lib/auth-context";
 import { useSavedIdea } from "@/hooks/useSavedIdea";
 import { useDateHistory } from "@/hooks/useDateHistory";
 import RatingModal from "@/components/RatingModal";
+import { getCurrentSeason, getSeasonLabel, type Season } from "@/lib/constants";
+
+const SEASON_COLORS: Record<Season, string> = {
+  spring: "bg-green-50 border-green-200 text-green-700",
+  summer: "bg-amber-50 border-amber-200 text-amber-700",
+  fall: "bg-orange-50 border-orange-200 text-orange-700",
+  winter: "bg-sky-50 border-sky-200 text-sky-700",
+};
 
 const MOOD_COLORS: Record<string, string> = {
   chill: "bg-blue-50 text-blue-700",
@@ -85,6 +93,34 @@ export default function IdeaDetailPage() {
       (i) => i.id === params.id
     );
   }, [params.id]);
+
+  const currentSeason = useMemo(() => getCurrentSeason(), []);
+
+  const relatedIdeas = useMemo(() => {
+    if (!idea) return [];
+    const allIdeas = dateIdeas as DateIdea[];
+    const season = getCurrentSeason();
+
+    return allIdeas
+      .filter((other) => {
+        if (other.id === idea.id) return false;
+        // Must be in season
+        if (other.seasonalAvailability && other.seasonalAvailability.length > 0) {
+          if (!other.seasonalAvailability.includes(season)) return false;
+        }
+        return true;
+      })
+      .map((other) => {
+        // Score by mood overlap + same category bonus
+        const moodOverlap = other.moods.filter((m) => idea.moods.includes(m)).length;
+        const categoryBonus = other.category === idea.category ? 2 : 0;
+        const budgetClose = Math.abs(other.estimatedCostDollars - idea.estimatedCostDollars) < 20 ? 1 : 0;
+        return { idea: other, score: moodOverlap * 3 + categoryBonus + budgetClose };
+      })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 2)
+      .map((s) => s.idea);
+  }, [idea]);
 
   const handleShare = useCallback(async () => {
     if (!idea) return;
@@ -288,6 +324,11 @@ export default function IdeaDetailPage() {
           {idea.lateNightFriendly && (
             <span className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-xl bg-accent-secondary/10 border border-accent-secondary/20 text-accent-secondary">
               Late night friendly
+            </span>
+          )}
+          {idea.seasonalAvailability && idea.seasonalAvailability.includes(currentSeason) && (
+            <span className={`inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-xl border ${SEASON_COLORS[currentSeason]}`}>
+              In season
             </span>
           )}
         </div>
@@ -561,6 +602,44 @@ export default function IdeaDetailPage() {
             Find More Ideas
           </Link>
         </div>
+
+        {/* Related ideas */}
+        {relatedIdeas.length > 0 && (
+          <div className="mt-8 pt-6 border-t border-border">
+            <h3 className="text-sm font-bold text-text-muted uppercase tracking-wider mb-4">
+              You might also like
+            </h3>
+            <div className="flex flex-col gap-3">
+              {relatedIdeas.map((related) => (
+                <Link
+                  key={related.id}
+                  href={`/idea/${related.id}`}
+                  className="flex items-center gap-4 p-3 bg-bg-card border border-border rounded-2xl hover:border-border-hover transition-all duration-200 active:scale-[0.98]"
+                >
+                  <div className="w-16 h-16 rounded-xl overflow-hidden flex-shrink-0">
+                    <img
+                      src={`https://picsum.photos/seed/${related.id.split("").reduce((a, c) => a + c.charCodeAt(0), 0)}/200/200`}
+                      alt=""
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-bold text-text-primary line-clamp-2 leading-snug">
+                      {related.title}
+                    </p>
+                    <p className="text-xs text-text-muted mt-0.5">
+                      {formatTime(related.estimatedTimeMinutes)} · {formatCost(related.estimatedCostDollars)}
+                    </p>
+                  </div>
+                  <svg className="w-4 h-4 text-text-muted flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Rating Modal */}
         <RatingModal
