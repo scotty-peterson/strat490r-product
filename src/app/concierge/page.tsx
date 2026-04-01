@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import {
@@ -65,6 +65,22 @@ export default function ConciergePage() {
     moods: [],
     timeRange: getSuggestedTimeRange(),
   }));
+  const [weatherHint, setWeatherHint] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch("https://wttr.in/Provo,UT?format=j1")
+      .then((r) => r.json())
+      .then((data) => {
+        const c = data?.current_condition?.[0];
+        if (!c) return;
+        const tempF = parseInt(c.temp_F, 10);
+        const code = parseInt(c.weatherCode, 10);
+        if (tempF <= 32) setWeatherHint(`It's ${tempF}\u00B0F outside \u2014 indoor might be the move`);
+        else if (code >= 300) setWeatherHint("Weather looks rough \u2014 consider staying inside");
+        else if (tempF >= 70) setWeatherHint(`${tempF}\u00B0F and nice out \u2014 great evening for outdoor`);
+      })
+      .catch(() => {});
+  }, []);
 
   const goForward = useCallback(() => {
     setDirection(1);
@@ -188,7 +204,7 @@ export default function ConciergePage() {
         return (
           <StepContainer
             question="Indoor or outdoor?"
-            subtitle="Or keep it open"
+            subtitle={weatherHint || "Or keep it open"}
             icon={STEP_ICONS[3]}
             stepIndex={3}
           >
