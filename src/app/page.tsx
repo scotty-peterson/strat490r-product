@@ -5,9 +5,13 @@ import SurpriseButton from "@/components/SurpriseButton";
 import WelcomeOverlay from "@/components/WelcomeOverlay";
 import CitySelector from "@/components/CitySelector";
 import { useSeasonalContent } from "@/components/SeasonalTagline";
+import { useAllDateHistory } from "@/hooks/useDateHistory";
+import { useAuth } from "@/lib/auth-context";
 
 export default function Home() {
   const { subtitle, cta } = useSeasonalContent();
+  const { user } = useAuth();
+  const { entries } = useAllDateHistory();
 
   return (
     <div className="min-h-[100dvh] flex flex-col relative overflow-hidden">
@@ -52,9 +56,36 @@ export default function Home() {
           <p className="text-lg md:text-xl text-text-secondary mb-1">
             Date nights, curated.
           </p>
-          <p className="text-sm text-text-muted mb-8 max-w-xs mx-auto">
+          <p className="text-sm text-text-muted mb-6 max-w-xs mx-auto">
             {subtitle}
           </p>
+
+          {/* Streak badge */}
+          {user && entries.length > 0 && (() => {
+            const now = new Date();
+            const weekMs = 7 * 24 * 60 * 60 * 1000;
+            let streak = 0;
+            for (let i = 0; i < 52; i++) {
+              const weekStart = new Date(now.getTime() - (i + 1) * weekMs);
+              const weekEnd = new Date(now.getTime() - i * weekMs);
+              const hasDate = entries.some((e) => {
+                const d = new Date(e.completed_at);
+                return d >= weekStart && d < weekEnd;
+              });
+              if (hasDate) streak++;
+              else if (i > 0) break;
+            }
+            if (streak === 0) return null;
+            return (
+              <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 border border-amber-200 text-amber-700 text-sm font-semibold">
+                <span className="text-base">&#x1F525;</span>
+                {streak} week streak
+                <span className="text-xs text-amber-500 font-normal">
+                  · {entries.length} date{entries.length !== 1 ? "s" : ""} total
+                </span>
+              </div>
+            );
+          })()}
 
           {/* CTAs */}
           <div className="flex flex-col items-center gap-3">
