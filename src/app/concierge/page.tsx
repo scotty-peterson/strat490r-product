@@ -63,7 +63,7 @@ export default function ConciergePage() {
   const [direction, setDirection] = useState(1);
   const [filters, setFilters] = useState<Partial<ConciergeFilters>>(() => ({
     moods: [],
-    timeRange: getSuggestedTimeRange(),
+    timeRange: undefined,
   }));
   const [weatherHint, setWeatherHint] = useState<string | null>(null);
 

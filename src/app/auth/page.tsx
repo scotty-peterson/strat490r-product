@@ -99,11 +99,15 @@ function AuthContent() {
               <div className="text-center mb-8">
                 <div className="mb-4">
                   <svg className="w-10 h-10 mx-auto text-accent-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                    {next === "/history" ? (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    ) : (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                    )}
                   </svg>
                 </div>
                 <h1 className="text-2xl font-bold text-text-primary mb-2">
-                  Save your favorites
+                  {next === "/history" ? "Track your dates" : "Save your favorites"}
                 </h1>
                 <p className="text-text-secondary text-sm">
                   Sign in with your email — no password, no fuss.
