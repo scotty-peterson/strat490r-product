@@ -147,7 +147,18 @@ export default function Home() {
                 />
               </svg>
             </Link>
-            <SurpriseButton />
+            <div className="flex items-center gap-3">
+              <SurpriseButton />
+              <Link
+                href="/swipe"
+                className="mt-4 inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold text-accent-secondary bg-accent-secondary/10 border border-accent-secondary/25 rounded-2xl transition-all duration-200 hover:bg-accent-secondary/20 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                </svg>
+                Swipe
+              </Link>
+            </div>
           </div>
 
           {/* How it works — horizontal on desktop */}
