@@ -1,17 +1,56 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import SurpriseButton from "@/components/SurpriseButton";
 import WelcomeOverlay from "@/components/WelcomeOverlay";
 import CitySelector from "@/components/CitySelector";
 import { useSeasonalContent } from "@/components/SeasonalTagline";
 import { useAllDateHistory } from "@/hooks/useDateHistory";
 import { useAuth } from "@/lib/auth-context";
+import dateIdeas from "@/data/date-ideas.json";
+import { DateIdea } from "@/lib/types";
+import { getCurrentSeason, getTimeOfDay } from "@/lib/constants";
+
+function getImageUrl(ideaId: string): string {
+  const hash = ideaId.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
+  return `https://picsum.photos/seed/${hash}/400/250`;
+}
 
 export default function Home() {
   const { subtitle, cta } = useSeasonalContent();
   const { user } = useAuth();
-  const { entries } = useAllDateHistory();
+  const { entries, completedIdeaIds } = useAllDateHistory();
+  const router = useRouter();
+
+  // Quick picks: 3 ideas that match the current time/season, exclude completed
+  const quickPicks = useMemo(() => {
+    const season = getCurrentSeason();
+    const tod = getTimeOfDay();
+    const isLate = tod === "late-night";
+    const all = dateIdeas as DateIdea[];
+
+    return all
+      .filter((idea) => {
+        if (completedIdeaIds.has(idea.id)) return false;
+        // Must be in season if seasonal
+        if (idea.seasonalAvailability && idea.seasonalAvailability.length > 0) {
+          if (!idea.seasonalAvailability.includes(season)) return false;
+        }
+        // Late night filter
+        if (isLate && !idea.lateNightFriendly) return false;
+        return true;
+      })
+      .sort(() => {
+        // Deterministic daily shuffle using day of year
+        const dayOfYear = Math.floor(
+          (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000
+        );
+        return Math.sin(dayOfYear * 127.1) - 0.5;
+      })
+      .slice(0, 3);
+  }, [completedIdeaIds]);
 
   return (
     <div className="min-h-[100dvh] flex flex-col relative overflow-hidden">
@@ -126,16 +165,88 @@ export default function Home() {
               <p className="text-xs text-text-muted">Go have fun</p>
             </div>
           </div>
+        </div>
+      </div>
 
-          {/* Partner link */}
-          <div className="mt-8">
+      {/* Tonight's Quick Picks — below the fold */}
+      {quickPicks.length > 0 && (
+        <div className="relative z-10 px-6 pb-8 md:max-w-4xl md:mx-auto md:w-full">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h2 className="text-lg font-bold text-text-primary">Tonight&apos;s picks</h2>
+              <p className="text-xs text-text-muted">Fresh ideas picked for right now</p>
+            </div>
             <Link
-              href="/partner"
-              className="text-xs text-text-muted hover:text-accent-primary transition-colors"
+              href="/explore"
+              className="text-xs font-semibold text-accent-primary hover:underline"
             >
-              Local business? Partner with us
+              See all &rarr;
             </Link>
           </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {quickPicks.map((idea) => (
+              <div
+                key={idea.id}
+                onClick={() => router.push(`/idea/${idea.id}`)}
+                className="bg-bg-card rounded-2xl border border-border overflow-hidden cursor-pointer transition-all duration-200 hover:border-border-hover hover:shadow-sm active:scale-[0.98]"
+              >
+                <div className="relative h-32 sm:h-28 overflow-hidden">
+                  <img
+                    src={getImageUrl(idea.id)}
+                    alt=""
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                  {idea.estimatedCostDollars === 0 && (
+                    <span className="absolute top-2 left-2 text-[10px] font-bold px-2 py-0.5 rounded-full bg-white/90 text-accent-primary shadow-sm">
+                      FREE
+                    </span>
+                  )}
+                </div>
+                <div className="p-3.5">
+                  <h3 className="text-sm font-bold text-text-primary leading-snug line-clamp-1 mb-0.5">
+                    {idea.title}
+                  </h3>
+                  <p className="text-[11px] text-text-muted line-clamp-1">
+                    {idea.estimatedCostDollars === 0
+                      ? "Free"
+                      : `$${idea.estimatedCostDollars}`}
+                    {" "}&middot;{" "}
+                    {idea.estimatedTimeMinutes < 60
+                      ? `${idea.estimatedTimeMinutes}m`
+                      : `${Math.floor(idea.estimatedTimeMinutes / 60)}h`}
+                    {idea.specificLocation && (
+                      <>
+                        {" "}&middot;{" "}
+                        <span className="text-accent-primary">{idea.specificLocation}</span>
+                      </>
+                    )}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Explore CTA + Partner link */}
+      <div className="relative z-10 text-center pb-10 px-6">
+        <Link
+          href="/explore"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-text-secondary bg-bg-card border border-border rounded-full px-5 py-2.5 hover:border-border-hover hover:text-accent-primary transition-colors mb-4"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          Browse all {(dateIdeas as DateIdea[]).length} ideas
+        </Link>
+        <div className="mt-3">
+          <Link
+            href="/partner"
+            className="text-xs text-text-muted hover:text-accent-primary transition-colors"
+          >
+            Local business? Partner with us
+          </Link>
         </div>
       </div>
     </div>

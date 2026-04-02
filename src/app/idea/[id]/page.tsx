@@ -10,6 +10,7 @@ import { useAuth } from "@/lib/auth-context";
 import { useSavedIdea } from "@/hooks/useSavedIdea";
 import { useDateHistory } from "@/hooks/useDateHistory";
 import RatingModal from "@/components/RatingModal";
+import RecapCard from "@/components/RecapCard";
 import { getCurrentSeason, getSeasonLabel, type Season } from "@/lib/constants";
 
 const SEASON_COLORS: Record<Season, string> = {
@@ -87,6 +88,7 @@ export default function IdeaDetailPage() {
     removeEntry,
   } = useDateHistory(ideaId);
   const [showRatingModal, setShowRatingModal] = useState(false);
+  const [showRecap, setShowRecap] = useState(false);
 
   const idea = useMemo(() => {
     return (dateIdeas as DateIdea[]).find(
@@ -159,12 +161,17 @@ export default function IdeaDetailPage() {
 
   const handleRatingSubmit = useCallback(
     async (rating: number, note?: string) => {
+      const wasNew = !isCompleted;
       if (isCompleted) {
         await updateEntry(rating, note);
       } else {
         await markCompleted(rating, note);
       }
       setShowRatingModal(false);
+      // Show the recap card only for newly completed dates
+      if (wasNew) {
+        setTimeout(() => setShowRecap(true), 300);
+      }
     },
     [isCompleted, markCompleted, updateEntry]
   );
@@ -651,6 +658,17 @@ export default function IdeaDetailPage() {
           onClose={() => setShowRatingModal(false)}
           isEditing={isCompleted}
         />
+
+        {/* Recap Card */}
+        {showRecap && historyEntry && (
+          <RecapCard
+            idea={idea}
+            rating={historyEntry.rating || 0}
+            note={historyEntry.note || undefined}
+            completedAt={historyEntry.completed_at}
+            onClose={() => setShowRecap(false)}
+          />
+        )}
       </motion.div>
     </div>
   );
