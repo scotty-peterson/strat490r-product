@@ -60,7 +60,7 @@ export default function SavedPage() {
       {/* Header */}
       <div className="flex items-center justify-between px-4 md:px-8 pt-4 pb-2 md:max-w-3xl md:mx-auto md:w-full">
         <Link
-          href="/concierge"
+          href="/"
           className="p-2 -ml-2 text-text-secondary hover:text-text-primary transition-colors"
         >
           <svg

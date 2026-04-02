@@ -580,12 +580,42 @@ export default function IdeaDetailPage() {
                 : "Save This Idea"
               : "Save This Idea"}
           </button>
-          <button
-            onClick={handleShare}
-            className="w-full py-3 border-2 border-border text-text-secondary font-semibold rounded-2xl text-sm transition-all duration-200 hover:border-accent-primary hover:text-text-primary active:scale-[0.98]"
-          >
-            Share
-          </button>
+          <div className="flex gap-3">
+            <button
+              onClick={handleShare}
+              className="flex-1 py-3 border-2 border-border text-text-secondary font-semibold rounded-2xl text-sm transition-all duration-200 hover:border-accent-primary hover:text-text-primary active:scale-[0.98] flex items-center justify-center gap-2"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+              Share
+            </button>
+            <a
+              href={(() => {
+                const tonight = new Date();
+                tonight.setHours(19, 0, 0, 0);
+                if (tonight < new Date()) tonight.setDate(tonight.getDate() + 1);
+                const end = new Date(tonight.getTime() + (idea.estimatedTimeMinutes || 60) * 60000);
+                const fmt = (d: Date) => d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+                const params = new URLSearchParams({
+                  action: "TEMPLATE",
+                  text: idea.title,
+                  details: `${idea.description}\n\nPlanned with Rendition`,
+                  dates: `${fmt(tonight)}/${fmt(end)}`,
+                  ...(idea.address ? { location: idea.address } : {}),
+                });
+                return `https://calendar.google.com/calendar/render?${params.toString()}`;
+              })()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 py-3 border-2 border-border text-text-secondary font-semibold rounded-2xl text-sm transition-all duration-200 hover:border-accent-secondary hover:text-accent-secondary active:scale-[0.98] flex items-center justify-center gap-2"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+              </svg>
+              Plan It
+            </a>
+          </div>
           {isSaved && user && (
             <Link
               href="/saved"
