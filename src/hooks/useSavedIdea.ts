@@ -52,3 +52,29 @@ export function useSavedIdea(ideaId: string) {
 
   return { isSaved, toggle, loading };
 }
+
+// Hook for fetching ALL saved idea IDs (for achievements, etc.)
+export function useAllSavedIdeas() {
+  const { user } = useAuth();
+  const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!user) {
+      setSavedIds([]);
+      setLoading(false);
+      return;
+    }
+
+    supabase
+      .from("saved_ideas")
+      .select("idea_id")
+      .eq("user_id", user.id)
+      .then(({ data }) => {
+        setSavedIds((data || []).map((row) => row.idea_id));
+        setLoading(false);
+      });
+  }, [user]);
+
+  return { savedIds, loading };
+}

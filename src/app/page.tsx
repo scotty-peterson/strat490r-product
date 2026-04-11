@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 import SurpriseButton from "@/components/SurpriseButton";
 import WelcomeOverlay from "@/components/WelcomeOverlay";
 import CitySelector from "@/components/CitySelector";
+import ThemeToggle from "@/components/ThemeToggle";
+import WeatherWidget from "@/components/WeatherWidget";
 import { useSeasonalContent } from "@/components/SeasonalTagline";
 import { useAllDateHistory } from "@/hooks/useDateHistory";
 import { useAuth } from "@/lib/auth-context";
@@ -61,6 +63,7 @@ export default function Home() {
       <div className="relative z-20 flex items-center justify-between px-4 md:px-8 pt-4 pb-2">
         <CitySelector />
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <Link
             href="/history"
             className="flex items-center gap-2 text-sm font-semibold text-accent-secondary bg-accent-secondary/15 border border-accent-secondary/30 rounded-full px-4 py-2 hover:bg-accent-secondary/25 transition-colors"
@@ -96,9 +99,12 @@ export default function Home() {
           <p className="text-lg md:text-xl text-text-secondary mb-1">
             Date nights, curated.
           </p>
-          <p className="text-sm text-text-muted mb-6 max-w-xs mx-auto">
+          <p className="text-sm text-text-muted mb-4 max-w-xs mx-auto">
             {subtitle}
           </p>
+          <div className="mb-6 flex justify-center">
+            <WeatherWidget />
+          </div>
 
           {/* Streak badge */}
           {user && entries.length > 0 && (() => {
@@ -158,6 +164,15 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
                 </svg>
                 Swipe
+              </Link>
+              <Link
+                href="/wheel"
+                className="mt-4 inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold text-rose-600 bg-rose-500/10 border border-rose-500/25 rounded-2xl transition-all duration-200 hover:bg-rose-500/20 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182M21.015 4.356v4.992" />
+                </svg>
+                Spin
               </Link>
             </div>
           </div>
@@ -270,6 +285,36 @@ export default function Home() {
               </Link>
             );
           })}
+        </div>
+      </div>
+
+      {/* Quick links */}
+      <div className="relative z-10 px-6 pb-6 md:max-w-4xl md:mx-auto md:w-full">
+        <div className="grid grid-cols-2 gap-3">
+          <Link
+            href="/achievements"
+            className="group flex items-center gap-3 p-4 bg-bg-card border border-border rounded-2xl hover:border-amber-400/50 transition-all active:scale-[0.98]"
+          >
+            <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-lg">
+              🏆
+            </div>
+            <div>
+              <p className="text-sm font-bold text-text-primary">Achievements</p>
+              <p className="text-[11px] text-text-muted">Unlock badges</p>
+            </div>
+          </Link>
+          <Link
+            href="/wrapped"
+            className="group flex items-center gap-3 p-4 bg-bg-card border border-border rounded-2xl hover:border-violet-400/50 transition-all active:scale-[0.98]"
+          >
+            <div className="w-10 h-10 rounded-xl bg-violet-500/10 flex items-center justify-center text-lg">
+              ✨
+            </div>
+            <div>
+              <p className="text-sm font-bold text-text-primary">Date Wrapped</p>
+              <p className="text-[11px] text-text-muted">Your date story</p>
+            </div>
+          </Link>
         </div>
       </div>
 
