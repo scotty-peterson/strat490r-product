@@ -12,6 +12,7 @@ import { useAuth } from "@/lib/auth-context";
 import dateIdeas from "@/data/date-ideas.json";
 import { DateIdea } from "@/lib/types";
 import { getCurrentSeason, getTimeOfDay } from "@/lib/constants";
+import { COLLECTIONS, getCollectionIdeas } from "@/data/collections";
 
 function getImageUrl(ideaId: string): string {
   const hash = ideaId.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0);
@@ -239,6 +240,38 @@ export default function Home() {
           </div>
         </div>
       )}
+
+      {/* Collections */}
+      <div className="relative z-10 px-6 pb-8 md:max-w-4xl md:mx-auto md:w-full">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-lg font-bold text-text-primary">Collections</h2>
+          <Link
+            href="/this-or-that"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-secondary bg-accent-secondary/10 border border-accent-secondary/20 rounded-full px-3 py-1.5 hover:bg-accent-secondary/20 transition-colors"
+          >
+            <span>🎯</span> This or That
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+          {COLLECTIONS.map((col) => {
+            const count = getCollectionIdeas(col, dateIdeas as DateIdea[], getCurrentSeason()).length;
+            return (
+              <Link
+                key={col.id}
+                href={`/explore?collection=${col.id}`}
+                className="group relative overflow-hidden rounded-xl h-24 transition-all duration-200 hover:scale-[1.02] active:scale-[0.97]"
+              >
+                <div className={`absolute inset-0 bg-gradient-to-br ${col.gradient}`} />
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+                <div className="relative h-full flex flex-col justify-end p-3">
+                  <p className="text-white font-bold text-sm leading-tight">{col.title}</p>
+                  <p className="text-white/60 text-[10px] mt-0.5">{count} ideas</p>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
 
       {/* Explore CTA + Partner link */}
       <div className="relative z-10 text-center pb-10 px-6">

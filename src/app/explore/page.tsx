@@ -1,13 +1,14 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, Suspense } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import dateIdeas from "@/data/date-ideas.json";
 import { DateIdea } from "@/lib/types";
 import { getCurrentSeason } from "@/lib/constants";
 import { useAllDateHistory } from "@/hooks/useDateHistory";
+import { COLLECTIONS } from "@/data/collections";
 
 const allIdeas = dateIdeas as DateIdea[];
 
@@ -35,8 +36,13 @@ function getImageUrl(ideaId: string): string {
   return `https://picsum.photos/seed/${hash}/400/300`;
 }
 
-export default function ExplorePage() {
+function ExploreContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const collectionId = searchParams.get("collection");
+  const activeCollection = collectionId
+    ? COLLECTIONS.find((c) => c.id === collectionId) || null
+    : null;
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
   const [budget, setBudget] = useState("all");
@@ -46,6 +52,11 @@ export default function ExplorePage() {
 
   const filteredIdeas = useMemo(() => {
     let result = allIdeas;
+
+    // Collection filter
+    if (activeCollection) {
+      result = result.filter(activeCollection.filter);
+    }
 
     // Search
     if (search.trim()) {
@@ -80,7 +91,7 @@ export default function ExplorePage() {
     }
 
     return result;
-  }, [search, category, budget, showInSeason, season]);
+  }, [search, category, budget, showInSeason, season, activeCollection]);
 
   return (
     <div className="min-h-[100dvh] flex flex-col bg-bg-primary">
@@ -186,6 +197,24 @@ export default function ExplorePage() {
         </div>
       </div>
 
+      {/* Collection banner */}
+      {activeCollection && (
+        <div className={`mx-4 md:mx-8 mt-3 rounded-2xl overflow-hidden md:max-w-6xl md:mx-auto`}>
+          <div className={`bg-gradient-to-r ${activeCollection.gradient} px-5 py-4 flex items-center justify-between`}>
+            <div>
+              <h2 className="text-lg font-extrabold text-white">{activeCollection.title}</h2>
+              <p className="text-white/70 text-xs">{activeCollection.subtitle}</p>
+            </div>
+            <Link
+              href="/explore"
+              className="text-white/60 text-xs font-medium hover:text-white transition-colors"
+            >
+              Clear
+            </Link>
+          </div>
+        </div>
+      )}
+
       {/* Results count */}
       <div className="px-6 pt-4 pb-2 md:max-w-6xl md:mx-auto md:w-full">
         <p className="text-xs text-text-muted">
@@ -286,5 +315,19 @@ export default function ExplorePage() {
         </AnimatePresence>
       </div>
     </div>
+  );
+}
+
+export default function ExplorePage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-[100dvh] flex items-center justify-center bg-bg-primary">
+          <div className="text-text-muted">Loading...</div>
+        </div>
+      }
+    >
+      <ExploreContent />
+    </Suspense>
   );
 }
