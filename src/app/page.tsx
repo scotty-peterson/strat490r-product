@@ -8,6 +8,7 @@ import WelcomeOverlay from "@/components/WelcomeOverlay";
 import CitySelector from "@/components/CitySelector";
 import ThemeToggle from "@/components/ThemeToggle";
 import WeatherWidget from "@/components/WeatherWidget";
+import DateCountdown from "@/components/DateCountdown";
 import { useSeasonalContent } from "@/components/SeasonalTagline";
 import { useAllDateHistory } from "@/hooks/useDateHistory";
 import { useAuth } from "@/lib/auth-context";
@@ -62,27 +63,7 @@ export default function Home() {
       {/* Top nav bar */}
       <div className="relative z-20 flex items-center justify-between px-4 md:px-8 pt-4 pb-2">
         <CitySelector />
-        <div className="flex items-center gap-2">
-          <ThemeToggle />
-          <Link
-            href="/history"
-            className="flex items-center gap-2 text-sm font-semibold text-accent-secondary bg-accent-secondary/15 border border-accent-secondary/30 rounded-full px-4 py-2 hover:bg-accent-secondary/25 transition-colors"
-          >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-            </svg>
-            History
-          </Link>
-          <Link
-            href="/saved"
-            className="flex items-center gap-2 text-sm font-semibold text-accent-primary bg-accent-primary/15 border border-accent-primary/30 rounded-full px-4 py-2 hover:bg-accent-primary/25 transition-colors"
-          >
-            <svg className="w-4 h-4 fill-accent-primary" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-            </svg>
-            Saved
-          </Link>
-        </div>
+        <ThemeToggle />
       </div>
 
       {/* Background */}
@@ -288,6 +269,11 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Countdown */}
+      <div className="relative z-10 px-6 pb-6 md:max-w-4xl md:mx-auto md:w-full">
+        <DateCountdown />
+      </div>
+
       {/* Quick links */}
       <div className="relative z-10 px-6 pb-6 md:max-w-4xl md:mx-auto md:w-full">
         <div className="grid grid-cols-2 gap-3">
@@ -329,7 +315,7 @@ export default function Home() {
           </svg>
           Browse all {(dateIdeas as DateIdea[]).length} ideas
         </Link>
-        <div className="mt-3">
+        <div className="mt-3 mb-16">
           <Link
             href="/partner"
             className="text-xs text-text-muted hover:text-accent-primary transition-colors"
