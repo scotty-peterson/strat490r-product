@@ -158,20 +158,32 @@ export default function Home() {
             </div>
           </div>
 
-          {/* How it works — horizontal on desktop */}
-          <div className="mt-12 md:mt-14 grid grid-cols-3 gap-6 text-center max-w-sm mx-auto">
-            <div>
-              <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-accent-primary/15 text-accent-primary text-sm font-bold flex items-center justify-center">1</div>
-              <p className="text-xs text-text-muted">Pick your vibe</p>
-            </div>
-            <div>
-              <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-accent-primary/15 text-accent-primary text-sm font-bold flex items-center justify-center">2</div>
-              <p className="text-xs text-text-muted">Get 3 ideas</p>
-            </div>
-            <div>
-              <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-accent-primary/15 text-accent-primary text-sm font-bold flex items-center justify-center">3</div>
-              <p className="text-xs text-text-muted">Go have fun</p>
-            </div>
+          {/* Discovery modes */}
+          <div className="mt-10 grid grid-cols-4 gap-3 max-w-sm mx-auto">
+            <Link href="/quiz" className="flex flex-col items-center gap-1.5 group">
+              <div className="w-11 h-11 rounded-xl bg-pink-500/10 flex items-center justify-center text-lg transition-transform group-hover:scale-110 group-active:scale-95">
+                🧠
+              </div>
+              <span className="text-[10px] font-semibold text-text-muted group-hover:text-text-primary transition-colors">Quiz</span>
+            </Link>
+            <Link href="/wheel" className="flex flex-col items-center gap-1.5 group">
+              <div className="w-11 h-11 rounded-xl bg-rose-500/10 flex items-center justify-center text-lg transition-transform group-hover:scale-110 group-active:scale-95">
+                🎡
+              </div>
+              <span className="text-[10px] font-semibold text-text-muted group-hover:text-text-primary transition-colors">Spin</span>
+            </Link>
+            <Link href="/this-or-that" className="flex flex-col items-center gap-1.5 group">
+              <div className="w-11 h-11 rounded-xl bg-accent-secondary/10 flex items-center justify-center text-lg transition-transform group-hover:scale-110 group-active:scale-95">
+                🎯
+              </div>
+              <span className="text-[10px] font-semibold text-text-muted group-hover:text-text-primary transition-colors">Pick</span>
+            </Link>
+            <Link href="/map" className="flex flex-col items-center gap-1.5 group">
+              <div className="w-11 h-11 rounded-xl bg-emerald-500/10 flex items-center justify-center text-lg transition-transform group-hover:scale-110 group-active:scale-95">
+                📍
+              </div>
+              <span className="text-[10px] font-semibold text-text-muted group-hover:text-text-primary transition-colors">Map</span>
+            </Link>
           </div>
         </div>
       </div>

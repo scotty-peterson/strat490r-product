@@ -66,7 +66,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 export function useTheme(): ThemeContextValue {
   const context = useContext(ThemeContext);
   if (!context) {
-    throw new Error("useTheme must be used within a ThemeProvider");
+    // Safe fallback for SSR / pre-mount — toggle is a no-op
+    return { theme: "light", toggleTheme: () => {} };
   }
   return context;
 }
