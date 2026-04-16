@@ -11,6 +11,7 @@ import { useSavedIdea } from "@/hooks/useSavedIdea";
 import { useDateHistory } from "@/hooks/useDateHistory";
 import RatingModal from "@/components/RatingModal";
 import RecapCard from "@/components/RecapCard";
+import Confetti from "@/components/Confetti";
 import { getCurrentSeason, getSeasonLabel, type Season } from "@/lib/constants";
 import { getStarters } from "@/data/conversation-starters";
 
@@ -90,6 +91,7 @@ export default function IdeaDetailPage() {
   } = useDateHistory(ideaId);
   const [showRatingModal, setShowRatingModal] = useState(false);
   const [showRecap, setShowRecap] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const idea = useMemo(() => {
     return (dateIdeas as DateIdea[]).find(
@@ -175,8 +177,9 @@ export default function IdeaDetailPage() {
         await markCompleted(rating, note);
       }
       setShowRatingModal(false);
-      // Show the recap card only for newly completed dates
+      // Show the recap card and confetti only for newly completed dates
       if (wasNew) {
+        setShowConfetti(true);
         setTimeout(() => setShowRecap(true), 300);
       }
     },
@@ -725,6 +728,11 @@ export default function IdeaDetailPage() {
             completedAt={historyEntry.completed_at}
             onClose={() => setShowRecap(false)}
           />
+        )}
+
+        {/* Confetti celebration */}
+        {showConfetti && (
+          <Confetti onComplete={() => setShowConfetti(false)} />
         )}
       </motion.div>
     </div>
