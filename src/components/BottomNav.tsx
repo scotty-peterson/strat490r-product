@@ -28,7 +28,7 @@ const NAV_ITEMS = [
     ),
   },
   {
-    href: "/concierge",
+    href: "/plan",
     label: "Plan",
     icon: (
       <path
@@ -64,7 +64,7 @@ const NAV_ITEMS = [
 ];
 
 // Pages where the bottom nav should NOT appear
-const HIDE_ON = ["/auth", "/concierge", "/results"];
+const HIDE_ON = ["/auth", "/concierge", "/results", "/conversation", "/challenges"];
 
 export default function BottomNav() {
   const pathname = usePathname();

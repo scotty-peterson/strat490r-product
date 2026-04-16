@@ -118,7 +118,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-3">
             <Link
               href="/concierge"
-              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-accent-primary rounded-2xl transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-95"
+              className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-accent-primary rounded-2xl transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-95 pulse-cta"
             >
               {cta}
               <svg
@@ -288,7 +288,32 @@ export default function Home() {
 
       {/* Quick links */}
       <div className="relative z-10 px-6 pb-6 md:max-w-4xl md:mx-auto md:w-full">
+        <h2 className="text-lg font-bold text-text-primary mb-3">More to explore</h2>
         <div className="grid grid-cols-2 gap-3">
+          <Link
+            href="/conversation"
+            className="group flex items-center gap-3 p-4 bg-bg-card border border-border rounded-2xl hover:border-pink-400/50 transition-all active:scale-[0.98]"
+          >
+            <div className="w-10 h-10 rounded-xl bg-pink-500/10 flex items-center justify-center text-lg">
+              💬
+            </div>
+            <div>
+              <p className="text-sm font-bold text-text-primary">Talk Starters</p>
+              <p className="text-[11px] text-text-muted">50+ prompts</p>
+            </div>
+          </Link>
+          <Link
+            href="/challenges"
+            className="group flex items-center gap-3 p-4 bg-bg-card border border-border rounded-2xl hover:border-orange-400/50 transition-all active:scale-[0.98]"
+          >
+            <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center text-lg">
+              🎲
+            </div>
+            <div>
+              <p className="text-sm font-bold text-text-primary">Challenges</p>
+              <p className="text-[11px] text-text-muted">Fun dares</p>
+            </div>
+          </Link>
           <Link
             href="/achievements"
             className="group flex items-center gap-3 p-4 bg-bg-card border border-border rounded-2xl hover:border-amber-400/50 transition-all active:scale-[0.98]"
@@ -313,6 +338,31 @@ export default function Home() {
               <p className="text-[11px] text-text-muted">Your date story</p>
             </div>
           </Link>
+        </div>
+      </div>
+
+      {/* Stats bar */}
+      <div className="relative z-10 px-6 pb-6 md:max-w-4xl md:mx-auto md:w-full">
+        <div className="flex items-center justify-around py-4 bg-bg-card border border-border rounded-2xl">
+          <div className="text-center">
+            <p className="text-lg font-extrabold text-gradient">{(dateIdeas as DateIdea[]).length}</p>
+            <p className="text-[10px] text-text-muted font-medium">Date Ideas</p>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div className="text-center">
+            <p className="text-lg font-extrabold text-gradient">10</p>
+            <p className="text-[10px] text-text-muted font-medium">Categories</p>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div className="text-center">
+            <p className="text-lg font-extrabold text-gradient">6</p>
+            <p className="text-[10px] text-text-muted font-medium">Discovery Modes</p>
+          </div>
+          <div className="w-px h-8 bg-border" />
+          <div className="text-center">
+            <p className="text-lg font-extrabold text-gradient">FREE</p>
+            <p className="text-[10px] text-text-muted font-medium">Always</p>
+          </div>
         </div>
       </div>
 
