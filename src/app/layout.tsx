@@ -4,6 +4,7 @@ import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
 import { ThemeProvider } from "@/lib/theme-context";
 import BottomNav from "@/components/BottomNav";
+import InstallPrompt from "@/components/InstallPrompt";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +14,19 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Rendition | Provo Date Night Ideas",
   description:
-    "Find reliable, time-appropriate things to do with your date tonight. Provo evenings, sorted.",
+    "201 curated date night ideas for Provo, UT. Weather-aware picks, personality quiz, swipe discovery, spin the wheel, and more. Built with Next.js + Supabase.",
   manifest: "/manifest.json",
+  openGraph: {
+    title: "Rendition — Date nights, curated.",
+    description:
+      "201 curated date night ideas for Provo. Answer 4 questions, get 3 perfect ideas for tonight.",
+    type: "website",
+  },
+  other: {
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": "Rendition",
+  },
 };
 
 export const viewport: Viewport = {
@@ -46,6 +58,7 @@ export default function RootLayout({
           <AuthProvider>
             {children}
             <BottomNav />
+            <InstallPrompt />
           </AuthProvider>
         </ThemeProvider>
       </body>

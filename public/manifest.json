@@ -1,9 +1,21 @@
 {
-  "name": "Rendition",
+  "name": "Rendition — Provo Date Nights",
   "short_name": "Rendition",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f7f5f2",
-  "theme_color": "#f7f5f2",
-  "description": "Find reliable, time-appropriate things to do tonight."
+  "theme_color": "#c4703e",
+  "description": "Date nights in Provo, curated for tonight. 201 ideas, weather-aware picks, and 6 ways to discover your next date.",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
 }
